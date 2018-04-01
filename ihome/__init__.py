@@ -7,8 +7,8 @@ from config import configs
 from ihome.utils.my_converters import RegexConverter
 
 #启动项目就创建app
+db=SQLAlchemy()
 
-db=''
 def get_app(config_name):
     """
     app工厂函数
