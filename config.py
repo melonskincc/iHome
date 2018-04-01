@@ -24,5 +24,9 @@ class Config(object):
     SESSION_REDIS = StrictRedis(host=REDIS_HOST, port=REDIS_PORT,db=1)
     # 开启session数据的签名，意思是让session数据不以明文形式存储
     SESSION_USE_SIGNER = True
-    # 設置session的会话的超时时长 ：一天
+    # 設置session的会话的超时时长 ：一天,全局指定
     PERMANENT_SESSION_LIFETIME = 3600 * 24
+
+#  开发配置子类：
+# class
+
