@@ -1,0 +1,314 @@
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 291-179-440
+ * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+127.0.0.1 - - [02/Apr/2018 16:39:53] "GET /static/plugins/bootstrap/css/bootstrap.min.css.map HTTP/1.1" 304 -
+127.0.0.1 - - [02/Apr/2018 16:39:57] "GET /register.html HTTP/1.1" 200 -
+127.0.0.1 - - [02/Apr/2018 16:40:31] "GET /register.html HTTP/1.1" 200 -
+127.0.0.1 - - [02/Apr/2018 16:40:31] "GET /static/plugins/bootstrap/css/bootstrap.min.css HTTP/1.1" 200 -
+127.0.0.1 - - [02/Apr/2018 16:40:31] "GET /static/plugins/font-awesome/css/font-awesome.min.css HTTP/1.1" 200 -
+127.0.0.1 - - [02/Apr/2018 16:40:31] "GET /static/css/reset.css HTTP/1.1" 200 -
+127.0.0.1 - - [02/Apr/2018 16:40:31] "GET /static/css/ihome/main.css HTTP/1.1" 200 -
+127.0.0.1 - - [02/Apr/2018 16:40:31] "GET /static/css/ihome/register.css HTTP/1.1" 200 -
+127.0.0.1 - - [02/Apr/2018 16:40:31] "GET /static/js/jquery.min.js HTTP/1.1" 200 -
+127.0.0.1 - - [02/Apr/2018 16:40:31] "GET /static/plugins/bootstrap/js/bootstrap.min.js HTTP/1.1" 200 -
+127.0.0.1 - - [02/Apr/2018 16:40:31] "GET /static/js/ihome/register.js?v=4 HTTP/1.1" 200 -
+127.0.0.1 - - [02/Apr/2018 16:40:31] "GET /static/images/logo@128x59.png HTTP/1.1" 200 -
+127.0.0.1 - - [02/Apr/2018 16:40:31] "GET /static/plugins/font-awesome/fonts/fontawesome-webfont.woff2?v=4.6.3 HTTP/1.1" 200 -
+127.0.0.1 - - [02/Apr/2018 16:40:31] "GET /static/plugins/bootstrap/css/bootstrap.min.css.map HTTP/1.1" 200 -
+127.0.0.1 - - [02/Apr/2018 16:40:31] "GET /imageCode?uuide083c7aa-0ca3-484b-bb3c-a33f92f8ea4c&last_uuid= HTTP/1.1" 404 -
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 291-179-440
+ * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+127.0.0.1 - - [02/Apr/2018 16:41:29] "GET /register.html HTTP/1.1" 200 -
+127.0.0.1 - - [02/Apr/2018 16:41:29] "GET /static/plugins/bootstrap/css/bootstrap.min.css HTTP/1.1" 200 -
+127.0.0.1 - - [02/Apr/2018 16:41:29] "GET /static/plugins/font-awesome/css/font-awesome.min.css HTTP/1.1" 200 -
+127.0.0.1 - - [02/Apr/2018 16:41:29] "GET /static/css/reset.css HTTP/1.1" 200 -
+127.0.0.1 - - [02/Apr/2018 16:41:29] "GET /static/css/ihome/main.css HTTP/1.1" 200 -
+127.0.0.1 - - [02/Apr/2018 16:41:29] "GET /static/css/ihome/register.css HTTP/1.1" 200 -
+127.0.0.1 - - [02/Apr/2018 16:41:29] "GET /static/js/jquery.min.js HTTP/1.1" 200 -
+127.0.0.1 - - [02/Apr/2018 16:41:29] "GET /static/images/logo@128x59.png HTTP/1.1" 200 -
+127.0.0.1 - - [02/Apr/2018 16:41:29] "GET /static/plugins/bootstrap/js/bootstrap.min.js HTTP/1.1" 200 -
+127.0.0.1 - - [02/Apr/2018 16:41:29] "GET /static/plugins/font-awesome/fonts/fontawesome-webfont.woff2?v=4.6.3 HTTP/1.1" 200 -
+127.0.0.1 - - [02/Apr/2018 16:41:29] "GET /static/js/ihome/register.js?v=4 HTTP/1.1" 200 -
+127.0.0.1 - - [02/Apr/2018 16:41:29] "GET /static/plugins/bootstrap/css/bootstrap.min.css.map HTTP/1.1" 200 -
+127.0.0.1 - - [02/Apr/2018 16:41:29] "GET /imageCode?uuid=1e218659-956a-4aec-bcf9-ae166d7ab397&last_uuid= HTTP/1.1" 404 -
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 291-179-440
+ * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+127.0.0.1 - - [02/Apr/2018 16:43:25] "GET /register.html HTTP/1.1" 304 -
+127.0.0.1 - - [02/Apr/2018 16:43:25] "GET /imageCode?uuid=0f86d908-ec83-4f8b-8275-08f61121dade&last_uuid= HTTP/1.1" 404 -
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 291-179-440
+ * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+127.0.0.1 - - [02/Apr/2018 16:44:29] "GET /register.html HTTP/1.1" 304 -
+127.0.0.1 - - [02/Apr/2018 16:44:29] "GET /imageCode?uuid=30466965-c0ef-47e4-b510-040bc3c1de39&last_uuid= HTTP/1.1" 404 -
+127.0.0.1 - - [02/Apr/2018 16:44:43] "GET /register.html HTTP/1.1" 200 -
+127.0.0.1 - - [02/Apr/2018 16:44:43] "GET /static/plugins/bootstrap/css/bootstrap.min.css HTTP/1.1" 200 -
+127.0.0.1 - - [02/Apr/2018 16:44:43] "GET /static/plugins/font-awesome/css/font-awesome.min.css HTTP/1.1" 200 -
+127.0.0.1 - - [02/Apr/2018 16:44:43] "GET /static/css/reset.css HTTP/1.1" 200 -
+127.0.0.1 - - [02/Apr/2018 16:44:43] "GET /static/css/ihome/main.css HTTP/1.1" 200 -
+127.0.0.1 - - [02/Apr/2018 16:44:43] "GET /static/css/ihome/register.css HTTP/1.1" 200 -
+127.0.0.1 - - [02/Apr/2018 16:44:43] "GET /static/js/jquery.min.js HTTP/1.1" 200 -
+127.0.0.1 - - [02/Apr/2018 16:44:43] "GET /static/images/logo@128x59.png HTTP/1.1" 200 -
+127.0.0.1 - - [02/Apr/2018 16:44:43] "GET /static/plugins/bootstrap/js/bootstrap.min.js HTTP/1.1" 200 -
+127.0.0.1 - - [02/Apr/2018 16:44:43] "GET /static/js/ihome/register.js?v=4 HTTP/1.1" 200 -
+127.0.0.1 - - [02/Apr/2018 16:44:43] "GET /static/plugins/font-awesome/fonts/fontawesome-webfont.woff2?v=4.6.3 HTTP/1.1" 200 -
+127.0.0.1 - - [02/Apr/2018 16:44:43] "GET /static/plugins/bootstrap/css/bootstrap.min.css.map HTTP/1.1" 200 -
+127.0.0.1 - - [02/Apr/2018 16:44:44] "GET /api/1.0/imageCode?uuid=0d1723b0-15ba-4be4-9566-1986467f132c&last_uuid= HTTP/1.1" 200 -
+127.0.0.1 - - [02/Apr/2018 16:50:34] "GET /register.html HTTP/1.1" 304 -
+127.0.0.1 - - [02/Apr/2018 16:50:34] "GET /api/1.0/imageCode?uuid=98d4fe01-e9e6-4f57-8800-b5402b33385a&last_uuid= HTTP/1.1" 200 -
+127.0.0.1 - - [02/Apr/2018 16:50:48] "GET /register.html HTTP/1.1" 304 -
+127.0.0.1 - - [02/Apr/2018 16:50:49] "GET /api/1.0/imageCode?uuid=54760aaa-8bde-41ae-9ab1-534f72d2f7f2&last_uuid= HTTP/1.1" 200 -
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 291-179-440
+ * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+127.0.0.1 - - [02/Apr/2018 16:52:35] "GET /register.html HTTP/1.1" 200 -
+127.0.0.1 - - [02/Apr/2018 16:52:35] "GET /static/plugins/bootstrap/css/bootstrap.min.css HTTP/1.1" 200 -
+127.0.0.1 - - [02/Apr/2018 16:52:35] "GET /static/plugins/font-awesome/css/font-awesome.min.css HTTP/1.1" 200 -
+127.0.0.1 - - [02/Apr/2018 16:52:35] "GET /static/css/reset.css HTTP/1.1" 200 -
+127.0.0.1 - - [02/Apr/2018 16:52:35] "GET /static/css/ihome/main.css HTTP/1.1" 200 -
+127.0.0.1 - - [02/Apr/2018 16:52:35] "GET /static/css/ihome/register.css HTTP/1.1" 200 -
+127.0.0.1 - - [02/Apr/2018 16:52:35] "GET /static/js/jquery.min.js HTTP/1.1" 200 -
+127.0.0.1 - - [02/Apr/2018 16:52:35] "GET /static/images/logo@128x59.png HTTP/1.1" 200 -
+127.0.0.1 - - [02/Apr/2018 16:52:35] "GET /static/plugins/font-awesome/fonts/fontawesome-webfont.woff2?v=4.6.3 HTTP/1.1" 200 -
+127.0.0.1 - - [02/Apr/2018 16:52:35] "GET /static/plugins/bootstrap/js/bootstrap.min.js HTTP/1.1" 200 -
+127.0.0.1 - - [02/Apr/2018 16:52:35] "GET /static/js/ihome/register.js?v=4 HTTP/1.1" 200 -
+127.0.0.1 - - [02/Apr/2018 16:52:35] "GET /static/plugins/bootstrap/css/bootstrap.min.css.map HTTP/1.1" 200 -
+127.0.0.1 - - [02/Apr/2018 16:52:36] "GET /api/1.0/imageCode?uuid=96bf9bd6-faa0-40c6-abd6-7015bdd14d71&last_uuid= HTTP/1.1" 200 -
+127.0.0.1 - - [02/Apr/2018 16:52:37] "GET /register.html HTTP/1.1" 304 -
+127.0.0.1 - - [02/Apr/2018 16:52:38] "GET /api/1.0/imageCode?uuid=4efd6e85-7032-4df2-b8c8-8e2bda86224e&last_uuid= HTTP/1.1" 200 -
+127.0.0.1 - - [02/Apr/2018 16:52:39] "GET /register.html HTTP/1.1" 304 -
+127.0.0.1 - - [02/Apr/2018 16:52:40] "GET /api/1.0/imageCode?uuid=6fc56f7a-aff1-4603-b283-5b1d944873f7&last_uuid= HTTP/1.1" 200 -
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 291-179-440
+ * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+127.0.0.1 - - [02/Apr/2018 16:58:55] "GET /register.html HTTP/1.1" 200 -
+127.0.0.1 - - [02/Apr/2018 16:58:55] "GET /static/plugins/bootstrap/css/bootstrap.min.css HTTP/1.1" 200 -
+127.0.0.1 - - [02/Apr/2018 16:58:55] "GET /static/plugins/font-awesome/css/font-awesome.min.css HTTP/1.1" 200 -
+127.0.0.1 - - [02/Apr/2018 16:58:55] "GET /static/css/reset.css HTTP/1.1" 200 -
+127.0.0.1 - - [02/Apr/2018 16:58:55] "GET /static/css/ihome/main.css HTTP/1.1" 200 -
+127.0.0.1 - - [02/Apr/2018 16:58:55] "GET /static/css/ihome/register.css HTTP/1.1" 200 -
+127.0.0.1 - - [02/Apr/2018 16:58:55] "GET /static/js/jquery.min.js HTTP/1.1" 200 -
+127.0.0.1 - - [02/Apr/2018 16:58:55] "GET /static/plugins/bootstrap/js/bootstrap.min.js HTTP/1.1" 200 -
+127.0.0.1 - - [02/Apr/2018 16:58:55] "GET /static/js/ihome/register.js?v=4 HTTP/1.1" 200 -
+127.0.0.1 - - [02/Apr/2018 16:58:55] "GET /static/images/logo@128x59.png HTTP/1.1" 200 -
+127.0.0.1 - - [02/Apr/2018 16:58:55] "GET /static/plugins/font-awesome/fonts/fontawesome-webfont.woff2?v=4.6.3 HTTP/1.1" 200 -
+127.0.0.1 - - [02/Apr/2018 16:58:55] "GET /static/plugins/bootstrap/css/bootstrap.min.css.map HTTP/1.1" 200 -
+127.0.0.1 - - [02/Apr/2018 16:59:14] "GET /register.html HTTP/1.1" 304 -
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 291-179-440
+ * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+127.0.0.1 - - [02/Apr/2018 17:00:14] "GET /register.html HTTP/1.1" 200 -
+127.0.0.1 - - [02/Apr/2018 17:00:14] "GET /static/plugins/bootstrap/css/bootstrap.min.css HTTP/1.1" 200 -
+127.0.0.1 - - [02/Apr/2018 17:00:14] "GET /static/plugins/font-awesome/css/font-awesome.min.css HTTP/1.1" 200 -
+127.0.0.1 - - [02/Apr/2018 17:00:14] "GET /static/css/reset.css HTTP/1.1" 200 -
+127.0.0.1 - - [02/Apr/2018 17:00:14] "GET /static/css/ihome/main.css HTTP/1.1" 200 -
+127.0.0.1 - - [02/Apr/2018 17:00:14] "GET /static/css/ihome/register.css HTTP/1.1" 200 -
+127.0.0.1 - - [02/Apr/2018 17:00:14] "GET /static/js/jquery.min.js HTTP/1.1" 200 -
+127.0.0.1 - - [02/Apr/2018 17:00:14] "GET /static/plugins/font-awesome/fonts/fontawesome-webfont.woff2?v=4.6.3 HTTP/1.1" 200 -
+127.0.0.1 - - [02/Apr/2018 17:00:14] "GET /static/images/logo@128x59.png HTTP/1.1" 200 -
+127.0.0.1 - - [02/Apr/2018 17:00:14] "GET /static/plugins/bootstrap/js/bootstrap.min.js HTTP/1.1" 200 -
+127.0.0.1 - - [02/Apr/2018 17:00:14] "GET /static/plugins/bootstrap/css/bootstrap.min.css.map HTTP/1.1" 200 -
+127.0.0.1 - - [02/Apr/2018 17:00:52] "GET /static/js/ihome/register.js?v=4 HTTP/1.1" 200 -
+127.0.0.1 - - [02/Apr/2018 17:01:09] "GET /register.html HTTP/1.1" 304 -
+127.0.0.1 - - [02/Apr/2018 17:01:42] "GET /register.html HTTP/1.1" 304 -
+127.0.0.1 - - [02/Apr/2018 17:01:44] "GET /register.html HTTP/1.1" 304 -
+127.0.0.1 - - [02/Apr/2018 17:03:23] "GET /register.html HTTP/1.1" 304 -
+127.0.0.1 - - [02/Apr/2018 17:03:35] "GET /register.html HTTP/1.1" 304 -
+127.0.0.1 - - [02/Apr/2018 17:04:19] "GET /register.html HTTP/1.1" 200 -
+127.0.0.1 - - [02/Apr/2018 17:04:19] "GET /static/plugins/bootstrap/css/bootstrap.min.css HTTP/1.1" 200 -
+127.0.0.1 - - [02/Apr/2018 17:04:19] "GET /static/plugins/font-awesome/css/font-awesome.min.css HTTP/1.1" 200 -
+127.0.0.1 - - [02/Apr/2018 17:04:19] "GET /static/css/reset.css HTTP/1.1" 200 -
+127.0.0.1 - - [02/Apr/2018 17:04:19] "GET /static/css/ihome/main.css HTTP/1.1" 200 -
+127.0.0.1 - - [02/Apr/2018 17:04:19] "GET /static/css/ihome/register.css HTTP/1.1" 200 -
+127.0.0.1 - - [02/Apr/2018 17:04:19] "GET /static/js/jquery.min.js HTTP/1.1" 200 -
+127.0.0.1 - - [02/Apr/2018 17:04:19] "GET /static/plugins/bootstrap/js/bootstrap.min.js HTTP/1.1" 200 -
+127.0.0.1 - - [02/Apr/2018 17:04:19] "GET /static/plugins/font-awesome/fonts/fontawesome-webfont.woff2?v=4.6.3 HTTP/1.1" 200 -
+127.0.0.1 - - [02/Apr/2018 17:04:19] "GET /static/images/logo@128x59.png HTTP/1.1" 200 -
+127.0.0.1 - - [02/Apr/2018 17:04:19] "GET /static/js/ihome/register.js?v=4 HTTP/1.1" 200 -
+127.0.0.1 - - [02/Apr/2018 17:04:19] "GET /static/plugins/bootstrap/css/bootstrap.min.css.map HTTP/1.1" 200 -
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 291-179-440
+ * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+127.0.0.1 - - [02/Apr/2018 17:06:43] "GET /register.html HTTP/1.1" 200 -
+127.0.0.1 - - [02/Apr/2018 17:06:43] "GET /static/plugins/bootstrap/css/bootstrap.min.css HTTP/1.1" 200 -
+127.0.0.1 - - [02/Apr/2018 17:06:43] "GET /static/plugins/font-awesome/css/font-awesome.min.css HTTP/1.1" 200 -
+127.0.0.1 - - [02/Apr/2018 17:06:44] "GET /static/css/reset.css HTTP/1.1" 200 -
+127.0.0.1 - - [02/Apr/2018 17:06:44] "GET /static/css/ihome/main.css HTTP/1.1" 200 -
+127.0.0.1 - - [02/Apr/2018 17:06:44] "GET /static/css/ihome/register.css HTTP/1.1" 200 -
+127.0.0.1 - - [02/Apr/2018 17:06:44] "GET /static/js/jquery.min.js HTTP/1.1" 200 -
+127.0.0.1 - - [02/Apr/2018 17:06:44] "GET /static/plugins/font-awesome/fonts/fontawesome-webfont.woff2?v=4.6.3 HTTP/1.1" 200 -
+127.0.0.1 - - [02/Apr/2018 17:06:44] "GET /static/images/logo@128x59.png HTTP/1.1" 200 -
+127.0.0.1 - - [02/Apr/2018 17:06:44] "GET /static/plugins/bootstrap/js/bootstrap.min.js HTTP/1.1" 200 -
+127.0.0.1 - - [02/Apr/2018 17:06:44] "GET /static/js/ihome/register.js?v=4 HTTP/1.1" 200 -
+127.0.0.1 - - [02/Apr/2018 17:06:44] "GET /static/plugins/bootstrap/css/bootstrap.min.css.map HTTP/1.1" 200 -
+127.0.0.1 - - [02/Apr/2018 17:06:44] "GET /api/1.0/imageCode?uuid=16b3f21e-e417-4290-89e3-63b6f1127820&last_uuid= HTTP/1.1" 200 -
+127.0.0.1 - - [02/Apr/2018 17:06:54] "GET /register.html HTTP/1.1" 304 -
+127.0.0.1 - - [02/Apr/2018 17:06:54] "GET /api/1.0/imageCode?uuid=df048abf-6ca9-44d0-8a06-d3bd54b7bd93&last_uuid= HTTP/1.1" 200 -
+127.0.0.1 - - [02/Apr/2018 17:07:15] "GET /api/1.0/imageCode?uuid=74b0fe6c-0d29-4311-8f74-9f6320f36b39&last_uuid=df048abf-6ca9-44d0-8a06-d3bd54b7bd93 HTTP/1.1" 200 -
+127.0.0.1 - - [02/Apr/2018 17:07:29] "GET /register.html HTTP/1.1" 304 -
+127.0.0.1 - - [02/Apr/2018 17:07:30] "GET /api/1.0/imageCode?uuid=ed062886-181e-4e85-a51c-aabe56fd9d05&last_uuid= HTTP/1.1" 200 -
+127.0.0.1 - - [02/Apr/2018 17:07:41] "GET /api/1.0/imageCode?uuid=8b76f9e7-f205-40b1-9050-2188c6247fb8&last_uuid=ed062886-181e-4e85-a51c-aabe56fd9d05 HTTP/1.1" 200 -
+127.0.0.1 - - [02/Apr/2018 17:07:56] "GET /api/1.0/imageCode?uuid=21b863c8-77a2-40ab-af25-0385ea54b8f3&last_uuid=8b76f9e7-f205-40b1-9050-2188c6247fb8 HTTP/1.1" 200 -
+127.0.0.1 - - [02/Apr/2018 17:08:12] "GET /api/1.0/imageCode?uuid=02317cb1-d190-47ea-a1a2-79c168f2e4d9&last_uuid=21b863c8-77a2-40ab-af25-0385ea54b8f3 HTTP/1.1" 200 -
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 291-179-440
+ * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+127.0.0.1 - - [02/Apr/2018 17:10:39] "GET /register.html HTTP/1.1" 304 -
+127.0.0.1 - - [02/Apr/2018 17:10:39] "GET /api/1.0/imageCode?uuid=3e36f5b6-ecf3-43c8-8030-5f202c96a043&last_uuid= HTTP/1.1" 200 -
+127.0.0.1 - - [02/Apr/2018 17:10:51] "GET /register.html HTTP/1.1" 304 -
+127.0.0.1 - - [02/Apr/2018 17:10:51] "GET /api/1.0/imageCode?uuid=825f0313-1b80-45cb-a38e-546055d0386c&last_uuid= HTTP/1.1" 200 -
+ * Detected change in 'E:\\pythonOBJ\\iHome\\ihome\\api_1_0\\verify.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 291-179-440
+ * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 291-179-440
+ * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+127.0.0.1 - - [02/Apr/2018 17:11:56] "GET /register.html HTTP/1.1" 304 -
+127.0.0.1 - - [02/Apr/2018 17:11:56] "GET /api/1.0/imageCode?uuid=c5fbe831-b256-4c6a-afca-431a390b4a76&last_uuid= HTTP/1.1" 200 -
+127.0.0.1 - - [02/Apr/2018 17:12:01] "GET /register.html HTTP/1.1" 304 -
+127.0.0.1 - - [02/Apr/2018 17:12:02] "GET /api/1.0/imageCode?uuid=783c48af-ce58-4208-a9f3-974a402aa692&last_uuid= HTTP/1.1" 200 -
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 291-179-440
+ * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+127.0.0.1 - - [02/Apr/2018 17:13:09] "GET /register.html HTTP/1.1" 200 -
+127.0.0.1 - - [02/Apr/2018 17:13:09] "GET /static/plugins/bootstrap/css/bootstrap.min.css HTTP/1.1" 200 -
+127.0.0.1 - - [02/Apr/2018 17:13:09] "GET /static/plugins/font-awesome/css/font-awesome.min.css HTTP/1.1" 200 -
+127.0.0.1 - - [02/Apr/2018 17:13:09] "GET /static/css/reset.css HTTP/1.1" 200 -
+127.0.0.1 - - [02/Apr/2018 17:13:09] "GET /static/css/ihome/main.css HTTP/1.1" 200 -
+127.0.0.1 - - [02/Apr/2018 17:13:09] "GET /static/css/ihome/register.css HTTP/1.1" 200 -
+127.0.0.1 - - [02/Apr/2018 17:13:09] "GET /static/js/jquery.min.js HTTP/1.1" 200 -
+127.0.0.1 - - [02/Apr/2018 17:13:09] "GET /static/plugins/bootstrap/js/bootstrap.min.js HTTP/1.1" 200 -
+127.0.0.1 - - [02/Apr/2018 17:13:09] "GET /static/plugins/font-awesome/fonts/fontawesome-webfont.woff2?v=4.6.3 HTTP/1.1" 200 -
+127.0.0.1 - - [02/Apr/2018 17:13:09] "GET /static/images/logo@128x59.png HTTP/1.1" 200 -
+127.0.0.1 - - [02/Apr/2018 17:13:09] "GET /static/js/ihome/register.js?v=4 HTTP/1.1" 200 -
+127.0.0.1 - - [02/Apr/2018 17:13:09] "GET /static/plugins/bootstrap/css/bootstrap.min.css.map HTTP/1.1" 200 -
+127.0.0.1 - - [02/Apr/2018 17:13:10] "GET /api/1.0/imageCode?uuid=3714ca68-96d6-482e-ac81-217572a86e66&last_uuid= HTTP/1.1" 200 -
+127.0.0.1 - - [02/Apr/2018 17:13:12] "GET /register.html HTTP/1.1" 304 -
+127.0.0.1 - - [02/Apr/2018 17:13:13] "GET /api/1.0/imageCode?uuid=ca22adcc-a8f9-4d64-bbdf-ddd459dcaedc&last_uuid= HTTP/1.1" 200 -
+127.0.0.1 - - [02/Apr/2018 17:13:14] "GET /register.html HTTP/1.1" 304 -
+127.0.0.1 - - [02/Apr/2018 17:13:15] "GET /api/1.0/imageCode?uuid=3b479a47-c9e1-481f-adc7-0b6529fb2cf7&last_uuid= HTTP/1.1" 200 -
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 291-179-440
+ * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+127.0.0.1 - - [02/Apr/2018 17:16:25] "GET /register.html HTTP/1.1" 200 -
+127.0.0.1 - - [02/Apr/2018 17:16:25] "GET /static/plugins/bootstrap/css/bootstrap.min.css HTTP/1.1" 200 -
+127.0.0.1 - - [02/Apr/2018 17:16:25] "GET /static/plugins/font-awesome/css/font-awesome.min.css HTTP/1.1" 200 -
+127.0.0.1 - - [02/Apr/2018 17:16:25] "GET /static/css/reset.css HTTP/1.1" 200 -
+127.0.0.1 - - [02/Apr/2018 17:16:25] "GET /static/css/ihome/main.css HTTP/1.1" 200 -
+127.0.0.1 - - [02/Apr/2018 17:16:25] "GET /static/css/ihome/register.css HTTP/1.1" 200 -
+127.0.0.1 - - [02/Apr/2018 17:16:25] "GET /static/js/jquery.min.js HTTP/1.1" 200 -
+127.0.0.1 - - [02/Apr/2018 17:16:25] "GET /static/plugins/bootstrap/js/bootstrap.min.js HTTP/1.1" 200 -
+127.0.0.1 - - [02/Apr/2018 17:16:25] "GET /static/plugins/font-awesome/fonts/fontawesome-webfont.woff2?v=4.6.3 HTTP/1.1" 200 -
+127.0.0.1 - - [02/Apr/2018 17:16:25] "GET /static/images/logo@128x59.png HTTP/1.1" 200 -
+127.0.0.1 - - [02/Apr/2018 17:16:25] "GET /static/js/ihome/register.js?v=4 HTTP/1.1" 200 -
+127.0.0.1 - - [02/Apr/2018 17:16:25] "GET /static/plugins/bootstrap/css/bootstrap.min.css.map HTTP/1.1" 200 -
+127.0.0.1 - - [02/Apr/2018 17:16:26] "GET /api/1.0/imageCode?uuid=7f99a0f9-fa84-460c-b3ab-4c8b426a2fe1&last_uuid= HTTP/1.1" 200 -
+127.0.0.1 - - [02/Apr/2018 17:16:27] "GET /register.html HTTP/1.1" 304 -
+127.0.0.1 - - [02/Apr/2018 17:16:28] "GET /api/1.0/imageCode?uuid=a88fca5a-c299-4cac-959a-aaf94eeb2c53&last_uuid= HTTP/1.1" 200 -
+127.0.0.1 - - [02/Apr/2018 17:16:29] "GET /register.html HTTP/1.1" 304 -
+127.0.0.1 - - [02/Apr/2018 17:16:29] "GET /api/1.0/imageCode?uuid=4411212b-6368-4184-aed5-145023460ebf&last_uuid= HTTP/1.1" 200 -
+127.0.0.1 - - [02/Apr/2018 17:20:25] "GET /register.html HTTP/1.1" 304 -
+127.0.0.1 - - [02/Apr/2018 17:20:27] "GET /api/1.0/imageCode?uuid=98944a80-8980-436e-abaf-17c35108fbb0&last_uuid= HTTP/1.1" 200 -
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 291-179-440
+ * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+127.0.0.1 - - [02/Apr/2018 17:20:36] "GET /register.html HTTP/1.1" 304 -
+127.0.0.1 - - [02/Apr/2018 17:20:38] "GET /api/1.0/imageCode?uuid=5db8dda4-63b4-4f40-9031-f40b8c488e4f&last_uuid= HTTP/1.1" 200 -
+127.0.0.1 - - [02/Apr/2018 17:20:46] "GET /register.html HTTP/1.1" 200 -
+127.0.0.1 - - [02/Apr/2018 17:20:46] "GET /static/plugins/bootstrap/css/bootstrap.min.css HTTP/1.1" 200 -
+127.0.0.1 - - [02/Apr/2018 17:20:46] "GET /static/plugins/font-awesome/css/font-awesome.min.css HTTP/1.1" 200 -
+127.0.0.1 - - [02/Apr/2018 17:20:46] "GET /static/css/reset.css HTTP/1.1" 200 -
+127.0.0.1 - - [02/Apr/2018 17:20:46] "GET /static/css/ihome/main.css HTTP/1.1" 200 -
+127.0.0.1 - - [02/Apr/2018 17:20:46] "GET /static/css/ihome/register.css HTTP/1.1" 200 -
+127.0.0.1 - - [02/Apr/2018 17:20:46] "GET /static/js/jquery.min.js HTTP/1.1" 200 -
+127.0.0.1 - - [02/Apr/2018 17:20:46] "GET /static/plugins/bootstrap/js/bootstrap.min.js HTTP/1.1" 200 -
+127.0.0.1 - - [02/Apr/2018 17:20:46] "GET /static/js/ihome/register.js?v=4 HTTP/1.1" 200 -
+127.0.0.1 - - [02/Apr/2018 17:20:46] "GET /static/images/logo@128x59.png HTTP/1.1" 200 -
+127.0.0.1 - - [02/Apr/2018 17:20:46] "GET /static/plugins/font-awesome/fonts/fontawesome-webfont.woff2?v=4.6.3 HTTP/1.1" 200 -
+127.0.0.1 - - [02/Apr/2018 17:20:46] "GET /static/plugins/bootstrap/css/bootstrap.min.css.map HTTP/1.1" 200 -
+127.0.0.1 - - [02/Apr/2018 17:20:46] "GET /api/1.0/imageCode?uuid=6491ec9c-640c-4a18-b28b-7aee777913b2&last_uuid= HTTP/1.1" 200 -
+127.0.0.1 - - [02/Apr/2018 17:20:47] "GET /api/1.0/imageCode?uuid=aa2bf7d5-67d4-4f58-91ad-7e619e8abfd1&last_uuid=6491ec9c-640c-4a18-b28b-7aee777913b2 HTTP/1.1" 200 -
+127.0.0.1 - - [02/Apr/2018 17:21:51] "GET /register.html HTTP/1.1" 304 -
+127.0.0.1 - - [02/Apr/2018 17:21:51] "GET /api/1.0/imageCode?uuid=5a624857-84d6-4eb2-a2da-9eddd3878752&last_uuid= HTTP/1.1" 200 -
+127.0.0.1 - - [02/Apr/2018 17:21:59] "GET /api/1.0/imageCode?uuid=632d210d-a85a-4fac-919f-750713928676&last_uuid=5a624857-84d6-4eb2-a2da-9eddd3878752 HTTP/1.1" 200 -
+127.0.0.1 - - [02/Apr/2018 17:22:00] "GET /api/1.0/imageCode?uuid=67a42580-c05a-4e68-b940-85f7c007f6a5&last_uuid=632d210d-a85a-4fac-919f-750713928676 HTTP/1.1" 200 -
+127.0.0.1 - - [02/Apr/2018 17:22:01] "GET /api/1.0/imageCode?uuid=80d23bed-490b-4887-9dfd-2ac25fcc73b6&last_uuid=67a42580-c05a-4e68-b940-85f7c007f6a5 HTTP/1.1" 200 -
+127.0.0.1 - - [02/Apr/2018 17:22:01] "GET /api/1.0/imageCode?uuid=80b91d4e-edf6-4add-b960-c5accdec4eb6&last_uuid=80d23bed-490b-4887-9dfd-2ac25fcc73b6 HTTP/1.1" 200 -
+127.0.0.1 - - [02/Apr/2018 17:22:01] "GET /api/1.0/imageCode?uuid=351e73ca-ccda-42ba-97c2-b2cc2f6d2d78&last_uuid=80b91d4e-edf6-4add-b960-c5accdec4eb6 HTTP/1.1" 200 -
+127.0.0.1 - - [02/Apr/2018 17:22:01] "GET /api/1.0/imageCode?uuid=ff3a5346-0d81-430a-85a1-7f63120569aa&last_uuid=351e73ca-ccda-42ba-97c2-b2cc2f6d2d78 HTTP/1.1" 200 -
+127.0.0.1 - - [02/Apr/2018 17:22:01] "GET /api/1.0/imageCode?uuid=a2b8f614-eb18-4f74-a9de-97f6745d5649&last_uuid=ff3a5346-0d81-430a-85a1-7f63120569aa HTTP/1.1" 200 -
+127.0.0.1 - - [02/Apr/2018 17:22:01] "GET /api/1.0/imageCode?uuid=a05c6dda-2a98-4975-99da-d07acbb49582&last_uuid=a2b8f614-eb18-4f74-a9de-97f6745d5649 HTTP/1.1" 200 -
+127.0.0.1 - - [02/Apr/2018 17:22:02] "GET /api/1.0/imageCode?uuid=76adc9c5-bf1f-4103-a837-5391d1089fbb&last_uuid=a05c6dda-2a98-4975-99da-d07acbb49582 HTTP/1.1" 200 -
+127.0.0.1 - - [02/Apr/2018 17:22:02] "GET /api/1.0/imageCode?uuid=3913ed1d-0d7f-484e-affe-36735d466d6b&last_uuid=76adc9c5-bf1f-4103-a837-5391d1089fbb HTTP/1.1" 200 -
+127.0.0.1 - - [02/Apr/2018 17:22:02] "GET /api/1.0/imageCode?uuid=b49199f2-1542-441d-9fd1-92418df14f49&last_uuid=3913ed1d-0d7f-484e-affe-36735d466d6b HTTP/1.1" 200 -
+127.0.0.1 - - [02/Apr/2018 17:22:02] "GET /api/1.0/imageCode?uuid=269ad63a-bb04-442e-8596-2a2192c2e8b0&last_uuid=b49199f2-1542-441d-9fd1-92418df14f49 HTTP/1.1" 200 -
+127.0.0.1 - - [02/Apr/2018 17:22:02] "GET /api/1.0/imageCode?uuid=85eaeb08-848b-49b0-8029-6ba2ac47689f&last_uuid=269ad63a-bb04-442e-8596-2a2192c2e8b0 HTTP/1.1" 200 -
+127.0.0.1 - - [02/Apr/2018 17:22:02] "GET /api/1.0/imageCode?uuid=84bf31c2-8f81-48a5-887c-326a6fc5e639&last_uuid=85eaeb08-848b-49b0-8029-6ba2ac47689f HTTP/1.1" 200 -
+127.0.0.1 - - [02/Apr/2018 17:22:03] "GET /api/1.0/imageCode?uuid=f9a8f6ca-8bef-4c93-b8fc-a3b5d14cfa7f&last_uuid=84bf31c2-8f81-48a5-887c-326a6fc5e639 HTTP/1.1" 200 -
+127.0.0.1 - - [02/Apr/2018 17:22:03] "GET /api/1.0/imageCode?uuid=8b6c0d44-7911-4aef-a8f8-5bed38fcfe90&last_uuid=f9a8f6ca-8bef-4c93-b8fc-a3b5d14cfa7f HTTP/1.1" 200 -
+127.0.0.1 - - [02/Apr/2018 17:22:03] "GET /api/1.0/imageCode?uuid=69a1a7e2-abac-4442-8af0-75d5127795fa&last_uuid=8b6c0d44-7911-4aef-a8f8-5bed38fcfe90 HTTP/1.1" 200 -
+127.0.0.1 - - [02/Apr/2018 17:22:03] "GET /api/1.0/imageCode?uuid=f8de9005-cf05-4628-9f1e-be9104a0cb3d&last_uuid=69a1a7e2-abac-4442-8af0-75d5127795fa HTTP/1.1" 200 -
+127.0.0.1 - - [02/Apr/2018 17:22:03] "GET /api/1.0/imageCode?uuid=f855d19c-6613-41cf-856f-c5e179fb80cc&last_uuid=f8de9005-cf05-4628-9f1e-be9104a0cb3d HTTP/1.1" 200 -
+127.0.0.1 - - [02/Apr/2018 17:22:03] "GET /api/1.0/imageCode?uuid=a1bda049-124b-4580-872e-4f58950350e8&last_uuid=f855d19c-6613-41cf-856f-c5e179fb80cc HTTP/1.1" 200 -
+127.0.0.1 - - [02/Apr/2018 17:22:04] "GET /api/1.0/imageCode?uuid=7294a883-254c-4c2d-b2db-e659733df402&last_uuid=a1bda049-124b-4580-872e-4f58950350e8 HTTP/1.1" 200 -
+127.0.0.1 - - [02/Apr/2018 17:22:04] "GET /api/1.0/imageCode?uuid=41c9789e-7bd4-4d63-90ef-70d5618b126a&last_uuid=7294a883-254c-4c2d-b2db-e659733df402 HTTP/1.1" 200 -
+127.0.0.1 - - [02/Apr/2018 17:22:04] "GET /api/1.0/imageCode?uuid=c2db73fb-ffa3-4f4c-a20b-341a408c822b&last_uuid=41c9789e-7bd4-4d63-90ef-70d5618b126a HTTP/1.1" 200 -
+127.0.0.1 - - [02/Apr/2018 17:22:04] "GET /api/1.0/imageCode?uuid=faca5563-821b-4b00-ab0e-cb30e28f8bca&last_uuid=c2db73fb-ffa3-4f4c-a20b-341a408c822b HTTP/1.1" 200 -
+127.0.0.1 - - [02/Apr/2018 17:22:04] "GET /api/1.0/imageCode?uuid=34313cb4-ae8f-4af3-9990-5ea46103b051&last_uuid=faca5563-821b-4b00-ab0e-cb30e28f8bca HTTP/1.1" 200 -
+127.0.0.1 - - [02/Apr/2018 17:22:05] "GET /api/1.0/imageCode?uuid=73a93bea-70c6-489d-97d4-438b6e135e43&last_uuid=34313cb4-ae8f-4af3-9990-5ea46103b051 HTTP/1.1" 200 -
+127.0.0.1 - - [02/Apr/2018 17:22:05] "GET /api/1.0/imageCode?uuid=43d5607a-d120-402d-bb9d-e718868cdc4f&last_uuid=73a93bea-70c6-489d-97d4-438b6e135e43 HTTP/1.1" 200 -
+127.0.0.1 - - [02/Apr/2018 17:22:05] "GET /api/1.0/imageCode?uuid=f3533716-db47-4142-9050-b608dfb1d446&last_uuid=43d5607a-d120-402d-bb9d-e718868cdc4f HTTP/1.1" 200 -
+127.0.0.1 - - [02/Apr/2018 17:22:05] "GET /api/1.0/imageCode?uuid=5878aa10-8554-4005-8195-06a4b4f00663&last_uuid=f3533716-db47-4142-9050-b608dfb1d446 HTTP/1.1" 200 -
+127.0.0.1 - - [02/Apr/2018 17:22:05] "GET /api/1.0/imageCode?uuid=2d53023d-f708-492c-bb74-621d128b0d9c&last_uuid=5878aa10-8554-4005-8195-06a4b4f00663 HTTP/1.1" 200 -
+127.0.0.1 - - [02/Apr/2018 17:22:05] "GET /api/1.0/imageCode?uuid=44deeee2-1438-40bd-96ff-9b574b7e1e68&last_uuid=2d53023d-f708-492c-bb74-621d128b0d9c HTTP/1.1" 200 -
+127.0.0.1 - - [02/Apr/2018 17:22:06] "GET /api/1.0/imageCode?uuid=b2afe99e-9f88-4988-a19c-fe8c204c26c6&last_uuid=44deeee2-1438-40bd-96ff-9b574b7e1e68 HTTP/1.1" 200 -
+127.0.0.1 - - [02/Apr/2018 17:22:06] "GET /api/1.0/imageCode?uuid=0118d128-5c21-46e7-b389-875153750ae9&last_uuid=b2afe99e-9f88-4988-a19c-fe8c204c26c6 HTTP/1.1" 200 -
+127.0.0.1 - - [02/Apr/2018 17:22:06] "GET /api/1.0/imageCode?uuid=897aa0be-cea3-4111-a58c-3a90caf6f1f1&last_uuid=0118d128-5c21-46e7-b389-875153750ae9 HTTP/1.1" 200 -
+127.0.0.1 - - [02/Apr/2018 17:22:06] "GET /api/1.0/imageCode?uuid=bac1c4a1-5a47-4ef5-bdfb-5217584e3b9f&last_uuid=897aa0be-cea3-4111-a58c-3a90caf6f1f1 HTTP/1.1" 200 -
+127.0.0.1 - - [02/Apr/2018 17:22:06] "GET /api/1.0/imageCode?uuid=e7e6315a-8b92-458a-8922-c4526066f748&last_uuid=bac1c4a1-5a47-4ef5-bdfb-5217584e3b9f HTTP/1.1" 200 -
+ * Detected change in 'E:\\pythonOBJ\\iHome\\ihome\\api_1_0\\verify.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 291-179-440
+ * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+ * Detected change in 'E:\\pythonOBJ\\iHome\\ihome\\api_1_0\\verify.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 291-179-440
+ * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+ * Detected change in 'E:\\pythonOBJ\\iHome\\ihome\\api_1_0\\verify.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 291-179-440
+ * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+ * Detected change in 'E:\\pythonOBJ\\iHome\\ihome\\api_1_0\\verify.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 291-179-440
+ * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+ * Detected change in 'E:\\pythonOBJ\\iHome\\ihome\\api_1_0\\verify.py', reloading
+ * Restarting with stat
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 291-179-440
+ * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 291-179-440
+ * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
