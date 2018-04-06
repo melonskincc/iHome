@@ -3,9 +3,21 @@ function getCookie(name) {
     return r ? r[1] : undefined;
 }
 
-// TODO: 点击推出按钮时执行的函数
+// TODO: 点击退出按钮时执行的函数
 function logout() {
-    
+    $.ajax({
+        url:'/api/1.0/sessions',
+        type:'delete',
+        headers:{'X-CSRFToken':getCookie('csrf_token')},
+        success:function (res) {
+            if(res.re_code=='0'){
+                alert(res.msg);
+                location.href='/'
+            }else {
+                alert(res.msg)
+            }
+        }
+    });
 }
 
 $(document).ready(function(){

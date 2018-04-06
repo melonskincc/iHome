@@ -59,7 +59,7 @@ def register():
 
 @api.route('/sessions',methods=['POST'])
 def login():
-    """
+    """登录
     1.获取参数：手机号，密码，并校验数据
     2.查询数据库，校验密码。
     :return: 返回响应，保持登录状态
@@ -87,3 +87,13 @@ def login():
 
     return jsonify(re_code=RET.OK,msg='登录成功')
 
+@api.route('/sessions',methods=['DELETE'])
+def logout():
+    """退出登录功能：
+    删除session
+    :return: 返回响应，跳转首页
+    """
+    session.pop('user_id')
+    session.pop('name')
+    session.pop('phone_num')
+    return jsonify(re_code=RET.OK,msg='退出成功')
