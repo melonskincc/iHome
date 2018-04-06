@@ -45,6 +45,40 @@ function sendSMSCode() {
     }
 
     // TODO: 通过ajax方式向后端接口发送请求，让后端发送短信验证码
+    var phone_num=$('#mobile').val(),
+        image_code=$('#imagecode').val(),
+        csrf_token=getCookie('csrf_token');
+    var params={
+        'uuid':uuid,
+        'phone_num':phone_num,
+        'image_code':image_code
+    };
+    $.ajax({
+        url:'/api/1.0/smsCode',
+        type:'post',
+        data:JSON.stringify(params),
+        contentType:'application/json',
+        headers:{'X-CSRFToken':csrf_token},
+        success:function (res) {
+            if (res.re_code == '0'){
+                $('#phonecode').attr('placeholder','验证码发送成功')
+                // 验证码发送成功，倒计时60秒
+                var time=60;
+                var timer=setInterval(function () {
+                    $('.phonecode-a').html(time);
+                    time-=1;
+                    if (time<0){
+                    clearInterval(timer);
+                    $('.phonecode-a').html('获取验证码');
+                    $('.phonecode-a').attr('onclick','sendSMSCode();')
+                    }
+                },1000)
+            }else {
+                alert(res.msg);
+                $('.phonecode-a').attr('onclick','sendSMSCode();')
+            }
+        }
+    })
 }
 
 $(document).ready(function() {
@@ -67,4 +101,49 @@ $(document).ready(function() {
     });
 
     // TODO: 注册的提交(判断参数是否为空)
+    $('.form-register').submit(function (event) {
+        // 阻止自己默认的提交表单事件
+        event.preventDefault();
+        // 获取后端需要的数据，电话号，密码，短信验证码
+        var phone_num=$('#mobile').val(),
+            phonecode=$('#phonecode').val(),
+            password=$('#password').val(),
+            regix=/^0\d{2,3}\d{7,8}$|^1[358]\d{9}$|^147\d{8}$/;
+        // 判断是否为空,校验
+        if(!regix.exec(phone_num)){
+            $('#mobile-err span').text('手机号错误');
+            $('#mobile-err').show()
+        }
+        if(!phonecode) {
+            $('#phone-code-err span').text('手机验证码不能为空！');
+            $('#phone-code-err').show();
+        }
+        if(!password){
+            $('#password-err span').text('密码不能为空!');
+            $('#password-err').show()
+        }
+        //组织参数
+        var params={
+            'phone_num':phone_num,
+            'phonecode':phonecode,
+            'password':password
+        };
+        // 提交表单
+        $.ajax({
+            url:'/api/1.0/users',
+            type:'post',
+            data:JSON.stringify(params),
+            contentType:'application/json',
+            headers:{'X-CSRFToken':getCookie('csrf_token')},
+            success:function(response){
+                if(response.re_code=='0'){
+                    // 成功跳转到首页
+                    alert(response.msg);
+                    location.href='/'
+                }else {
+                    alert(response.msg)
+                }
+            }
+        });
+    });
 });

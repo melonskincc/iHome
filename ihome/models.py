@@ -1,6 +1,7 @@
 # --*-- coding:utf-8 --*--
 from datetime import datetime
 from . import db
+from werkzeug.security import generate_password_hash,check_password_hash
 
 class BaseModel(object):
     """模型基类"""
@@ -20,6 +21,19 @@ class User(BaseModel,db.Model):
     avatar_url=db.Column(db.String(128)) # 用户头像路径
     houses=db.relationship('House',backref='user',lazy='dynamic') # 用户发布的房屋
     orders=db.relationship('Order',backref='user',lazy='dynamic') # 用户下的订单
+
+    @property
+    def password_hash(self):
+        raise AttributeError(u'不能访问该属性')
+
+    @password_hash.setter
+    def password_hash(self,value):
+        #生成hash密码
+        self.password=generate_password_hash(value)
+
+    def check_password(self,password):
+        #校验密码是否正确
+        return check_password_hash(self.password,password)
 
 class Area(BaseModel,db.Model):
     """城区"""

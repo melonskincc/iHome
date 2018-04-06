@@ -25,5 +25,26 @@ $(document).ready(function() {
             $("#password-err").show();
             return;
         }
+        alert(mobile)
+        var params={
+            'mobile':mobile,
+            'password':passwd
+        };
+        $.ajax({
+                    url:'/api/1.0/sessions',
+                    type:'post',
+                    data:JSON.stringify(params),
+                    contentType:'application/json',
+                    headers:{'X-CSRFToken':getCookie('csrf_token')},
+                    success:function(response){
+                        if(response.re_code=='0'){
+                            // 登录成功
+                            alert(response.msg);
+                            location.href='/'
+                        }else {
+                            alert(response.msg)
+                        }
+                    }
+                });
     });
-})
+});
