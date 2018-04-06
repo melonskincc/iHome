@@ -1,6 +1,7 @@
 # --*-- coding:utf-8 --*--
 from datetime import datetime
 from . import db
+import constants
 from werkzeug.security import generate_password_hash,check_password_hash
 
 class BaseModel(object):
@@ -37,12 +38,15 @@ class User(BaseModel,db.Model):
 
     def to_dict(self):
         # 返回一个用户信息字典接口，使外界方便调用
-        return {
+        user_info={
             'user_id':self.id,
             'name':self.name,
             'phone_num':self.phone_num,
             'avatar_url':self.avatar_url
         }
+        if self.avatar_url:
+            user_info['avatar_url']=constants.QINIU_DOMIN_PREFIX + self.avatar_url
+        return user_info
 
 class Area(BaseModel,db.Model):
     """城区"""

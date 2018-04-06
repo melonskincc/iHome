@@ -29,6 +29,9 @@ $(document).ready(function(){
             $('#user-avatar').attr('src',res.user.avatar_url);
             $('#user-name').text(res.user.name);
             $('#user-mobile').text(res.user.phone_num);
+        }else if (res.re_code=='4101'){
+            // 未登录，跳转到首页
+            location.href='/'
         }else {
             alert(res.msg)
         }

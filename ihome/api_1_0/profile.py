@@ -26,6 +26,17 @@ def get_user_info():
     user_info=user.to_dict()
     return jsonify(re_code=RET.OK,msg='查询成功',user=user_info)
 
+@api.route('/users',methods=['PUT'])
+@login_required
+def update_user():
+    """修改用户信息视图函数：
+    0.登录校验
+    1.
+    
+    :return: 
+    """
+    pass
+
 @api.route('/sessions')
 def check_login():
     """用户判断用户是否登录的接口：方便前端工作
