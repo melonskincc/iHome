@@ -35,6 +35,15 @@ class User(BaseModel,db.Model):
         #校验密码是否正确
         return check_password_hash(self.password,password)
 
+    def to_dict(self):
+        # 返回一个用户信息字典接口，使外界方便调用
+        return {
+            'user_id':self.id,
+            'name':self.name,
+            'phone_num':self.phone_num,
+            'avatar_url':self.avatar_url
+        }
+
 class Area(BaseModel,db.Model):
     """城区"""
     __tablename__='ih_area_info'

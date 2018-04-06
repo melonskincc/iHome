@@ -25,7 +25,6 @@ $(document).ready(function() {
             $("#password-err").show();
             return;
         }
-        alert(mobile)
         var params={
             'mobile':mobile,
             'password':passwd

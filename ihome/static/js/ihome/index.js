@@ -59,7 +59,23 @@ function goToSearchPage(th) {
 
 $(document).ready(function(){
     // TODO: 检查用户的登录状态
-    $(".top-bar>.register-login").show();
+    $.get('/api/1.0/sessions',function (res) {
+        if (res.re_code=='0'){
+            // 响应成功
+            if (res.user.user_id && res.user.name){
+                //user_id和name都有数据，已登录
+                $('.register-login').hide();
+                $('.user-info').show();
+                $('.user-info').find('a').text(res.user.name)
+            }else {
+                //未登录
+                $('.register-login').show();
+                $('.user-info').hide();
+            }
+        }else {
+            alert(res.msg)
+        }
+    });
     // TODO: 获取幻灯片要展示的房屋基本信息
 
     // TODO: 数据设置完毕后,需要设置幻灯片对象，开启幻灯片滚动
@@ -93,4 +109,4 @@ $(document).ready(function(){
         var date = $(this).datepicker("getFormattedDate");
         $("#start-date-input").val(date);
     });
-})
+});

@@ -8,7 +8,7 @@ from flask_session import Session
 from flask_sqlalchemy import SQLAlchemy
 from flask_wtf import CSRFProtect
 from config import configs
-from ihome.utils.my_converters import RegexConverter
+from ihome.utils.common import RegexConverter
 
 #定义能被外部调用的对象
 db=SQLAlchemy()

@@ -1071,3 +1071,144 @@ The CSRF token is missing.
  * Debugger is active!
  * Debugger PIN: 291-179-440
  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+ * Detected change in 'E:\\pythonOBJ\\iHome\\ihome\\__init__.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 291-179-440
+ * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 291-179-440
+ * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 291-179-440
+ * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+ * Detected change in 'E:\\pythonOBJ\\iHome\\ihome\\utils\\common.py', reloading
+ * Restarting with stat
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 291-179-440
+ * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+127.0.0.1 - - [06/Apr/2018 17:50:31] "GET /my.html HTTP/1.1" 200 -
+127.0.0.1 - - [06/Apr/2018 17:50:31] "GET /static/css/ihome/my.css HTTP/1.1" 200 -
+127.0.0.1 - - [06/Apr/2018 17:50:31] "GET /static/js/ihome/my.js HTTP/1.1" 200 -
+127.0.0.1 - - [06/Apr/2018 17:50:39] "GET /profile.html HTTP/1.1" 200 -
+127.0.0.1 - - [06/Apr/2018 17:50:39] "GET /static/css/ihome/profile.css HTTP/1.1" 200 -
+127.0.0.1 - - [06/Apr/2018 17:50:39] "GET /static/js/jquery.form.min.js HTTP/1.1" 200 -
+127.0.0.1 - - [06/Apr/2018 17:50:39] "GET /static/js/ihome/profile.js?v=5 HTTP/1.1" 200 -
+ * Detected change in 'E:\\pythonOBJ\\iHome\\ihome\\models.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 291-179-440
+ * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 291-179-440
+ * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+127.0.0.1 - - [06/Apr/2018 18:05:49] "GET /my.html HTTP/1.1" 304 -
+127.0.0.1 - - [06/Apr/2018 18:05:52] "GET /static/plugins/swiper/js/maps/swiper.jquery.min.js.map HTTP/1.1" 404 -
+127.0.0.1 - - [06/Apr/2018 18:05:53] "GET / HTTP/1.1" 304 -
+127.0.0.1 - - [06/Apr/2018 18:05:54] "GET /static/plugins/swiper/js/maps/swiper.jquery.min.js.map HTTP/1.1" 404 -
+127.0.0.1 - - [06/Apr/2018 18:06:06] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [06/Apr/2018 18:06:06] "GET /static/plugins/bootstrap/css/bootstrap.min.css HTTP/1.1" 200 -
+127.0.0.1 - - [06/Apr/2018 18:06:06] "GET /static/plugins/font-awesome/css/font-awesome.min.css HTTP/1.1" 200 -
+127.0.0.1 - - [06/Apr/2018 18:06:06] "GET /static/css/reset.css HTTP/1.1" 200 -
+127.0.0.1 - - [06/Apr/2018 18:06:06] "GET /static/plugins/swiper/css/swiper.min.css HTTP/1.1" 200 -
+127.0.0.1 - - [06/Apr/2018 18:06:06] "GET /static/plugins/bootstrap-datepicker/css/bootstrap-datepicker.min.css HTTP/1.1" 200 -
+127.0.0.1 - - [06/Apr/2018 18:06:06] "GET /static/css/ihome/main.css HTTP/1.1" 200 -
+127.0.0.1 - - [06/Apr/2018 18:06:06] "GET /static/css/ihome/index.css HTTP/1.1" 200 -
+127.0.0.1 - - [06/Apr/2018 18:06:06] "GET /static/js/jquery.min.js HTTP/1.1" 200 -
+127.0.0.1 - - [06/Apr/2018 18:06:06] "GET /static/plugins/font-awesome/fonts/fontawesome-webfont.woff2?v=4.6.3 HTTP/1.1" 200 -
+127.0.0.1 - - [06/Apr/2018 18:06:06] "GET /static/images/logo@128x59.png HTTP/1.1" 200 -
+127.0.0.1 - - [06/Apr/2018 18:06:06] "GET /static/plugins/bootstrap/js/bootstrap.min.js HTTP/1.1" 200 -
+127.0.0.1 - - [06/Apr/2018 18:06:06] "GET /static/plugins/swiper/js/swiper.jquery.min.js HTTP/1.1" 200 -
+127.0.0.1 - - [06/Apr/2018 18:06:06] "GET /static/plugins/bootstrap-datepicker/js/bootstrap-datepicker.min.js HTTP/1.1" 200 -
+127.0.0.1 - - [06/Apr/2018 18:06:07] "GET /static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.zh-CN.min.js HTTP/1.1" 200 -
+127.0.0.1 - - [06/Apr/2018 18:06:07] "GET /static/js/template.js HTTP/1.1" 200 -
+127.0.0.1 - - [06/Apr/2018 18:06:07] "GET /static/js/ihome/index.js HTTP/1.1" 200 -
+127.0.0.1 - - [06/Apr/2018 18:06:07] "GET /static/plugins/bootstrap/css/bootstrap.min.css.map HTTP/1.1" 200 -
+127.0.0.1 - - [06/Apr/2018 18:06:07] "GET /static/plugins/swiper/js/maps/swiper.jquery.min.js.map HTTP/1.1" 404 -
+127.0.0.1 - - [06/Apr/2018 18:06:07] "GET /api/1.0/sessions HTTP/1.1" 404 -
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 291-179-440
+ * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+127.0.0.1 - - [06/Apr/2018 18:08:15] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [06/Apr/2018 18:08:15] "GET /static/plugins/bootstrap/css/bootstrap.min.css HTTP/1.1" 200 -
+127.0.0.1 - - [06/Apr/2018 18:08:15] "GET /static/plugins/font-awesome/css/font-awesome.min.css HTTP/1.1" 200 -
+127.0.0.1 - - [06/Apr/2018 18:08:15] "GET /static/css/reset.css HTTP/1.1" 200 -
+127.0.0.1 - - [06/Apr/2018 18:08:15] "GET /static/plugins/swiper/css/swiper.min.css HTTP/1.1" 200 -
+127.0.0.1 - - [06/Apr/2018 18:08:15] "GET /static/plugins/bootstrap-datepicker/css/bootstrap-datepicker.min.css HTTP/1.1" 200 -
+127.0.0.1 - - [06/Apr/2018 18:08:15] "GET /static/css/ihome/main.css HTTP/1.1" 200 -
+127.0.0.1 - - [06/Apr/2018 18:08:15] "GET /static/css/ihome/index.css HTTP/1.1" 200 -
+127.0.0.1 - - [06/Apr/2018 18:08:15] "GET /static/js/jquery.min.js HTTP/1.1" 200 -
+127.0.0.1 - - [06/Apr/2018 18:08:15] "GET /static/plugins/bootstrap/js/bootstrap.min.js HTTP/1.1" 200 -
+127.0.0.1 - - [06/Apr/2018 18:08:15] "GET /static/plugins/swiper/js/swiper.jquery.min.js HTTP/1.1" 200 -
+127.0.0.1 - - [06/Apr/2018 18:08:15] "GET /static/plugins/bootstrap-datepicker/js/bootstrap-datepicker.min.js HTTP/1.1" 200 -
+127.0.0.1 - - [06/Apr/2018 18:08:15] "GET /static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.zh-CN.min.js HTTP/1.1" 200 -
+127.0.0.1 - - [06/Apr/2018 18:08:15] "GET /static/js/template.js HTTP/1.1" 200 -
+127.0.0.1 - - [06/Apr/2018 18:08:15] "GET /static/js/ihome/index.js HTTP/1.1" 200 -
+127.0.0.1 - - [06/Apr/2018 18:08:15] "GET /static/images/logo@128x59.png HTTP/1.1" 200 -
+127.0.0.1 - - [06/Apr/2018 18:08:15] "GET /static/plugins/font-awesome/fonts/fontawesome-webfont.woff2?v=4.6.3 HTTP/1.1" 200 -
+127.0.0.1 - - [06/Apr/2018 18:08:15] "GET /static/plugins/bootstrap/css/bootstrap.min.css.map HTTP/1.1" 200 -
+127.0.0.1 - - [06/Apr/2018 18:08:15] "GET /api/1.0/sessions HTTP/1.1" 200 -
+127.0.0.1 - - [06/Apr/2018 18:08:15] "GET /static/plugins/swiper/js/maps/swiper.jquery.min.js.map HTTP/1.1" 404 -
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 291-179-440
+ * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+127.0.0.1 - - [06/Apr/2018 18:09:02] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [06/Apr/2018 18:09:02] "GET /static/plugins/bootstrap/css/bootstrap.min.css HTTP/1.1" 200 -
+127.0.0.1 - - [06/Apr/2018 18:09:02] "GET /static/plugins/font-awesome/css/font-awesome.min.css HTTP/1.1" 200 -
+127.0.0.1 - - [06/Apr/2018 18:09:02] "GET /static/css/reset.css HTTP/1.1" 200 -
+127.0.0.1 - - [06/Apr/2018 18:09:02] "GET /static/plugins/swiper/css/swiper.min.css HTTP/1.1" 200 -
+127.0.0.1 - - [06/Apr/2018 18:09:02] "GET /static/plugins/bootstrap-datepicker/css/bootstrap-datepicker.min.css HTTP/1.1" 200 -
+127.0.0.1 - - [06/Apr/2018 18:09:02] "GET /static/css/ihome/main.css HTTP/1.1" 200 -
+127.0.0.1 - - [06/Apr/2018 18:09:02] "GET /static/css/ihome/index.css HTTP/1.1" 200 -
+127.0.0.1 - - [06/Apr/2018 18:09:02] "GET /static/js/jquery.min.js HTTP/1.1" 200 -
+127.0.0.1 - - [06/Apr/2018 18:09:02] "GET /static/plugins/bootstrap/js/bootstrap.min.js HTTP/1.1" 200 -
+127.0.0.1 - - [06/Apr/2018 18:09:02] "GET /static/plugins/swiper/js/swiper.jquery.min.js HTTP/1.1" 200 -
+127.0.0.1 - - [06/Apr/2018 18:09:02] "GET /static/plugins/bootstrap-datepicker/js/bootstrap-datepicker.min.js HTTP/1.1" 200 -
+127.0.0.1 - - [06/Apr/2018 18:09:02] "GET /static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.zh-CN.min.js HTTP/1.1" 200 -
+127.0.0.1 - - [06/Apr/2018 18:09:02] "GET /static/js/template.js HTTP/1.1" 200 -
+127.0.0.1 - - [06/Apr/2018 18:09:02] "GET /static/plugins/font-awesome/fonts/fontawesome-webfont.woff2?v=4.6.3 HTTP/1.1" 200 -
+127.0.0.1 - - [06/Apr/2018 18:09:02] "GET /static/images/logo@128x59.png HTTP/1.1" 200 -
+127.0.0.1 - - [06/Apr/2018 18:09:02] "GET /static/js/ihome/index.js HTTP/1.1" 200 -
+127.0.0.1 - - [06/Apr/2018 18:09:02] "GET /static/plugins/bootstrap/css/bootstrap.min.css.map HTTP/1.1" 200 -
+127.0.0.1 - - [06/Apr/2018 18:09:02] "GET /static/plugins/swiper/js/maps/swiper.jquery.min.js.map HTTP/1.1" 404 -
+127.0.0.1 - - [06/Apr/2018 18:09:02] "GET /api/1.0/sessions HTTP/1.1" 200 -
+127.0.0.1 - - [06/Apr/2018 18:09:14] "GET /my.html HTTP/1.1" 200 -
+127.0.0.1 - - [06/Apr/2018 18:09:14] "GET /static/css/ihome/my.css HTTP/1.1" 200 -
+127.0.0.1 - - [06/Apr/2018 18:09:14] "GET /static/js/ihome/my.js HTTP/1.1" 200 -
+127.0.0.1 - - [06/Apr/2018 18:09:38] "DELETE /api/1.0/sessions HTTP/1.1" 200 -
+127.0.0.1 - - [06/Apr/2018 18:09:40] "GET /api/1.0/sessions HTTP/1.1" 200 -
+127.0.0.1 - - [06/Apr/2018 18:09:40] "GET /static/plugins/swiper/js/maps/swiper.jquery.min.js.map HTTP/1.1" 404 -
+127.0.0.1 - - [06/Apr/2018 18:09:42] "GET /login.html HTTP/1.1" 200 -
+127.0.0.1 - - [06/Apr/2018 18:09:42] "GET /static/css/ihome/login.css HTTP/1.1" 200 -
+127.0.0.1 - - [06/Apr/2018 18:09:42] "GET /static/js/ihome/login.js HTTP/1.1" 200 -
+127.0.0.1 - - [06/Apr/2018 18:09:51] "POST /api/1.0/sessions HTTP/1.1" 200 -
+127.0.0.1 - - [06/Apr/2018 18:09:52] "GET /api/1.0/sessions HTTP/1.1" 200 -
+127.0.0.1 - - [06/Apr/2018 18:09:52] "GET /static/plugins/swiper/js/maps/swiper.jquery.min.js.map HTTP/1.1" 404 -
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 291-179-440
+ * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+127.0.0.1 - - [06/Apr/2018 18:19:14] "GET / HTTP/1.1" 304 -
+127.0.0.1 - - [06/Apr/2018 18:19:14] "GET /api/1.0/sessions HTTP/1.1" 200 -
+127.0.0.1 - - [06/Apr/2018 18:19:14] "GET /static/plugins/swiper/js/maps/swiper.jquery.min.js.map HTTP/1.1" 404 -
+127.0.0.1 - - [06/Apr/2018 18:19:23] "GET /my.html HTTP/1.1" 200 -
+127.0.0.1 - - [06/Apr/2018 18:19:24] "GET /static/plugins/bootstrap/css/bootstrap.min.css HTTP/1.1" 200 -
+127.0.0.1 - - [06/Apr/2018 18:19:24] "GET /static/plugins/font-awesome/css/font-awesome.min.css HTTP/1.1" 200 -
+127.0.0.1 - - [06/Apr/2018 18:19:24] "GET /static/css/reset.css HTTP/1.1" 200 -
+127.0.0.1 - - [06/Apr/2018 18:19:24] "GET /static/plugins/bootstrap-datepicker/css/bootstrap-datepicker.min.css HTTP/1.1" 200 -
+127.0.0.1 - - [06/Apr/2018 18:19:24] "GET /static/css/ihome/main.css HTTP/1.1" 200 -
+127.0.0.1 - - [06/Apr/2018 18:19:24] "GET /static/css/ihome/my.css HTTP/1.1" 200 -
+127.0.0.1 - - [06/Apr/2018 18:19:24] "GET /static/js/jquery.min.js HTTP/1.1" 200 -
+127.0.0.1 - - [06/Apr/2018 18:19:24] "GET /static/plugins/bootstrap/js/bootstrap.min.js HTTP/1.1" 200 -
+127.0.0.1 - - [06/Apr/2018 18:19:24] "GET /static/plugins/bootstrap-datepicker/js/bootstrap-datepicker.min.js HTTP/1.1" 200 -
+127.0.0.1 - - [06/Apr/2018 18:19:24] "GET /static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.zh-CN.min.js HTTP/1.1" 200 -
+127.0.0.1 - - [06/Apr/2018 18:19:24] "GET /static/js/ihome/my.js HTTP/1.1" 200 -
+127.0.0.1 - - [06/Apr/2018 18:19:24] "GET /static/plugins/font-awesome/fonts/fontawesome-webfont.woff2?v=4.6.3 HTTP/1.1" 200 -
+127.0.0.1 - - [06/Apr/2018 18:19:24] "GET /static/plugins/bootstrap/css/bootstrap.min.css.map HTTP/1.1" 200 -
+127.0.0.1 - - [06/Apr/2018 18:19:25] "GET /api/1.0/users HTTP/1.1" 200 -

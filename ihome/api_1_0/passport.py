@@ -4,6 +4,7 @@ from flask import request, jsonify, current_app, session
 from ihome import redis_conn, db
 from ihome.api_1_0 import api
 from ihome.models import User
+from ihome.utils.common import login_required
 from ihome.utils.response_code import RET
 
 @api.route('/users',methods=['POST'])
@@ -88,6 +89,7 @@ def login():
     return jsonify(re_code=RET.OK,msg='登录成功')
 
 @api.route('/sessions',methods=['DELETE'])
+@login_required     #登录校验
 def logout():
     """退出登录功能：
     删除session

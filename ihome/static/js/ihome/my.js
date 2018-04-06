@@ -23,5 +23,14 @@ function logout() {
 $(document).ready(function(){
 
     // TODO: 在页面加载完毕之后去加载个人信息
-
+    $.get('/api/1.0/users',function (res) {
+        if(res.re_code=='0'){
+            // 加载头像
+            $('#user-avatar').attr('src',res.user.avatar_url);
+            $('#user-name').text(res.user.name);
+            $('#user-mobile').text(res.user.phone_num);
+        }else {
+            alert(res.msg)
+        }
+    });
 });
