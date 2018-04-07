@@ -90,6 +90,7 @@ def update_user_avatar():
         db.session.commit()
     except Exception as e:
         current_app.logger.debug(e)
+        db.session.rollback()
         return jsonify(re_code=RET.DBERR,msg='保存头像失败')
     # 拼接头像地址，返回前端
     avatar_url=constants.QINIU_DOMIN_PREFIX+user.avatar_url
@@ -105,3 +106,61 @@ def check_login():
     name=session.get('name')
 
     return jsonify(re_code=RET.OK,msg='OK',user={'user_id':user_id,'name':name})
+
+@api.route('/users/auth')
+@login_required
+def get_user_auth():
+    """获取实名认证信息：
+    0.校验是否登录 @login_required
+    1.根据g变量中的user_id获取user
+    2.返回响应real_name,id_card
+    """
+    user_id=g.user_id
+    try:
+        user=User.query.get(user_id)
+    except Exception as e :
+        current_app.logger.debug(e)
+        return jsonify(re_code=RET.DBERR,msg='查询用户失败')
+    if not user:
+        return jsonify(re_code=RET.NODATA,msg='用户不存在')
+    return jsonify(re_code=RET.OK,msg='查询用户成功',user_auth=user.to_auth_dict())
+
+@api.route('/users/auth',methods=['POST'])
+@login_required
+def set_user_auth():
+    """设置用户实名认证信息：
+    0.登录校验  @login_required
+    1.获取前端数据：real_name,id_card校验完整性，获取g变量中的user_id
+    2.查询user,并设置用户实名认证信息
+    3.返回响应
+    """
+    # 1.获取前端数据：real_name,id_card校验完整性，获取g变量中的user_id
+    json_dict=request.json
+    real_name=json_dict.get('real_name')
+    id_card=json_dict.get('id_card')
+    user_id=g.user_id
+
+    if not all([real_name,id_card]):
+        return jsonify(re_code=RET.PARAMERR,msg='参数不完整')
+
+    #  2.查询user,并设置用户实名认证信息
+    try:
+        user=User.query.get(user_id)
+    except Exception as e:
+        current_app.logger.debug(e)
+        return jsonify(re_code=RET.DBERR,msg='查询用户失败')
+
+    if not user:
+        return jsonify(re_code=RET.NODATA,msg='用户不存在')
+
+    user.real_name=real_name
+    user.id_card=id_card
+    try:
+        db.session.commit()
+    except Exception as e:
+        current_app.logger.debug(e)
+        db.session.rollback()
+        return jsonify(re_code=RET.DBERR,msg='用户实名认证失败')
+
+    #3.返回响应
+    return jsonify(re_code=RET.OK,msg='实名认证成功')

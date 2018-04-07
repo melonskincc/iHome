@@ -62,6 +62,7 @@ $(document).ready(function(){
     $.get('/api/1.0/sessions',function (res) {
         if (res.re_code=='0'){
             // 响应成功
+            alert(res.user.name)
             if (res.user.user_id && res.user.name){
                 //user_id和name都有数据，已登录
                 $('.register-login').hide();

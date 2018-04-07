@@ -48,6 +48,13 @@ class User(BaseModel,db.Model):
             user_info['avatar_url']=constants.QINIU_DOMIN_PREFIX + self.avatar_url
         return user_info
 
+    def to_auth_dict(self):
+        """实名认证数据"""
+        return {
+            'real_name':self.real_name,
+            'id_card':self.id_card
+        }
+
 class Area(BaseModel,db.Model):
     """城区"""
     __tablename__='ih_area_info'
