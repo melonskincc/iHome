@@ -36,6 +36,7 @@ def update_user_name():
     0.登录校验  @login_required
     1.获取参数 name
     2.查询用户，更新用户名
+    3.修改session中的name
     :return: 响应结果
     """
     json_dict=request.json
@@ -57,6 +58,8 @@ def update_user_name():
         db.session.rollback()
         current_app.logger.debug(e)
         return jsonify(re_code=RET.DBERR,msg='保存用户信息失败')
+    # 3.修改session中的name
+    session['name']=name
     return jsonify(re_code=RET.OK,msg='更新用户名成功')
 
 @api.route('/users/avatar',methods=['POST'])

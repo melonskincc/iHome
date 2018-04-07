@@ -17,6 +17,8 @@ class Config(object):
     SQLALCHEMY_DATABASE_URI='mysql://root:root@127.0.0.1:3306/ihome'
     #是否开启追踪
     SQLALCHEMY_TRACK_MODIFICATIONS = False
+    # 显示sql语句
+    # SQLALCHEMY_ECHO=True
 
     #配置Redis数据库
     REDIS_HOST='127.0.0.1'

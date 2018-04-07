@@ -34,6 +34,7 @@ $(document).ready(function(){
 
     // TODO: 管理实名信息表单的提交行为
     $('#form-auth').submit(function (event) {
+         $('.error-msg').hide();
         event.preventDefault();
         var real_name=$('#real-name').val(),
             id_card=$('#id-card').val();
@@ -41,6 +42,10 @@ $(document).ready(function(){
             'real_name':real_name,
             'id_card':id_card
         };
+        if(!real_name || !id_card){
+            $('.error-msg').show();
+            return;
+        }
         $.ajax({
                 url:'/api/1.0/users/auth',
                 type:'post',

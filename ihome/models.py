@@ -63,6 +63,12 @@ class Area(BaseModel,db.Model):
     name=db.Column(db.String(32),nullable=False) #区域名字
     houses=db.relationship('House',backref='area') # 区域的房屋
 
+    def to_dict(self):
+        return {
+            'aname':self.name,
+            'aid':self.id
+        }
+
 
 class Facility(BaseModel,db.Model):
     """房屋设施信息模型类"""

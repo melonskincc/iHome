@@ -62,7 +62,6 @@ $(document).ready(function(){
     $.get('/api/1.0/sessions',function (res) {
         if (res.re_code=='0'){
             // 响应成功
-            alert(res.user.name)
             if (res.user.user_id && res.user.name){
                 //user_id和name都有数据，已登录
                 $('.register-login').hide();
@@ -89,6 +88,26 @@ $(document).ready(function(){
     });
 
     // TODO: 获取城区信息,获取完毕之后需要设置城区按钮点击之后相关操作
+    $.get('/api/1.0/areas',function (res) {
+        if(res.re_code=='0'){
+            // 初始化模板
+            render_template=template('area-list-tmpl',{areas:res.areas});
+            //将模板设置到指定的区域
+            $('.area-list').html(render_template);
+            $('.area-list a').click(function () {
+                // 请选择地区按钮变成选中地址的名字
+                $('#area-btn').html($(this).html());
+                //设置搜索框area-id属性的值为选择中的aid，name为选中的aname
+                $('.search-btn').attr('area-id',$(this).attr('area-id'));
+                $('.search-btn').attr('area-name',$(this).html());
+                // 隐藏模态框
+                $('#area-modal').modal('hide');
+            });
+        }else {
+            alert(res.msg)
+        }
+    });
+
 
     // TODO: 城区按钮点击之后相关操作
     $(".area-list a").click(function(e){
