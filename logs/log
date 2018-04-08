@@ -2237,3 +2237,756 @@ http://up.qiniu.com:80 "POST / HTTP/1.1" 200 76
 127.0.0.1 - - [07/Apr/2018 17:52:36] "GET /api/1.0/sessions HTTP/1.1" 200 -
 127.0.0.1 - - [07/Apr/2018 17:52:36] "GET /api/1.0/areas HTTP/1.1" 200 -
 127.0.0.1 - - [07/Apr/2018 17:52:36] "GET /static/plugins/swiper/js/maps/swiper.jquery.min.js.map HTTP/1.1" 404 -
+ * Detected change in 'E:\\pythonOBJ\\iHome\\ihome\\api_1_0\\house.py', reloading
+ * Restarting with stat
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 291-179-440
+ * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+127.0.0.1 - - [07/Apr/2018 18:04:17] "GET /newhouse.html HTTP/1.1" 200 -
+127.0.0.1 - - [07/Apr/2018 18:04:17] "GET /static/css/ihome/newhouse.css HTTP/1.1" 200 -
+127.0.0.1 - - [07/Apr/2018 18:04:17] "GET /static/js/jquery.form.min.js HTTP/1.1" 200 -
+127.0.0.1 - - [07/Apr/2018 18:04:17] "GET /static/js/ihome/newhouse.js?v=3 HTTP/1.1" 200 -
+127.0.0.1 - - [07/Apr/2018 18:04:18] "GET /api/1.0/areas HTTP/1.1" 200 -
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 291-179-440
+ * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+127.0.0.1 - - [07/Apr/2018 18:09:54] "GET /newhouse.html HTTP/1.1" 200 -
+127.0.0.1 - - [07/Apr/2018 18:09:54] "GET /static/plugins/bootstrap/css/bootstrap.min.css HTTP/1.1" 200 -
+127.0.0.1 - - [07/Apr/2018 18:09:54] "GET /static/plugins/font-awesome/css/font-awesome.min.css HTTP/1.1" 200 -
+127.0.0.1 - - [07/Apr/2018 18:09:54] "GET /static/css/reset.css HTTP/1.1" 200 -
+127.0.0.1 - - [07/Apr/2018 18:09:54] "GET /static/plugins/bootstrap-datepicker/css/bootstrap-datepicker.min.css HTTP/1.1" 200 -
+127.0.0.1 - - [07/Apr/2018 18:09:54] "GET /static/css/ihome/main.css HTTP/1.1" 200 -
+127.0.0.1 - - [07/Apr/2018 18:09:54] "GET /static/css/ihome/newhouse.css HTTP/1.1" 200 -
+127.0.0.1 - - [07/Apr/2018 18:09:54] "GET /static/js/jquery.min.js HTTP/1.1" 200 -
+127.0.0.1 - - [07/Apr/2018 18:09:54] "GET /static/js/jquery.form.min.js HTTP/1.1" 200 -
+127.0.0.1 - - [07/Apr/2018 18:09:54] "GET /static/js/template.js HTTP/1.1" 200 -
+127.0.0.1 - - [07/Apr/2018 18:09:54] "GET /static/plugins/bootstrap/js/bootstrap.min.js HTTP/1.1" 200 -
+127.0.0.1 - - [07/Apr/2018 18:09:54] "GET /static/plugins/bootstrap-datepicker/js/bootstrap-datepicker.min.js HTTP/1.1" 200 -
+127.0.0.1 - - [07/Apr/2018 18:09:54] "GET /static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.zh-CN.min.js HTTP/1.1" 200 -
+127.0.0.1 - - [07/Apr/2018 18:09:54] "GET /static/plugins/font-awesome/fonts/fontawesome-webfont.woff2?v=4.6.3 HTTP/1.1" 200 -
+127.0.0.1 - - [07/Apr/2018 18:09:54] "GET /static/js/ihome/newhouse.js?v=3 HTTP/1.1" 200 -
+127.0.0.1 - - [07/Apr/2018 18:09:54] "GET /static/plugins/bootstrap/css/bootstrap.min.css.map HTTP/1.1" 200 -
+127.0.0.1 - - [07/Apr/2018 18:09:54] "GET /api/1.0/areas HTTP/1.1" 200 -
+127.0.0.1 - - [07/Apr/2018 18:10:26] "GET /newhouse.html HTTP/1.1" 304 -
+127.0.0.1 - - [07/Apr/2018 18:10:26] "GET /api/1.0/areas HTTP/1.1" 200 -
+ * Detected change in 'E:\\pythonOBJ\\iHome\\ihome\\api_1_0\\house.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 291-179-440
+ * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 291-179-440
+ * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+127.0.0.1 - - [07/Apr/2018 18:23:05] "GET /newhouse.html HTTP/1.1" 200 -
+127.0.0.1 - - [07/Apr/2018 18:23:05] "GET /static/plugins/bootstrap/css/bootstrap.min.css HTTP/1.1" 200 -
+127.0.0.1 - - [07/Apr/2018 18:23:05] "GET /static/plugins/font-awesome/css/font-awesome.min.css HTTP/1.1" 200 -
+127.0.0.1 - - [07/Apr/2018 18:23:05] "GET /static/css/reset.css HTTP/1.1" 200 -
+127.0.0.1 - - [07/Apr/2018 18:23:05] "GET /static/plugins/bootstrap-datepicker/css/bootstrap-datepicker.min.css HTTP/1.1" 200 -
+127.0.0.1 - - [07/Apr/2018 18:23:05] "GET /static/css/ihome/main.css HTTP/1.1" 200 -
+127.0.0.1 - - [07/Apr/2018 18:23:05] "GET /static/css/ihome/newhouse.css HTTP/1.1" 200 -
+127.0.0.1 - - [07/Apr/2018 18:23:05] "GET /static/js/jquery.min.js HTTP/1.1" 200 -
+127.0.0.1 - - [07/Apr/2018 18:23:05] "GET /static/js/jquery.form.min.js HTTP/1.1" 200 -
+127.0.0.1 - - [07/Apr/2018 18:23:05] "GET /static/js/template.js HTTP/1.1" 200 -
+127.0.0.1 - - [07/Apr/2018 18:23:05] "GET /static/plugins/bootstrap/js/bootstrap.min.js HTTP/1.1" 200 -
+127.0.0.1 - - [07/Apr/2018 18:23:05] "GET /static/plugins/bootstrap-datepicker/js/bootstrap-datepicker.min.js HTTP/1.1" 200 -
+127.0.0.1 - - [07/Apr/2018 18:23:05] "GET /static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.zh-CN.min.js HTTP/1.1" 200 -
+127.0.0.1 - - [07/Apr/2018 18:23:05] "GET /static/plugins/font-awesome/fonts/fontawesome-webfont.woff2?v=4.6.3 HTTP/1.1" 200 -
+127.0.0.1 - - [07/Apr/2018 18:23:05] "GET /static/js/ihome/newhouse.js?v=3 HTTP/1.1" 200 -
+127.0.0.1 - - [07/Apr/2018 18:23:05] "GET /static/plugins/bootstrap/css/bootstrap.min.css.map HTTP/1.1" 200 -
+127.0.0.1 - - [07/Apr/2018 18:23:05] "GET /api/1.0/areas HTTP/1.1" 200 -
+127.0.0.1 - - [07/Apr/2018 18:23:32] "POST /api/1.0/houses HTTP/1.1" 500 -
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 291-179-440
+ * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+127.0.0.1 - - [07/Apr/2018 18:27:21] "GET /newhouse.html HTTP/1.1" 200 -
+127.0.0.1 - - [07/Apr/2018 18:27:21] "GET /static/plugins/bootstrap/css/bootstrap.min.css HTTP/1.1" 200 -
+127.0.0.1 - - [07/Apr/2018 18:27:21] "GET /static/plugins/font-awesome/css/font-awesome.min.css HTTP/1.1" 200 -
+127.0.0.1 - - [07/Apr/2018 18:27:21] "GET /static/css/reset.css HTTP/1.1" 200 -
+127.0.0.1 - - [07/Apr/2018 18:27:21] "GET /static/plugins/bootstrap-datepicker/css/bootstrap-datepicker.min.css HTTP/1.1" 200 -
+127.0.0.1 - - [07/Apr/2018 18:27:21] "GET /static/css/ihome/main.css HTTP/1.1" 200 -
+127.0.0.1 - - [07/Apr/2018 18:27:21] "GET /static/css/ihome/newhouse.css HTTP/1.1" 200 -
+127.0.0.1 - - [07/Apr/2018 18:27:21] "GET /static/js/jquery.min.js HTTP/1.1" 200 -
+127.0.0.1 - - [07/Apr/2018 18:27:21] "GET /static/js/jquery.form.min.js HTTP/1.1" 200 -
+127.0.0.1 - - [07/Apr/2018 18:27:21] "GET /static/js/template.js HTTP/1.1" 200 -
+127.0.0.1 - - [07/Apr/2018 18:27:21] "GET /static/plugins/bootstrap/js/bootstrap.min.js HTTP/1.1" 200 -
+127.0.0.1 - - [07/Apr/2018 18:27:21] "GET /static/plugins/bootstrap-datepicker/js/bootstrap-datepicker.min.js HTTP/1.1" 200 -
+127.0.0.1 - - [07/Apr/2018 18:27:21] "GET /static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.zh-CN.min.js HTTP/1.1" 200 -
+127.0.0.1 - - [07/Apr/2018 18:27:21] "GET /static/plugins/font-awesome/fonts/fontawesome-webfont.woff2?v=4.6.3 HTTP/1.1" 200 -
+127.0.0.1 - - [07/Apr/2018 18:27:21] "GET /static/js/ihome/newhouse.js?v=3 HTTP/1.1" 200 -
+127.0.0.1 - - [07/Apr/2018 18:27:21] "GET /static/plugins/bootstrap/css/bootstrap.min.css.map HTTP/1.1" 200 -
+127.0.0.1 - - [07/Apr/2018 18:27:21] "GET /api/1.0/areas HTTP/1.1" 200 -
+127.0.0.1 - - [07/Apr/2018 18:27:53] "POST /api/1.0/houses HTTP/1.1" 500 -
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 291-179-440
+ * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+127.0.0.1 - - [07/Apr/2018 18:28:19] "GET /newhouse.html HTTP/1.1" 200 -
+127.0.0.1 - - [07/Apr/2018 18:28:19] "GET /static/plugins/bootstrap/css/bootstrap.min.css HTTP/1.1" 200 -
+127.0.0.1 - - [07/Apr/2018 18:28:19] "GET /static/plugins/font-awesome/css/font-awesome.min.css HTTP/1.1" 200 -
+127.0.0.1 - - [07/Apr/2018 18:28:19] "GET /static/css/reset.css HTTP/1.1" 200 -
+127.0.0.1 - - [07/Apr/2018 18:28:19] "GET /static/plugins/bootstrap-datepicker/css/bootstrap-datepicker.min.css HTTP/1.1" 200 -
+127.0.0.1 - - [07/Apr/2018 18:28:19] "GET /static/css/ihome/main.css HTTP/1.1" 200 -
+127.0.0.1 - - [07/Apr/2018 18:28:19] "GET /static/css/ihome/newhouse.css HTTP/1.1" 200 -
+127.0.0.1 - - [07/Apr/2018 18:28:19] "GET /static/js/jquery.min.js HTTP/1.1" 200 -
+127.0.0.1 - - [07/Apr/2018 18:28:19] "GET /static/js/jquery.form.min.js HTTP/1.1" 200 -
+127.0.0.1 - - [07/Apr/2018 18:28:19] "GET /static/js/template.js HTTP/1.1" 200 -
+127.0.0.1 - - [07/Apr/2018 18:28:19] "GET /static/plugins/bootstrap/js/bootstrap.min.js HTTP/1.1" 200 -
+127.0.0.1 - - [07/Apr/2018 18:28:19] "GET /static/plugins/bootstrap-datepicker/js/bootstrap-datepicker.min.js HTTP/1.1" 200 -
+127.0.0.1 - - [07/Apr/2018 18:28:19] "GET /static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.zh-CN.min.js HTTP/1.1" 200 -
+127.0.0.1 - - [07/Apr/2018 18:28:19] "GET /static/plugins/font-awesome/fonts/fontawesome-webfont.woff2?v=4.6.3 HTTP/1.1" 200 -
+127.0.0.1 - - [07/Apr/2018 18:28:19] "GET /static/js/ihome/newhouse.js?v=3 HTTP/1.1" 200 -
+127.0.0.1 - - [07/Apr/2018 18:28:19] "GET /static/plugins/bootstrap/css/bootstrap.min.css.map HTTP/1.1" 200 -
+127.0.0.1 - - [07/Apr/2018 18:28:20] "GET /api/1.0/areas HTTP/1.1" 200 -
+127.0.0.1 - - [07/Apr/2018 18:29:23] "GET /newhouse.html HTTP/1.1" 200 -
+127.0.0.1 - - [07/Apr/2018 18:29:23] "GET /static/plugins/bootstrap/css/bootstrap.min.css HTTP/1.1" 200 -
+127.0.0.1 - - [07/Apr/2018 18:29:23] "GET /static/plugins/font-awesome/css/font-awesome.min.css HTTP/1.1" 200 -
+127.0.0.1 - - [07/Apr/2018 18:29:23] "GET /static/css/reset.css HTTP/1.1" 200 -
+127.0.0.1 - - [07/Apr/2018 18:29:23] "GET /static/plugins/bootstrap-datepicker/css/bootstrap-datepicker.min.css HTTP/1.1" 200 -
+127.0.0.1 - - [07/Apr/2018 18:29:23] "GET /static/css/ihome/main.css HTTP/1.1" 200 -
+127.0.0.1 - - [07/Apr/2018 18:29:23] "GET /static/css/ihome/newhouse.css HTTP/1.1" 200 -
+127.0.0.1 - - [07/Apr/2018 18:29:23] "GET /static/js/jquery.min.js HTTP/1.1" 200 -
+127.0.0.1 - - [07/Apr/2018 18:29:23] "GET /static/js/jquery.form.min.js HTTP/1.1" 200 -
+127.0.0.1 - - [07/Apr/2018 18:29:23] "GET /static/js/template.js HTTP/1.1" 200 -
+127.0.0.1 - - [07/Apr/2018 18:29:23] "GET /static/plugins/bootstrap/js/bootstrap.min.js HTTP/1.1" 200 -
+127.0.0.1 - - [07/Apr/2018 18:29:23] "GET /static/plugins/bootstrap-datepicker/js/bootstrap-datepicker.min.js HTTP/1.1" 200 -
+127.0.0.1 - - [07/Apr/2018 18:29:24] "GET /static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.zh-CN.min.js HTTP/1.1" 200 -
+127.0.0.1 - - [07/Apr/2018 18:29:24] "GET /static/plugins/font-awesome/fonts/fontawesome-webfont.woff2?v=4.6.3 HTTP/1.1" 200 -
+127.0.0.1 - - [07/Apr/2018 18:29:24] "GET /static/js/ihome/newhouse.js?v=3 HTTP/1.1" 200 -
+127.0.0.1 - - [07/Apr/2018 18:29:24] "GET /static/plugins/bootstrap/css/bootstrap.min.css.map HTTP/1.1" 200 -
+127.0.0.1 - - [07/Apr/2018 18:29:24] "GET /api/1.0/areas HTTP/1.1" 200 -
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 291-179-440
+ * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+127.0.0.1 - - [07/Apr/2018 19:45:58] "GET /newhouse.html HTTP/1.1" 304 -
+127.0.0.1 - - [07/Apr/2018 19:45:59] "GET /api/1.0/areas HTTP/1.1" 200 -
+127.0.0.1 - - [07/Apr/2018 19:46:04] "GET /newhouse.html HTTP/1.1" 200 -
+127.0.0.1 - - [07/Apr/2018 19:46:04] "GET /static/plugins/bootstrap/css/bootstrap.min.css HTTP/1.1" 200 -
+127.0.0.1 - - [07/Apr/2018 19:46:04] "GET /static/plugins/font-awesome/css/font-awesome.min.css HTTP/1.1" 200 -
+127.0.0.1 - - [07/Apr/2018 19:46:04] "GET /static/css/reset.css HTTP/1.1" 200 -
+127.0.0.1 - - [07/Apr/2018 19:46:05] "GET /static/plugins/bootstrap-datepicker/css/bootstrap-datepicker.min.css HTTP/1.1" 200 -
+127.0.0.1 - - [07/Apr/2018 19:46:05] "GET /static/css/ihome/main.css HTTP/1.1" 200 -
+127.0.0.1 - - [07/Apr/2018 19:46:05] "GET /static/css/ihome/newhouse.css HTTP/1.1" 200 -
+127.0.0.1 - - [07/Apr/2018 19:46:05] "GET /static/js/jquery.min.js HTTP/1.1" 200 -
+127.0.0.1 - - [07/Apr/2018 19:46:05] "GET /static/js/jquery.form.min.js HTTP/1.1" 200 -
+127.0.0.1 - - [07/Apr/2018 19:46:05] "GET /static/js/template.js HTTP/1.1" 200 -
+127.0.0.1 - - [07/Apr/2018 19:46:05] "GET /static/plugins/bootstrap/js/bootstrap.min.js HTTP/1.1" 200 -
+127.0.0.1 - - [07/Apr/2018 19:46:05] "GET /static/plugins/bootstrap-datepicker/js/bootstrap-datepicker.min.js HTTP/1.1" 200 -
+127.0.0.1 - - [07/Apr/2018 19:46:05] "GET /static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.zh-CN.min.js HTTP/1.1" 200 -
+127.0.0.1 - - [07/Apr/2018 19:46:05] "GET /static/plugins/font-awesome/fonts/fontawesome-webfont.woff2?v=4.6.3 HTTP/1.1" 200 -
+127.0.0.1 - - [07/Apr/2018 19:46:05] "GET /static/js/ihome/newhouse.js?v=3 HTTP/1.1" 200 -
+127.0.0.1 - - [07/Apr/2018 19:46:05] "GET /static/plugins/bootstrap/css/bootstrap.min.css.map HTTP/1.1" 200 -
+127.0.0.1 - - [07/Apr/2018 19:46:05] "GET /api/1.0/areas HTTP/1.1" 200 -
+127.0.0.1 - - [07/Apr/2018 19:46:19] "POST /api/1.0/houses HTTP/1.1" 500 -
+ * Detected change in 'E:\\pythonOBJ\\iHome\\ihome\\api_1_0\\house.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 291-179-440
+ * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+ * Detected change in 'E:\\pythonOBJ\\iHome\\ihome\\api_1_0\\house.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 291-179-440
+ * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+ * Detected change in 'E:\\pythonOBJ\\iHome\\ihome\\api_1_0\\house.py', reloading
+ * Restarting with stat
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 291-179-440
+ * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+127.0.0.1 - - [07/Apr/2018 20:16:46] "GET /newhouse.html HTTP/1.1" 200 -
+127.0.0.1 - - [07/Apr/2018 20:16:46] "GET /static/plugins/bootstrap/css/bootstrap.min.css HTTP/1.1" 200 -
+127.0.0.1 - - [07/Apr/2018 20:16:46] "GET /static/plugins/font-awesome/css/font-awesome.min.css HTTP/1.1" 200 -
+127.0.0.1 - - [07/Apr/2018 20:16:46] "GET /static/css/reset.css HTTP/1.1" 200 -
+127.0.0.1 - - [07/Apr/2018 20:16:46] "GET /static/plugins/bootstrap-datepicker/css/bootstrap-datepicker.min.css HTTP/1.1" 200 -
+127.0.0.1 - - [07/Apr/2018 20:16:46] "GET /static/css/ihome/main.css HTTP/1.1" 200 -
+127.0.0.1 - - [07/Apr/2018 20:16:46] "GET /static/css/ihome/newhouse.css HTTP/1.1" 200 -
+127.0.0.1 - - [07/Apr/2018 20:16:46] "GET /static/js/jquery.min.js HTTP/1.1" 200 -
+127.0.0.1 - - [07/Apr/2018 20:16:46] "GET /static/js/jquery.form.min.js HTTP/1.1" 200 -
+127.0.0.1 - - [07/Apr/2018 20:16:46] "GET /static/js/template.js HTTP/1.1" 200 -
+127.0.0.1 - - [07/Apr/2018 20:16:46] "GET /static/plugins/bootstrap/js/bootstrap.min.js HTTP/1.1" 200 -
+127.0.0.1 - - [07/Apr/2018 20:16:46] "GET /static/plugins/bootstrap-datepicker/js/bootstrap-datepicker.min.js HTTP/1.1" 200 -
+127.0.0.1 - - [07/Apr/2018 20:16:46] "GET /static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.zh-CN.min.js HTTP/1.1" 200 -
+127.0.0.1 - - [07/Apr/2018 20:16:46] "GET /static/plugins/font-awesome/fonts/fontawesome-webfont.woff2?v=4.6.3 HTTP/1.1" 200 -
+127.0.0.1 - - [07/Apr/2018 20:16:46] "GET /static/js/ihome/newhouse.js?v=3 HTTP/1.1" 200 -
+127.0.0.1 - - [07/Apr/2018 20:16:46] "GET /static/plugins/bootstrap/css/bootstrap.min.css.map HTTP/1.1" 200 -
+127.0.0.1 - - [07/Apr/2018 20:16:46] "GET /api/1.0/areas HTTP/1.1" 200 -
+127.0.0.1 - - [07/Apr/2018 20:17:11] "POST /api/1.0/houses HTTP/1.1" 500 -
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 291-179-440
+ * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+127.0.0.1 - - [07/Apr/2018 20:17:37] "GET /newhouse.html HTTP/1.1" 304 -
+127.0.0.1 - - [07/Apr/2018 20:17:37] "GET /api/1.0/areas HTTP/1.1" 200 -
+127.0.0.1 - - [07/Apr/2018 20:17:51] "POST /api/1.0/houses HTTP/1.1" 200 -
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 291-179-440
+ * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+127.0.0.1 - - [07/Apr/2018 20:18:48] "GET /newhouse.html HTTP/1.1" 304 -
+127.0.0.1 - - [07/Apr/2018 20:18:48] "GET /api/1.0/areas HTTP/1.1" 200 -
+127.0.0.1 - - [07/Apr/2018 20:20:03] "POST /api/1.0/houses HTTP/1.1" 200 -
+127.0.0.1 - - [07/Apr/2018 20:21:01] "GET /newhouse.html HTTP/1.1" 200 -
+127.0.0.1 - - [07/Apr/2018 20:21:01] "GET /static/plugins/bootstrap/css/bootstrap.min.css HTTP/1.1" 200 -
+127.0.0.1 - - [07/Apr/2018 20:21:01] "GET /static/plugins/font-awesome/css/font-awesome.min.css HTTP/1.1" 200 -
+127.0.0.1 - - [07/Apr/2018 20:21:01] "GET /static/css/reset.css HTTP/1.1" 200 -
+127.0.0.1 - - [07/Apr/2018 20:21:01] "GET /static/plugins/bootstrap-datepicker/css/bootstrap-datepicker.min.css HTTP/1.1" 200 -
+127.0.0.1 - - [07/Apr/2018 20:21:01] "GET /static/css/ihome/main.css HTTP/1.1" 200 -
+127.0.0.1 - - [07/Apr/2018 20:21:01] "GET /static/css/ihome/newhouse.css HTTP/1.1" 200 -
+127.0.0.1 - - [07/Apr/2018 20:21:01] "GET /static/js/jquery.min.js HTTP/1.1" 200 -
+127.0.0.1 - - [07/Apr/2018 20:21:02] "GET /static/js/jquery.form.min.js HTTP/1.1" 200 -
+127.0.0.1 - - [07/Apr/2018 20:21:02] "GET /static/js/template.js HTTP/1.1" 200 -
+127.0.0.1 - - [07/Apr/2018 20:21:02] "GET /static/plugins/bootstrap/js/bootstrap.min.js HTTP/1.1" 200 -
+127.0.0.1 - - [07/Apr/2018 20:21:02] "GET /static/plugins/bootstrap-datepicker/js/bootstrap-datepicker.min.js HTTP/1.1" 200 -
+127.0.0.1 - - [07/Apr/2018 20:21:02] "GET /static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.zh-CN.min.js HTTP/1.1" 200 -
+127.0.0.1 - - [07/Apr/2018 20:21:02] "GET /static/plugins/font-awesome/fonts/fontawesome-webfont.woff2?v=4.6.3 HTTP/1.1" 200 -
+127.0.0.1 - - [07/Apr/2018 20:21:02] "GET /static/js/ihome/newhouse.js?v=3 HTTP/1.1" 200 -
+127.0.0.1 - - [07/Apr/2018 20:21:02] "GET /static/plugins/bootstrap/css/bootstrap.min.css.map HTTP/1.1" 200 -
+127.0.0.1 - - [07/Apr/2018 20:21:02] "GET /api/1.0/areas HTTP/1.1" 200 -
+127.0.0.1 - - [07/Apr/2018 20:21:11] "POST /api/1.0/houses HTTP/1.1" 200 -
+ * Detected change in 'E:\\pythonOBJ\\iHome\\ihome\\api_1_0\\house.py', reloading
+ * Restarting with stat
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 291-179-440
+ * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+127.0.0.1 - - [07/Apr/2018 20:58:04] "GET /login.html HTTP/1.1" 200 -
+127.0.0.1 - - [07/Apr/2018 20:58:04] "GET /static/css/ihome/login.css HTTP/1.1" 200 -
+127.0.0.1 - - [07/Apr/2018 20:58:05] "GET /static/js/ihome/login.js HTTP/1.1" 200 -
+127.0.0.1 - - [07/Apr/2018 20:58:05] "GET /static/images/logo@128x59.png HTTP/1.1" 200 -
+127.0.0.1 - - [07/Apr/2018 20:59:00] "GET /newhouse.html HTTP/1.1" 200 -
+127.0.0.1 - - [07/Apr/2018 20:59:00] "GET /static/plugins/bootstrap/css/bootstrap.min.css HTTP/1.1" 200 -
+127.0.0.1 - - [07/Apr/2018 20:59:00] "GET /static/plugins/font-awesome/css/font-awesome.min.css HTTP/1.1" 200 -
+127.0.0.1 - - [07/Apr/2018 20:59:00] "GET /static/css/reset.css HTTP/1.1" 200 -
+127.0.0.1 - - [07/Apr/2018 20:59:00] "GET /static/plugins/bootstrap-datepicker/css/bootstrap-datepicker.min.css HTTP/1.1" 200 -
+127.0.0.1 - - [07/Apr/2018 20:59:00] "GET /static/css/ihome/main.css HTTP/1.1" 200 -
+127.0.0.1 - - [07/Apr/2018 20:59:00] "GET /static/css/ihome/newhouse.css HTTP/1.1" 200 -
+127.0.0.1 - - [07/Apr/2018 20:59:00] "GET /static/js/jquery.min.js HTTP/1.1" 200 -
+127.0.0.1 - - [07/Apr/2018 20:59:00] "GET /static/js/jquery.form.min.js HTTP/1.1" 200 -
+127.0.0.1 - - [07/Apr/2018 20:59:00] "GET /static/js/template.js HTTP/1.1" 200 -
+127.0.0.1 - - [07/Apr/2018 20:59:00] "GET /static/plugins/bootstrap/js/bootstrap.min.js HTTP/1.1" 200 -
+127.0.0.1 - - [07/Apr/2018 20:59:00] "GET /static/plugins/bootstrap-datepicker/js/bootstrap-datepicker.min.js HTTP/1.1" 200 -
+127.0.0.1 - - [07/Apr/2018 20:59:00] "GET /static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.zh-CN.min.js HTTP/1.1" 200 -
+127.0.0.1 - - [07/Apr/2018 20:59:00] "GET /static/plugins/font-awesome/fonts/fontawesome-webfont.woff2?v=4.6.3 HTTP/1.1" 200 -
+127.0.0.1 - - [07/Apr/2018 20:59:00] "GET /static/js/ihome/newhouse.js?v=3 HTTP/1.1" 200 -
+127.0.0.1 - - [07/Apr/2018 20:59:00] "GET /static/plugins/bootstrap/css/bootstrap.min.css.map HTTP/1.1" 200 -
+127.0.0.1 - - [07/Apr/2018 20:59:00] "GET /api/1.0/areas HTTP/1.1" 200 -
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 291-179-440
+ * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+127.0.0.1 - - [07/Apr/2018 21:01:19] "GET /newhouse.html HTTP/1.1" 200 -
+127.0.0.1 - - [07/Apr/2018 21:01:19] "GET /static/plugins/bootstrap/css/bootstrap.min.css HTTP/1.1" 200 -
+127.0.0.1 - - [07/Apr/2018 21:01:19] "GET /static/plugins/font-awesome/css/font-awesome.min.css HTTP/1.1" 200 -
+127.0.0.1 - - [07/Apr/2018 21:01:19] "GET /static/css/reset.css HTTP/1.1" 200 -
+127.0.0.1 - - [07/Apr/2018 21:01:19] "GET /static/plugins/bootstrap-datepicker/css/bootstrap-datepicker.min.css HTTP/1.1" 200 -
+127.0.0.1 - - [07/Apr/2018 21:01:19] "GET /static/css/ihome/main.css HTTP/1.1" 200 -
+127.0.0.1 - - [07/Apr/2018 21:01:19] "GET /static/css/ihome/newhouse.css HTTP/1.1" 200 -
+127.0.0.1 - - [07/Apr/2018 21:01:19] "GET /static/js/jquery.min.js HTTP/1.1" 200 -
+127.0.0.1 - - [07/Apr/2018 21:01:20] "GET /static/js/jquery.form.min.js HTTP/1.1" 200 -
+127.0.0.1 - - [07/Apr/2018 21:01:20] "GET /static/js/template.js HTTP/1.1" 200 -
+127.0.0.1 - - [07/Apr/2018 21:01:20] "GET /static/plugins/bootstrap/js/bootstrap.min.js HTTP/1.1" 200 -
+127.0.0.1 - - [07/Apr/2018 21:01:20] "GET /static/plugins/bootstrap-datepicker/js/bootstrap-datepicker.min.js HTTP/1.1" 200 -
+127.0.0.1 - - [07/Apr/2018 21:01:20] "GET /static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.zh-CN.min.js HTTP/1.1" 200 -
+127.0.0.1 - - [07/Apr/2018 21:01:20] "GET /static/plugins/font-awesome/fonts/fontawesome-webfont.woff2?v=4.6.3 HTTP/1.1" 200 -
+127.0.0.1 - - [07/Apr/2018 21:01:20] "GET /static/js/ihome/newhouse.js?v=3 HTTP/1.1" 200 -
+127.0.0.1 - - [07/Apr/2018 21:01:20] "GET /static/plugins/bootstrap/css/bootstrap.min.css.map HTTP/1.1" 200 -
+127.0.0.1 - - [07/Apr/2018 21:01:20] "GET /api/1.0/areas HTTP/1.1" 200 -
+127.0.0.1 - - [07/Apr/2018 21:01:31] "POST /api/1.0/houses HTTP/1.1" 200 -
+127.0.0.1 - - [07/Apr/2018 21:02:27] "GET /myhouse.html HTTP/1.1" 200 -
+127.0.0.1 - - [07/Apr/2018 21:02:27] "GET /static/css/ihome/myhouse.css HTTP/1.1" 200 -
+127.0.0.1 - - [07/Apr/2018 21:02:27] "GET /static/js/ihome/myhouse.js HTTP/1.1" 200 -
+127.0.0.1 - - [07/Apr/2018 21:02:37] "GET /my.html HTTP/1.1" 200 -
+127.0.0.1 - - [07/Apr/2018 21:02:37] "GET /static/css/ihome/my.css HTTP/1.1" 200 -
+127.0.0.1 - - [07/Apr/2018 21:02:37] "GET /static/js/ihome/my.js HTTP/1.1" 200 -
+127.0.0.1 - - [07/Apr/2018 21:02:37] "GET /api/1.0/users HTTP/1.1" 200 -
+127.0.0.1 - - [07/Apr/2018 21:02:45] "GET /auth.html HTTP/1.1" 200 -
+127.0.0.1 - - [07/Apr/2018 21:02:45] "GET /static/css/ihome/profile.css HTTP/1.1" 200 -
+127.0.0.1 - - [07/Apr/2018 21:02:45] "GET /static/js/ihome/auth.js HTTP/1.1" 200 -
+127.0.0.1 - - [07/Apr/2018 21:02:45] "GET /api/1.0/users/auth HTTP/1.1" 200 -
+127.0.0.1 - - [07/Apr/2018 21:02:47] "GET /api/1.0/users HTTP/1.1" 200 -
+127.0.0.1 - - [07/Apr/2018 21:03:00] "GET /api/1.0/users HTTP/1.1" 200 -
+127.0.0.1 - - [07/Apr/2018 21:03:10] "GET /api/1.0/areas HTTP/1.1" 200 -
+127.0.0.1 - - [07/Apr/2018 21:03:18] "GET /api/1.0/users HTTP/1.1" 200 -
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 291-179-440
+ * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+127.0.0.1 - - [07/Apr/2018 21:13:33] "GET /api/1.0/areas HTTP/1.1" 200 -
+127.0.0.1 - - [07/Apr/2018 21:13:41] "GET /newhouse.html HTTP/1.1" 200 -
+127.0.0.1 - - [07/Apr/2018 21:13:41] "GET /static/plugins/bootstrap/css/bootstrap.min.css HTTP/1.1" 200 -
+127.0.0.1 - - [07/Apr/2018 21:13:41] "GET /static/plugins/font-awesome/css/font-awesome.min.css HTTP/1.1" 200 -
+127.0.0.1 - - [07/Apr/2018 21:13:41] "GET /static/css/reset.css HTTP/1.1" 200 -
+127.0.0.1 - - [07/Apr/2018 21:13:41] "GET /static/plugins/bootstrap-datepicker/css/bootstrap-datepicker.min.css HTTP/1.1" 200 -
+127.0.0.1 - - [07/Apr/2018 21:13:41] "GET /static/css/ihome/main.css HTTP/1.1" 200 -
+127.0.0.1 - - [07/Apr/2018 21:13:41] "GET /static/css/ihome/newhouse.css HTTP/1.1" 200 -
+127.0.0.1 - - [07/Apr/2018 21:13:41] "GET /static/js/jquery.min.js HTTP/1.1" 200 -
+127.0.0.1 - - [07/Apr/2018 21:13:41] "GET /static/js/jquery.form.min.js HTTP/1.1" 200 -
+127.0.0.1 - - [07/Apr/2018 21:13:41] "GET /static/js/template.js HTTP/1.1" 200 -
+127.0.0.1 - - [07/Apr/2018 21:13:41] "GET /static/plugins/bootstrap/js/bootstrap.min.js HTTP/1.1" 200 -
+127.0.0.1 - - [07/Apr/2018 21:13:41] "GET /static/plugins/bootstrap-datepicker/js/bootstrap-datepicker.min.js HTTP/1.1" 200 -
+127.0.0.1 - - [07/Apr/2018 21:13:42] "GET /static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.zh-CN.min.js HTTP/1.1" 200 -
+127.0.0.1 - - [07/Apr/2018 21:13:42] "GET /static/js/ihome/newhouse.js?v=3 HTTP/1.1" 200 -
+127.0.0.1 - - [07/Apr/2018 21:13:42] "GET /static/plugins/font-awesome/fonts/fontawesome-webfont.woff2?v=4.6.3 HTTP/1.1" 200 -
+127.0.0.1 - - [07/Apr/2018 21:13:42] "GET /static/plugins/bootstrap/css/bootstrap.min.css.map HTTP/1.1" 200 -
+127.0.0.1 - - [07/Apr/2018 21:13:42] "GET /api/1.0/users/auth HTTP/1.1" 200 -
+127.0.0.1 - - [07/Apr/2018 21:13:42] "GET /api/1.0/areas HTTP/1.1" 200 -
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 291-179-440
+ * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+127.0.0.1 - - [07/Apr/2018 21:14:38] "GET /newhouse.html HTTP/1.1" 200 -
+127.0.0.1 - - [07/Apr/2018 21:14:38] "GET /static/plugins/bootstrap/css/bootstrap.min.css HTTP/1.1" 200 -
+127.0.0.1 - - [07/Apr/2018 21:14:38] "GET /static/plugins/font-awesome/css/font-awesome.min.css HTTP/1.1" 200 -
+127.0.0.1 - - [07/Apr/2018 21:14:38] "GET /static/css/reset.css HTTP/1.1" 200 -
+127.0.0.1 - - [07/Apr/2018 21:14:38] "GET /static/plugins/bootstrap-datepicker/css/bootstrap-datepicker.min.css HTTP/1.1" 200 -
+127.0.0.1 - - [07/Apr/2018 21:14:38] "GET /static/css/ihome/main.css HTTP/1.1" 200 -
+127.0.0.1 - - [07/Apr/2018 21:14:38] "GET /static/css/ihome/newhouse.css HTTP/1.1" 200 -
+127.0.0.1 - - [07/Apr/2018 21:14:38] "GET /static/js/jquery.min.js HTTP/1.1" 200 -
+127.0.0.1 - - [07/Apr/2018 21:14:38] "GET /static/js/jquery.form.min.js HTTP/1.1" 200 -
+127.0.0.1 - - [07/Apr/2018 21:14:38] "GET /static/js/template.js HTTP/1.1" 200 -
+127.0.0.1 - - [07/Apr/2018 21:14:38] "GET /static/plugins/bootstrap/js/bootstrap.min.js HTTP/1.1" 200 -
+127.0.0.1 - - [07/Apr/2018 21:14:38] "GET /static/plugins/bootstrap-datepicker/js/bootstrap-datepicker.min.js HTTP/1.1" 200 -
+127.0.0.1 - - [07/Apr/2018 21:14:38] "GET /static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.zh-CN.min.js HTTP/1.1" 200 -
+127.0.0.1 - - [07/Apr/2018 21:14:38] "GET /static/plugins/font-awesome/fonts/fontawesome-webfont.woff2?v=4.6.3 HTTP/1.1" 200 -
+127.0.0.1 - - [07/Apr/2018 21:14:38] "GET /static/js/ihome/newhouse.js?v=3 HTTP/1.1" 200 -
+127.0.0.1 - - [07/Apr/2018 21:14:38] "GET /static/plugins/bootstrap/css/bootstrap.min.css.map HTTP/1.1" 200 -
+127.0.0.1 - - [07/Apr/2018 21:14:39] "GET /api/1.0/users/auth HTTP/1.1" 200 -
+127.0.0.1 - - [07/Apr/2018 21:14:39] "GET /api/1.0/areas HTTP/1.1" 200 -
+127.0.0.1 - - [07/Apr/2018 21:14:52] "GET /myhouse.html HTTP/1.1" 200 -
+127.0.0.1 - - [07/Apr/2018 21:14:52] "GET /static/css/ihome/myhouse.css HTTP/1.1" 200 -
+127.0.0.1 - - [07/Apr/2018 21:14:52] "GET /static/js/ihome/myhouse.js HTTP/1.1" 200 -
+127.0.0.1 - - [07/Apr/2018 21:14:53] "GET /my.html HTTP/1.1" 200 -
+127.0.0.1 - - [07/Apr/2018 21:14:53] "GET /static/css/ihome/my.css HTTP/1.1" 200 -
+127.0.0.1 - - [07/Apr/2018 21:14:53] "GET /static/js/ihome/my.js HTTP/1.1" 200 -
+127.0.0.1 - - [07/Apr/2018 21:14:53] "GET /api/1.0/users HTTP/1.1" 200 -
+127.0.0.1 - - [07/Apr/2018 21:14:55] "GET /auth.html HTTP/1.1" 200 -
+127.0.0.1 - - [07/Apr/2018 21:14:55] "GET /static/css/ihome/profile.css HTTP/1.1" 200 -
+127.0.0.1 - - [07/Apr/2018 21:14:55] "GET /static/js/ihome/auth.js HTTP/1.1" 200 -
+127.0.0.1 - - [07/Apr/2018 21:14:55] "GET /api/1.0/users/auth HTTP/1.1" 200 -
+127.0.0.1 - - [07/Apr/2018 21:14:58] "GET /api/1.0/users HTTP/1.1" 200 -
+127.0.0.1 - - [07/Apr/2018 21:15:04] "GET /api/1.0/users/auth HTTP/1.1" 200 -
+127.0.0.1 - - [07/Apr/2018 21:15:05] "GET /api/1.0/users HTTP/1.1" 200 -
+127.0.0.1 - - [07/Apr/2018 21:15:16] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [07/Apr/2018 21:15:16] "GET /static/plugins/swiper/css/swiper.min.css HTTP/1.1" 200 -
+127.0.0.1 - - [07/Apr/2018 21:15:16] "GET /static/css/ihome/index.css HTTP/1.1" 200 -
+127.0.0.1 - - [07/Apr/2018 21:15:16] "GET /static/plugins/swiper/js/swiper.jquery.min.js HTTP/1.1" 200 -
+127.0.0.1 - - [07/Apr/2018 21:15:16] "GET /static/js/ihome/index.js HTTP/1.1" 200 -
+127.0.0.1 - - [07/Apr/2018 21:15:16] "GET /static/images/logo@128x59.png HTTP/1.1" 200 -
+127.0.0.1 - - [07/Apr/2018 21:15:16] "GET /api/1.0/sessions HTTP/1.1" 200 -
+127.0.0.1 - - [07/Apr/2018 21:15:16] "GET /api/1.0/areas HTTP/1.1" 200 -
+127.0.0.1 - - [07/Apr/2018 21:15:16] "GET /static/plugins/swiper/js/maps/swiper.jquery.min.js.map HTTP/1.1" 404 -
+127.0.0.1 - - [07/Apr/2018 21:15:18] "GET /api/1.0/users HTTP/1.1" 200 -
+127.0.0.1 - - [07/Apr/2018 21:15:20] "DELETE /api/1.0/sessions HTTP/1.1" 200 -
+127.0.0.1 - - [07/Apr/2018 21:15:21] "GET /api/1.0/sessions HTTP/1.1" 200 -
+127.0.0.1 - - [07/Apr/2018 21:15:21] "GET /api/1.0/areas HTTP/1.1" 200 -
+127.0.0.1 - - [07/Apr/2018 21:15:22] "GET /static/plugins/swiper/js/maps/swiper.jquery.min.js.map HTTP/1.1" 404 -
+127.0.0.1 - - [07/Apr/2018 21:15:23] "GET /register.html HTTP/1.1" 200 -
+127.0.0.1 - - [07/Apr/2018 21:15:23] "GET /static/css/ihome/register.css HTTP/1.1" 200 -
+127.0.0.1 - - [07/Apr/2018 21:15:23] "GET /static/js/ihome/register.js?v=4 HTTP/1.1" 200 -
+127.0.0.1 - - [07/Apr/2018 21:15:23] "GET /api/1.0/imageCode?uuid=1be30f36-0fbe-4669-ba16-789aac305cbf&last_uuid= HTTP/1.1" 200 -
+127.0.0.1 - - [07/Apr/2018 21:15:33] "POST /api/1.0/smsCode HTTP/1.1" 200 -
+127.0.0.1 - - [07/Apr/2018 21:15:42] "POST /api/1.0/users HTTP/1.1" 200 -
+127.0.0.1 - - [07/Apr/2018 21:15:43] "GET /api/1.0/sessions HTTP/1.1" 200 -
+127.0.0.1 - - [07/Apr/2018 21:15:43] "GET /api/1.0/areas HTTP/1.1" 200 -
+127.0.0.1 - - [07/Apr/2018 21:15:44] "GET /static/plugins/swiper/js/maps/swiper.jquery.min.js.map HTTP/1.1" 404 -
+127.0.0.1 - - [07/Apr/2018 21:15:46] "GET /api/1.0/users HTTP/1.1" 200 -
+127.0.0.1 - - [07/Apr/2018 21:15:53] "GET /api/1.0/users/auth HTTP/1.1" 200 -
+127.0.0.1 - - [07/Apr/2018 21:15:53] "GET /api/1.0/areas HTTP/1.1" 200 -
+127.0.0.1 - - [07/Apr/2018 21:15:54] "GET /api/1.0/users/auth HTTP/1.1" 200 -
+127.0.0.1 - - [07/Apr/2018 21:15:59] "GET /api/1.0/users HTTP/1.1" 200 -
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 291-179-440
+ * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+127.0.0.1 - - [07/Apr/2018 21:16:21] "GET /api/1.0/users/auth HTTP/1.1" 200 -
+127.0.0.1 - - [07/Apr/2018 21:16:21] "GET /api/1.0/areas HTTP/1.1" 200 -
+127.0.0.1 - - [07/Apr/2018 21:16:32] "GET /auth.html HTTP/1.1" 200 -
+127.0.0.1 - - [07/Apr/2018 21:16:32] "GET /static/plugins/bootstrap/css/bootstrap.min.css HTTP/1.1" 200 -
+127.0.0.1 - - [07/Apr/2018 21:16:32] "GET /static/plugins/font-awesome/css/font-awesome.min.css HTTP/1.1" 200 -
+127.0.0.1 - - [07/Apr/2018 21:16:32] "GET /static/css/reset.css HTTP/1.1" 200 -
+127.0.0.1 - - [07/Apr/2018 21:16:32] "GET /static/plugins/bootstrap-datepicker/css/bootstrap-datepicker.min.css HTTP/1.1" 200 -
+127.0.0.1 - - [07/Apr/2018 21:16:32] "GET /static/css/ihome/main.css HTTP/1.1" 200 -
+127.0.0.1 - - [07/Apr/2018 21:16:32] "GET /static/css/ihome/profile.css HTTP/1.1" 200 -
+127.0.0.1 - - [07/Apr/2018 21:16:32] "GET /static/js/jquery.min.js HTTP/1.1" 200 -
+127.0.0.1 - - [07/Apr/2018 21:16:32] "GET /static/js/jquery.form.min.js HTTP/1.1" 200 -
+127.0.0.1 - - [07/Apr/2018 21:16:32] "GET /static/plugins/bootstrap/js/bootstrap.min.js HTTP/1.1" 200 -
+127.0.0.1 - - [07/Apr/2018 21:16:32] "GET /static/plugins/bootstrap-datepicker/js/bootstrap-datepicker.min.js HTTP/1.1" 200 -
+127.0.0.1 - - [07/Apr/2018 21:16:32] "GET /static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.zh-CN.min.js HTTP/1.1" 200 -
+127.0.0.1 - - [07/Apr/2018 21:16:32] "GET /static/js/ihome/auth.js HTTP/1.1" 200 -
+127.0.0.1 - - [07/Apr/2018 21:16:32] "GET /static/plugins/font-awesome/fonts/fontawesome-webfont.woff2?v=4.6.3 HTTP/1.1" 200 -
+127.0.0.1 - - [07/Apr/2018 21:16:32] "GET /static/plugins/bootstrap/css/bootstrap.min.css.map HTTP/1.1" 200 -
+127.0.0.1 - - [07/Apr/2018 21:16:32] "GET /api/1.0/users/auth HTTP/1.1" 200 -
+127.0.0.1 - - [07/Apr/2018 21:16:35] "GET /newhouse.html HTTP/1.1" 200 -
+127.0.0.1 - - [07/Apr/2018 21:16:36] "GET /static/css/ihome/newhouse.css HTTP/1.1" 200 -
+127.0.0.1 - - [07/Apr/2018 21:16:36] "GET /static/js/template.js HTTP/1.1" 200 -
+127.0.0.1 - - [07/Apr/2018 21:16:36] "GET /static/js/ihome/newhouse.js?v=3 HTTP/1.1" 200 -
+127.0.0.1 - - [07/Apr/2018 21:16:36] "GET /api/1.0/areas HTTP/1.1" 200 -
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 291-179-440
+ * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+127.0.0.1 - - [07/Apr/2018 21:17:14] "GET /newhouse.html HTTP/1.1" 200 -
+127.0.0.1 - - [07/Apr/2018 21:17:14] "GET /static/plugins/bootstrap/css/bootstrap.min.css HTTP/1.1" 200 -
+127.0.0.1 - - [07/Apr/2018 21:17:14] "GET /static/plugins/font-awesome/css/font-awesome.min.css HTTP/1.1" 200 -
+127.0.0.1 - - [07/Apr/2018 21:17:14] "GET /static/css/reset.css HTTP/1.1" 200 -
+127.0.0.1 - - [07/Apr/2018 21:17:14] "GET /static/plugins/bootstrap-datepicker/css/bootstrap-datepicker.min.css HTTP/1.1" 200 -
+127.0.0.1 - - [07/Apr/2018 21:17:14] "GET /static/css/ihome/main.css HTTP/1.1" 200 -
+127.0.0.1 - - [07/Apr/2018 21:17:14] "GET /static/css/ihome/newhouse.css HTTP/1.1" 200 -
+127.0.0.1 - - [07/Apr/2018 21:17:14] "GET /static/js/jquery.min.js HTTP/1.1" 200 -
+127.0.0.1 - - [07/Apr/2018 21:17:14] "GET /static/js/jquery.form.min.js HTTP/1.1" 200 -
+127.0.0.1 - - [07/Apr/2018 21:17:14] "GET /static/js/template.js HTTP/1.1" 200 -
+127.0.0.1 - - [07/Apr/2018 21:17:14] "GET /static/plugins/bootstrap/js/bootstrap.min.js HTTP/1.1" 200 -
+127.0.0.1 - - [07/Apr/2018 21:17:14] "GET /static/plugins/bootstrap-datepicker/js/bootstrap-datepicker.min.js HTTP/1.1" 200 -
+127.0.0.1 - - [07/Apr/2018 21:17:14] "GET /static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.zh-CN.min.js HTTP/1.1" 200 -
+127.0.0.1 - - [07/Apr/2018 21:17:14] "GET /static/plugins/font-awesome/fonts/fontawesome-webfont.woff2?v=4.6.3 HTTP/1.1" 200 -
+127.0.0.1 - - [07/Apr/2018 21:17:14] "GET /static/js/ihome/newhouse.js?v=3 HTTP/1.1" 200 -
+127.0.0.1 - - [07/Apr/2018 21:17:14] "GET /static/plugins/bootstrap/css/bootstrap.min.css.map HTTP/1.1" 200 -
+127.0.0.1 - - [07/Apr/2018 21:17:15] "GET /api/1.0/users/auth HTTP/1.1" 200 -
+127.0.0.1 - - [07/Apr/2018 21:17:15] "GET /api/1.0/areas HTTP/1.1" 200 -
+127.0.0.1 - - [07/Apr/2018 21:17:15] "GET /auth.html HTTP/1.1" 200 -
+127.0.0.1 - - [07/Apr/2018 21:17:15] "GET /static/css/ihome/profile.css HTTP/1.1" 200 -
+127.0.0.1 - - [07/Apr/2018 21:17:15] "GET /static/js/ihome/auth.js HTTP/1.1" 200 -
+127.0.0.1 - - [07/Apr/2018 21:17:15] "GET /api/1.0/users/auth HTTP/1.1" 200 -
+127.0.0.1 - - [07/Apr/2018 21:17:26] "POST /api/1.0/users/auth HTTP/1.1" 200 -
+127.0.0.1 - - [07/Apr/2018 21:17:29] "GET /my.html HTTP/1.1" 200 -
+127.0.0.1 - - [07/Apr/2018 21:17:29] "GET /static/css/ihome/my.css HTTP/1.1" 200 -
+127.0.0.1 - - [07/Apr/2018 21:17:29] "GET /static/js/ihome/my.js HTTP/1.1" 200 -
+127.0.0.1 - - [07/Apr/2018 21:17:29] "GET /api/1.0/users HTTP/1.1" 200 -
+127.0.0.1 - - [07/Apr/2018 21:17:31] "GET /myhouse.html HTTP/1.1" 200 -
+127.0.0.1 - - [07/Apr/2018 21:17:31] "GET /static/css/ihome/myhouse.css HTTP/1.1" 200 -
+127.0.0.1 - - [07/Apr/2018 21:17:31] "GET /static/js/ihome/myhouse.js HTTP/1.1" 200 -
+127.0.0.1 - - [07/Apr/2018 21:17:36] "GET /api/1.0/users HTTP/1.1" 200 -
+127.0.0.1 - - [07/Apr/2018 21:17:43] "GET /api/1.0/users/auth HTTP/1.1" 200 -
+127.0.0.1 - - [07/Apr/2018 21:17:43] "GET /api/1.0/areas HTTP/1.1" 200 -
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 291-179-440
+ * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+127.0.0.1 - - [07/Apr/2018 21:23:28] "GET /newhouse.html HTTP/1.1" 304 -
+127.0.0.1 - - [07/Apr/2018 21:23:29] "GET /api/1.0/users/auth HTTP/1.1" 200 -
+127.0.0.1 - - [07/Apr/2018 21:23:29] "GET /api/1.0/areas HTTP/1.1" 200 -
+127.0.0.1 - - [07/Apr/2018 21:23:32] "GET /api/1.0/users HTTP/1.1" 200 -
+127.0.0.1 - - [07/Apr/2018 21:23:40] "GET /api/1.0/users/auth HTTP/1.1" 200 -
+127.0.0.1 - - [07/Apr/2018 21:23:40] "GET /api/1.0/areas HTTP/1.1" 200 -
+127.0.0.1 - - [07/Apr/2018 21:23:51] "GET /newhouse.html HTTP/1.1" 200 -
+127.0.0.1 - - [07/Apr/2018 21:23:51] "GET /static/plugins/bootstrap/css/bootstrap.min.css HTTP/1.1" 200 -
+127.0.0.1 - - [07/Apr/2018 21:23:51] "GET /static/plugins/font-awesome/css/font-awesome.min.css HTTP/1.1" 200 -
+127.0.0.1 - - [07/Apr/2018 21:23:51] "GET /static/css/reset.css HTTP/1.1" 200 -
+127.0.0.1 - - [07/Apr/2018 21:23:51] "GET /static/plugins/bootstrap-datepicker/css/bootstrap-datepicker.min.css HTTP/1.1" 200 -
+127.0.0.1 - - [07/Apr/2018 21:23:51] "GET /static/css/ihome/main.css HTTP/1.1" 200 -
+127.0.0.1 - - [07/Apr/2018 21:23:51] "GET /static/css/ihome/newhouse.css HTTP/1.1" 200 -
+127.0.0.1 - - [07/Apr/2018 21:23:51] "GET /static/js/jquery.min.js HTTP/1.1" 200 -
+127.0.0.1 - - [07/Apr/2018 21:23:51] "GET /static/js/jquery.form.min.js HTTP/1.1" 200 -
+127.0.0.1 - - [07/Apr/2018 21:23:51] "GET /static/js/template.js HTTP/1.1" 200 -
+127.0.0.1 - - [07/Apr/2018 21:23:51] "GET /static/plugins/bootstrap/js/bootstrap.min.js HTTP/1.1" 200 -
+127.0.0.1 - - [07/Apr/2018 21:23:51] "GET /static/plugins/bootstrap-datepicker/js/bootstrap-datepicker.min.js HTTP/1.1" 200 -
+127.0.0.1 - - [07/Apr/2018 21:23:51] "GET /static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.zh-CN.min.js HTTP/1.1" 200 -
+127.0.0.1 - - [07/Apr/2018 21:23:51] "GET /static/plugins/font-awesome/fonts/fontawesome-webfont.woff2?v=4.6.3 HTTP/1.1" 200 -
+127.0.0.1 - - [07/Apr/2018 21:23:51] "GET /static/js/ihome/newhouse.js?v=3 HTTP/1.1" 200 -
+127.0.0.1 - - [07/Apr/2018 21:23:51] "GET /static/plugins/bootstrap/css/bootstrap.min.css.map HTTP/1.1" 200 -
+127.0.0.1 - - [07/Apr/2018 21:23:52] "GET /api/1.0/users/auth HTTP/1.1" 200 -
+127.0.0.1 - - [07/Apr/2018 21:23:52] "GET /api/1.0/areas HTTP/1.1" 200 -
+127.0.0.1 - - [07/Apr/2018 21:24:14] "GET /myhouse.html HTTP/1.1" 200 -
+127.0.0.1 - - [07/Apr/2018 21:24:14] "GET /static/css/ihome/myhouse.css HTTP/1.1" 200 -
+127.0.0.1 - - [07/Apr/2018 21:24:14] "GET /static/js/ihome/myhouse.js HTTP/1.1" 200 -
+127.0.0.1 - - [07/Apr/2018 21:24:14] "GET /api/1.0/users/auth HTTP/1.1" 200 -
+127.0.0.1 - - [07/Apr/2018 21:24:15] "GET /my.html HTTP/1.1" 200 -
+127.0.0.1 - - [07/Apr/2018 21:24:15] "GET /static/css/ihome/my.css HTTP/1.1" 200 -
+127.0.0.1 - - [07/Apr/2018 21:24:15] "GET /static/js/ihome/my.js HTTP/1.1" 200 -
+127.0.0.1 - - [07/Apr/2018 21:24:15] "GET /api/1.0/users HTTP/1.1" 200 -
+127.0.0.1 - - [07/Apr/2018 21:24:17] "GET /auth.html HTTP/1.1" 200 -
+127.0.0.1 - - [07/Apr/2018 21:24:17] "GET /static/css/ihome/profile.css HTTP/1.1" 200 -
+127.0.0.1 - - [07/Apr/2018 21:24:17] "GET /static/js/ihome/auth.js HTTP/1.1" 200 -
+127.0.0.1 - - [07/Apr/2018 21:24:17] "GET /api/1.0/users/auth HTTP/1.1" 200 -
+127.0.0.1 - - [07/Apr/2018 21:24:21] "GET /api/1.0/users HTTP/1.1" 200 -
+127.0.0.1 - - [07/Apr/2018 21:24:25] "GET /api/1.0/users/auth HTTP/1.1" 200 -
+127.0.0.1 - - [07/Apr/2018 21:24:28] "GET /api/1.0/users HTTP/1.1" 200 -
+127.0.0.1 - - [07/Apr/2018 21:24:31] "GET /api/1.0/users/auth HTTP/1.1" 200 -
+127.0.0.1 - - [07/Apr/2018 21:24:33] "GET /api/1.0/users HTTP/1.1" 200 -
+127.0.0.1 - - [07/Apr/2018 21:24:39] "GET /orders.html HTTP/1.1" 200 -
+127.0.0.1 - - [07/Apr/2018 21:24:39] "GET /static/css/ihome/orders.css HTTP/1.1" 200 -
+127.0.0.1 - - [07/Apr/2018 21:24:39] "GET /static/js/ihome/orders.js HTTP/1.1" 200 -
+127.0.0.1 - - [07/Apr/2018 21:24:40] "GET /api/1.0/users HTTP/1.1" 200 -
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 291-179-440
+ * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+127.0.0.1 - - [07/Apr/2018 21:26:44] "GET /api/1.0/users/auth HTTP/1.1" 200 -
+127.0.0.1 - - [07/Apr/2018 21:26:52] "GET /myhouse.html HTTP/1.1" 200 -
+127.0.0.1 - - [07/Apr/2018 21:26:52] "GET /static/plugins/bootstrap/css/bootstrap.min.css HTTP/1.1" 200 -
+127.0.0.1 - - [07/Apr/2018 21:26:52] "GET /static/plugins/font-awesome/css/font-awesome.min.css HTTP/1.1" 200 -
+127.0.0.1 - - [07/Apr/2018 21:26:52] "GET /static/css/reset.css HTTP/1.1" 200 -
+127.0.0.1 - - [07/Apr/2018 21:26:52] "GET /static/plugins/bootstrap-datepicker/css/bootstrap-datepicker.min.css HTTP/1.1" 200 -
+127.0.0.1 - - [07/Apr/2018 21:26:52] "GET /static/css/ihome/main.css HTTP/1.1" 200 -
+127.0.0.1 - - [07/Apr/2018 21:26:52] "GET /static/css/ihome/myhouse.css HTTP/1.1" 200 -
+127.0.0.1 - - [07/Apr/2018 21:26:52] "GET /static/js/jquery.min.js HTTP/1.1" 200 -
+127.0.0.1 - - [07/Apr/2018 21:26:52] "GET /static/plugins/bootstrap/js/bootstrap.min.js HTTP/1.1" 200 -
+127.0.0.1 - - [07/Apr/2018 21:26:52] "GET /static/plugins/bootstrap-datepicker/js/bootstrap-datepicker.min.js HTTP/1.1" 200 -
+127.0.0.1 - - [07/Apr/2018 21:26:52] "GET /static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.zh-CN.min.js HTTP/1.1" 200 -
+127.0.0.1 - - [07/Apr/2018 21:26:52] "GET /static/js/template.js HTTP/1.1" 200 -
+127.0.0.1 - - [07/Apr/2018 21:26:52] "GET /static/js/ihome/myhouse.js HTTP/1.1" 200 -
+127.0.0.1 - - [07/Apr/2018 21:26:52] "GET /static/plugins/font-awesome/fonts/fontawesome-webfont.woff2?v=4.6.3 HTTP/1.1" 200 -
+127.0.0.1 - - [07/Apr/2018 21:26:52] "GET /static/plugins/bootstrap/css/bootstrap.min.css.map HTTP/1.1" 200 -
+127.0.0.1 - - [07/Apr/2018 21:26:52] "GET /api/1.0/users/auth HTTP/1.1" 200 -
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 291-179-440
+ * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+127.0.0.1 - - [07/Apr/2018 21:27:44] "GET /myhouse.html HTTP/1.1" 200 -
+127.0.0.1 - - [07/Apr/2018 21:27:44] "GET /static/plugins/bootstrap/css/bootstrap.min.css HTTP/1.1" 200 -
+127.0.0.1 - - [07/Apr/2018 21:27:44] "GET /static/plugins/font-awesome/css/font-awesome.min.css HTTP/1.1" 200 -
+127.0.0.1 - - [07/Apr/2018 21:27:44] "GET /static/css/reset.css HTTP/1.1" 200 -
+127.0.0.1 - - [07/Apr/2018 21:27:44] "GET /static/plugins/bootstrap-datepicker/css/bootstrap-datepicker.min.css HTTP/1.1" 200 -
+127.0.0.1 - - [07/Apr/2018 21:27:44] "GET /static/css/ihome/main.css HTTP/1.1" 200 -
+127.0.0.1 - - [07/Apr/2018 21:27:44] "GET /static/css/ihome/myhouse.css HTTP/1.1" 200 -
+127.0.0.1 - - [07/Apr/2018 21:27:44] "GET /static/js/jquery.min.js HTTP/1.1" 200 -
+127.0.0.1 - - [07/Apr/2018 21:27:45] "GET /static/plugins/bootstrap/js/bootstrap.min.js HTTP/1.1" 200 -
+127.0.0.1 - - [07/Apr/2018 21:27:45] "GET /static/plugins/bootstrap-datepicker/js/bootstrap-datepicker.min.js HTTP/1.1" 200 -
+127.0.0.1 - - [07/Apr/2018 21:27:45] "GET /static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.zh-CN.min.js HTTP/1.1" 200 -
+127.0.0.1 - - [07/Apr/2018 21:27:45] "GET /static/js/template.js HTTP/1.1" 200 -
+127.0.0.1 - - [07/Apr/2018 21:27:45] "GET /static/js/ihome/myhouse.js HTTP/1.1" 200 -
+127.0.0.1 - - [07/Apr/2018 21:27:45] "GET /static/plugins/font-awesome/fonts/fontawesome-webfont.woff2?v=4.6.3 HTTP/1.1" 200 -
+127.0.0.1 - - [07/Apr/2018 21:27:45] "GET /static/plugins/bootstrap/css/bootstrap.min.css.map HTTP/1.1" 200 -
+127.0.0.1 - - [07/Apr/2018 21:27:45] "GET /api/1.0/users/auth HTTP/1.1" 200 -
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 291-179-440
+ * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+127.0.0.1 - - [07/Apr/2018 21:31:58] "GET /myhouse.html HTTP/1.1" 200 -
+127.0.0.1 - - [07/Apr/2018 21:31:58] "GET /static/plugins/bootstrap/css/bootstrap.min.css HTTP/1.1" 200 -
+127.0.0.1 - - [07/Apr/2018 21:31:58] "GET /static/plugins/font-awesome/css/font-awesome.min.css HTTP/1.1" 200 -
+127.0.0.1 - - [07/Apr/2018 21:31:58] "GET /static/css/reset.css HTTP/1.1" 200 -
+127.0.0.1 - - [07/Apr/2018 21:31:58] "GET /static/plugins/bootstrap-datepicker/css/bootstrap-datepicker.min.css HTTP/1.1" 200 -
+127.0.0.1 - - [07/Apr/2018 21:31:58] "GET /static/css/ihome/main.css HTTP/1.1" 200 -
+127.0.0.1 - - [07/Apr/2018 21:31:58] "GET /static/css/ihome/myhouse.css HTTP/1.1" 200 -
+127.0.0.1 - - [07/Apr/2018 21:31:58] "GET /static/js/jquery.min.js HTTP/1.1" 200 -
+127.0.0.1 - - [07/Apr/2018 21:31:58] "GET /static/plugins/bootstrap/js/bootstrap.min.js HTTP/1.1" 200 -
+127.0.0.1 - - [07/Apr/2018 21:31:58] "GET /static/plugins/bootstrap-datepicker/js/bootstrap-datepicker.min.js HTTP/1.1" 200 -
+127.0.0.1 - - [07/Apr/2018 21:31:58] "GET /static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.zh-CN.min.js HTTP/1.1" 200 -
+127.0.0.1 - - [07/Apr/2018 21:31:58] "GET /static/js/template.js HTTP/1.1" 200 -
+127.0.0.1 - - [07/Apr/2018 21:31:58] "GET /static/js/ihome/myhouse.js HTTP/1.1" 200 -
+127.0.0.1 - - [07/Apr/2018 21:31:58] "GET /static/plugins/font-awesome/fonts/fontawesome-webfont.woff2?v=4.6.3 HTTP/1.1" 200 -
+127.0.0.1 - - [07/Apr/2018 21:31:58] "GET /static/plugins/bootstrap/css/bootstrap.min.css.map HTTP/1.1" 200 -
+127.0.0.1 - - [07/Apr/2018 21:31:59] "GET /api/1.0/users/auth HTTP/1.1" 200 -
+127.0.0.1 - - [07/Apr/2018 21:32:02] "GET /my.html HTTP/1.1" 200 -
+127.0.0.1 - - [07/Apr/2018 21:32:02] "GET /static/css/ihome/my.css HTTP/1.1" 200 -
+127.0.0.1 - - [07/Apr/2018 21:32:02] "GET /static/js/ihome/my.js HTTP/1.1" 200 -
+127.0.0.1 - - [07/Apr/2018 21:32:02] "GET /api/1.0/users HTTP/1.1" 200 -
+127.0.0.1 - - [07/Apr/2018 21:32:03] "GET /api/1.0/users/auth HTTP/1.1" 200 -
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 291-179-440
+ * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+127.0.0.1 - - [07/Apr/2018 21:34:30] "GET /myhouse.html HTTP/1.1" 200 -
+127.0.0.1 - - [07/Apr/2018 21:34:30] "GET /static/plugins/bootstrap/css/bootstrap.min.css HTTP/1.1" 200 -
+127.0.0.1 - - [07/Apr/2018 21:34:30] "GET /static/plugins/font-awesome/css/font-awesome.min.css HTTP/1.1" 200 -
+127.0.0.1 - - [07/Apr/2018 21:34:30] "GET /static/css/reset.css HTTP/1.1" 200 -
+127.0.0.1 - - [07/Apr/2018 21:34:30] "GET /static/plugins/bootstrap-datepicker/css/bootstrap-datepicker.min.css HTTP/1.1" 200 -
+127.0.0.1 - - [07/Apr/2018 21:34:30] "GET /static/css/ihome/main.css HTTP/1.1" 200 -
+127.0.0.1 - - [07/Apr/2018 21:34:30] "GET /static/css/ihome/myhouse.css HTTP/1.1" 200 -
+127.0.0.1 - - [07/Apr/2018 21:34:30] "GET /static/js/jquery.min.js HTTP/1.1" 200 -
+127.0.0.1 - - [07/Apr/2018 21:34:30] "GET /static/plugins/bootstrap/js/bootstrap.min.js HTTP/1.1" 200 -
+127.0.0.1 - - [07/Apr/2018 21:34:30] "GET /static/plugins/bootstrap-datepicker/js/bootstrap-datepicker.min.js HTTP/1.1" 200 -
+127.0.0.1 - - [07/Apr/2018 21:34:31] "GET /static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.zh-CN.min.js HTTP/1.1" 200 -
+127.0.0.1 - - [07/Apr/2018 21:34:31] "GET /static/js/template.js HTTP/1.1" 200 -
+127.0.0.1 - - [07/Apr/2018 21:34:31] "GET /static/js/ihome/myhouse.js HTTP/1.1" 200 -
+127.0.0.1 - - [07/Apr/2018 21:34:31] "GET /static/plugins/font-awesome/fonts/fontawesome-webfont.woff2?v=4.6.3 HTTP/1.1" 200 -
+127.0.0.1 - - [07/Apr/2018 21:34:31] "GET /static/plugins/bootstrap/css/bootstrap.min.css.map HTTP/1.1" 200 -
+127.0.0.1 - - [07/Apr/2018 21:34:31] "GET /api/1.0/users/auth HTTP/1.1" 200 -
+127.0.0.1 - - [07/Apr/2018 21:34:32] "GET /newhouse.html HTTP/1.1" 200 -
+127.0.0.1 - - [07/Apr/2018 21:34:32] "GET /static/css/ihome/newhouse.css HTTP/1.1" 200 -
+127.0.0.1 - - [07/Apr/2018 21:34:32] "GET /static/js/jquery.form.min.js HTTP/1.1" 200 -
+127.0.0.1 - - [07/Apr/2018 21:34:32] "GET /static/js/ihome/newhouse.js?v=3 HTTP/1.1" 200 -
+127.0.0.1 - - [07/Apr/2018 21:34:32] "GET /api/1.0/areas HTTP/1.1" 200 -
+127.0.0.1 - - [07/Apr/2018 21:34:32] "GET /api/1.0/users/auth HTTP/1.1" 200 -
+127.0.0.1 - - [07/Apr/2018 21:34:34] "GET /api/1.0/users/auth HTTP/1.1" 200 -
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 291-179-440
+ * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+127.0.0.1 - - [07/Apr/2018 21:36:16] "GET /api/1.0/users/auth HTTP/1.1" 200 -
+127.0.0.1 - - [07/Apr/2018 21:36:16] "GET /api/1.0/areas HTTP/1.1" 200 -
+127.0.0.1 - - [07/Apr/2018 21:36:29] "GET /newhouse.html HTTP/1.1" 200 -
+127.0.0.1 - - [07/Apr/2018 21:36:29] "GET /static/plugins/bootstrap/css/bootstrap.min.css HTTP/1.1" 200 -
+127.0.0.1 - - [07/Apr/2018 21:36:29] "GET /static/plugins/font-awesome/css/font-awesome.min.css HTTP/1.1" 200 -
+127.0.0.1 - - [07/Apr/2018 21:36:29] "GET /static/css/reset.css HTTP/1.1" 200 -
+127.0.0.1 - - [07/Apr/2018 21:36:29] "GET /static/plugins/bootstrap-datepicker/css/bootstrap-datepicker.min.css HTTP/1.1" 200 -
+127.0.0.1 - - [07/Apr/2018 21:36:29] "GET /static/css/ihome/main.css HTTP/1.1" 200 -
+127.0.0.1 - - [07/Apr/2018 21:36:29] "GET /static/css/ihome/newhouse.css HTTP/1.1" 200 -
+127.0.0.1 - - [07/Apr/2018 21:36:29] "GET /static/js/jquery.min.js HTTP/1.1" 200 -
+127.0.0.1 - - [07/Apr/2018 21:36:29] "GET /static/js/jquery.form.min.js HTTP/1.1" 200 -
+127.0.0.1 - - [07/Apr/2018 21:36:29] "GET /static/js/template.js HTTP/1.1" 200 -
+127.0.0.1 - - [07/Apr/2018 21:36:29] "GET /static/plugins/bootstrap/js/bootstrap.min.js HTTP/1.1" 200 -
+127.0.0.1 - - [07/Apr/2018 21:36:29] "GET /static/plugins/bootstrap-datepicker/js/bootstrap-datepicker.min.js HTTP/1.1" 200 -
+127.0.0.1 - - [07/Apr/2018 21:36:29] "GET /static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.zh-CN.min.js HTTP/1.1" 200 -
+127.0.0.1 - - [07/Apr/2018 21:36:29] "GET /static/plugins/font-awesome/fonts/fontawesome-webfont.woff2?v=4.6.3 HTTP/1.1" 200 -
+127.0.0.1 - - [07/Apr/2018 21:36:29] "GET /static/js/ihome/newhouse.js?v=3 HTTP/1.1" 200 -
+127.0.0.1 - - [07/Apr/2018 21:36:29] "GET /static/plugins/bootstrap/css/bootstrap.min.css.map HTTP/1.1" 200 -
+127.0.0.1 - - [07/Apr/2018 21:36:29] "GET /api/1.0/users/auth HTTP/1.1" 200 -
+127.0.0.1 - - [07/Apr/2018 21:36:29] "GET /api/1.0/areas HTTP/1.1" 200 -
+127.0.0.1 - - [07/Apr/2018 21:36:39] "POST /api/1.0/houses HTTP/1.1" 200 -
+ * Detected change in 'E:\\pythonOBJ\\iHome\\ihome\\models.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 291-179-440
+ * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+ * Detected change in 'E:\\pythonOBJ\\iHome\\ihome\\models.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 291-179-440
+ * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+ * Detected change in 'E:\\pythonOBJ\\iHome\\ihome\\models.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 291-179-440
+ * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 291-179-440
+ * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+127.0.0.1 - - [07/Apr/2018 21:45:20] "GET /newhouse.html HTTP/1.1" 304 -
+127.0.0.1 - - [07/Apr/2018 21:45:21] "GET /api/1.0/users/auth HTTP/1.1" 200 -
+127.0.0.1 - - [07/Apr/2018 21:45:21] "GET /api/1.0/areas HTTP/1.1" 200 -
+127.0.0.1 - - [07/Apr/2018 21:45:31] "POST /api/1.0/houses HTTP/1.1" 200 -
+127.0.0.1 - - [07/Apr/2018 21:47:18] "POST /api/1.0/houses/1/images HTTP/1.1" 200 -
+Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+Starting new HTTP connection (1): up.qiniu.com
+http://up.qiniu.com:80 "POST / HTTP/1.1" 200 76
+127.0.0.1 - - [07/Apr/2018 21:47:47] "POST /api/1.0/houses/1/images HTTP/1.1" 200 -
+127.0.0.1 - - [07/Apr/2018 21:48:03] "GET /newhouse.html HTTP/1.1" 304 -
+127.0.0.1 - - [07/Apr/2018 21:48:03] "GET /api/1.0/users/auth HTTP/1.1" 200 -
+127.0.0.1 - - [07/Apr/2018 21:48:03] "GET /api/1.0/areas HTTP/1.1" 200 -
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 291-179-440
+ * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+127.0.0.1 - - [07/Apr/2018 21:53:55] "GET /newhouse.html HTTP/1.1" 304 -
+127.0.0.1 - - [07/Apr/2018 21:53:55] "GET /api/1.0/users/auth HTTP/1.1" 200 -
+127.0.0.1 - - [07/Apr/2018 21:53:55] "GET /api/1.0/areas HTTP/1.1" 200 -
+127.0.0.1 - - [07/Apr/2018 21:54:07] "GET /newhouse.html HTTP/1.1" 200 -
+127.0.0.1 - - [07/Apr/2018 21:54:07] "GET /static/plugins/bootstrap/css/bootstrap.min.css HTTP/1.1" 200 -
+127.0.0.1 - - [07/Apr/2018 21:54:07] "GET /static/plugins/font-awesome/css/font-awesome.min.css HTTP/1.1" 200 -
+127.0.0.1 - - [07/Apr/2018 21:54:07] "GET /static/css/reset.css HTTP/1.1" 200 -
+127.0.0.1 - - [07/Apr/2018 21:54:07] "GET /static/plugins/bootstrap-datepicker/css/bootstrap-datepicker.min.css HTTP/1.1" 200 -
+127.0.0.1 - - [07/Apr/2018 21:54:07] "GET /static/css/ihome/main.css HTTP/1.1" 200 -
+127.0.0.1 - - [07/Apr/2018 21:54:07] "GET /static/css/ihome/newhouse.css HTTP/1.1" 200 -
+127.0.0.1 - - [07/Apr/2018 21:54:07] "GET /static/js/jquery.min.js HTTP/1.1" 200 -
+127.0.0.1 - - [07/Apr/2018 21:54:07] "GET /static/js/jquery.form.min.js HTTP/1.1" 200 -
+127.0.0.1 - - [07/Apr/2018 21:54:07] "GET /static/js/template.js HTTP/1.1" 200 -
+127.0.0.1 - - [07/Apr/2018 21:54:07] "GET /static/plugins/bootstrap/js/bootstrap.min.js HTTP/1.1" 200 -
+127.0.0.1 - - [07/Apr/2018 21:54:07] "GET /static/plugins/bootstrap-datepicker/js/bootstrap-datepicker.min.js HTTP/1.1" 200 -
+127.0.0.1 - - [07/Apr/2018 21:54:07] "GET /static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.zh-CN.min.js HTTP/1.1" 200 -
+127.0.0.1 - - [07/Apr/2018 21:54:07] "GET /static/plugins/font-awesome/fonts/fontawesome-webfont.woff2?v=4.6.3 HTTP/1.1" 200 -
+127.0.0.1 - - [07/Apr/2018 21:54:07] "GET /static/js/ihome/newhouse.js?v=3 HTTP/1.1" 200 -
+127.0.0.1 - - [07/Apr/2018 21:54:07] "GET /static/plugins/bootstrap/css/bootstrap.min.css.map HTTP/1.1" 200 -
+127.0.0.1 - - [07/Apr/2018 21:54:07] "GET /api/1.0/users/auth HTTP/1.1" 200 -
+127.0.0.1 - - [07/Apr/2018 21:54:07] "GET /api/1.0/areas HTTP/1.1" 200 -
+127.0.0.1 - - [07/Apr/2018 21:54:19] "POST /api/1.0/houses HTTP/1.1" 200 -
+Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+Starting new HTTP connection (1): up.qiniu.com
+http://up.qiniu.com:80 "POST / HTTP/1.1" 200 76
+127.0.0.1 - - [07/Apr/2018 21:54:30] "POST /api/1.0/houses/2/images HTTP/1.1" 200 -
+http://up.qiniu.com:80 "POST / HTTP/1.1" 200 76
+127.0.0.1 - - [07/Apr/2018 21:54:41] "POST /api/1.0/houses/2/images HTTP/1.1" 200 -
+127.0.0.1 - - [07/Apr/2018 21:55:39] "GET /newhouse.html HTTP/1.1" 304 -
+127.0.0.1 - - [07/Apr/2018 21:55:39] "GET /api/1.0/users/auth HTTP/1.1" 200 -
+127.0.0.1 - - [07/Apr/2018 21:55:39] "GET /api/1.0/areas HTTP/1.1" 200 -
+127.0.0.1 - - [07/Apr/2018 21:55:42] "GET /myhouse.html HTTP/1.1" 200 -
+127.0.0.1 - - [07/Apr/2018 21:55:42] "GET /static/css/ihome/myhouse.css HTTP/1.1" 200 -
+127.0.0.1 - - [07/Apr/2018 21:55:42] "GET /static/js/ihome/myhouse.js HTTP/1.1" 200 -
+127.0.0.1 - - [07/Apr/2018 21:55:42] "GET /api/1.0/users/auth HTTP/1.1" 200 -
+127.0.0.1 - - [07/Apr/2018 21:55:44] "GET /my.html HTTP/1.1" 200 -
+127.0.0.1 - - [07/Apr/2018 21:55:44] "GET /static/css/ihome/my.css HTTP/1.1" 200 -
+127.0.0.1 - - [07/Apr/2018 21:55:44] "GET /static/js/ihome/my.js HTTP/1.1" 200 -
+127.0.0.1 - - [07/Apr/2018 21:55:44] "GET /api/1.0/users HTTP/1.1" 200 -
+127.0.0.1 - - [07/Apr/2018 21:55:46] "GET /api/1.0/users/auth HTTP/1.1" 200 -
+127.0.0.1 - - [07/Apr/2018 21:55:47] "GET /api/1.0/users HTTP/1.1" 200 -
+127.0.0.1 - - [07/Apr/2018 21:55:49] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [07/Apr/2018 21:55:49] "GET /static/plugins/swiper/css/swiper.min.css HTTP/1.1" 200 -
+127.0.0.1 - - [07/Apr/2018 21:55:49] "GET /static/css/ihome/index.css HTTP/1.1" 200 -
+127.0.0.1 - - [07/Apr/2018 21:55:49] "GET /static/plugins/swiper/js/swiper.jquery.min.js HTTP/1.1" 200 -
+127.0.0.1 - - [07/Apr/2018 21:55:49] "GET /static/js/ihome/index.js HTTP/1.1" 200 -
+127.0.0.1 - - [07/Apr/2018 21:55:49] "GET /static/images/logo@128x59.png HTTP/1.1" 200 -
+127.0.0.1 - - [07/Apr/2018 21:55:49] "GET /api/1.0/sessions HTTP/1.1" 200 -
+127.0.0.1 - - [07/Apr/2018 21:55:49] "GET /api/1.0/areas HTTP/1.1" 200 -
+127.0.0.1 - - [07/Apr/2018 21:55:49] "GET /static/plugins/swiper/js/maps/swiper.jquery.min.js.map HTTP/1.1" 404 -
+ * Detected change in 'E:\\pythonOBJ\\iHome\\ihome\\api_1_0\\house.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 291-179-440
+ * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 291-179-440
+ * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+127.0.0.1 - - [08/Apr/2018 09:50:47] "GET /api/1.0/sessions HTTP/1.1" 200 -
+127.0.0.1 - - [08/Apr/2018 09:50:49] "GET /api/1.0/areas HTTP/1.1" 200 -
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 291-179-440
+ * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+127.0.0.1 - - [08/Apr/2018 09:51:24] "GET / HTTP/1.1" 304 -
+127.0.0.1 - - [08/Apr/2018 09:51:24] "GET /api/1.0/sessions HTTP/1.1" 200 -
+127.0.0.1 - - [08/Apr/2018 09:51:25] "GET /api/1.0/areas HTTP/1.1" 200 -
+127.0.0.1 - - [08/Apr/2018 09:51:31] "GET /api/1.0/users HTTP/1.1" 200 -
+127.0.0.1 - - [08/Apr/2018 09:51:34] "GET /api/1.0/users/auth HTTP/1.1" 200 -
+127.0.0.1 - - [08/Apr/2018 09:51:39] "GET /profile.html HTTP/1.1" 200 -
+127.0.0.1 - - [08/Apr/2018 09:51:39] "GET /static/css/ihome/profile.css HTTP/1.1" 200 -
+127.0.0.1 - - [08/Apr/2018 09:51:39] "GET /static/js/ihome/profile.js?v=5 HTTP/1.1" 200 -
+127.0.0.1 - - [08/Apr/2018 09:51:39] "GET /api/1.0/users HTTP/1.1" 200 -
+Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+Starting new HTTP connection (1): up.qiniu.com
+http://up.qiniu.com:80 "POST / HTTP/1.1" 200 76
+127.0.0.1 - - [08/Apr/2018 09:52:48] "POST /api/1.0/users/avatar HTTP/1.1" 200 -
+http://up.qiniu.com:80 "POST / HTTP/1.1" 200 76
+127.0.0.1 - - [08/Apr/2018 09:53:00] "POST /api/1.0/users/avatar HTTP/1.1" 200 -
+127.0.0.1 - - [08/Apr/2018 09:53:13] "PUT /api/1.0/users HTTP/1.1" 200 -
+127.0.0.1 - - [08/Apr/2018 09:53:17] "GET /api/1.0/users HTTP/1.1" 200 -
+127.0.0.1 - - [08/Apr/2018 09:53:24] "GET /api/1.0/sessions HTTP/1.1" 200 -
+127.0.0.1 - - [08/Apr/2018 09:53:24] "GET /api/1.0/areas HTTP/1.1" 200 -
+127.0.0.1 - - [08/Apr/2018 09:53:24] "GET /static/plugins/swiper/js/maps/swiper.jquery.min.js.map HTTP/1.1" 404 -
+127.0.0.1 - - [08/Apr/2018 09:53:27] "GET / HTTP/1.1" 304 -
+127.0.0.1 - - [08/Apr/2018 09:53:27] "GET /api/1.0/sessions HTTP/1.1" 200 -
+127.0.0.1 - - [08/Apr/2018 09:53:27] "GET /api/1.0/areas HTTP/1.1" 200 -
+127.0.0.1 - - [08/Apr/2018 09:53:27] "GET /static/plugins/swiper/js/maps/swiper.jquery.min.js.map HTTP/1.1" 404 -
+127.0.0.1 - - [08/Apr/2018 09:53:33] "GET /api/1.0/users HTTP/1.1" 200 -
+127.0.0.1 - - [08/Apr/2018 09:53:35] "GET /auth.html HTTP/1.1" 200 -
+127.0.0.1 - - [08/Apr/2018 09:53:35] "GET /static/js/ihome/auth.js HTTP/1.1" 200 -
+127.0.0.1 - - [08/Apr/2018 09:53:36] "GET /api/1.0/users/auth HTTP/1.1" 200 -
+127.0.0.1 - - [08/Apr/2018 09:53:37] "GET /api/1.0/users HTTP/1.1" 200 -
+127.0.0.1 - - [08/Apr/2018 09:53:39] "GET /orders.html HTTP/1.1" 200 -
+127.0.0.1 - - [08/Apr/2018 09:53:39] "GET /static/css/ihome/orders.css HTTP/1.1" 200 -
+127.0.0.1 - - [08/Apr/2018 09:53:39] "GET /static/js/ihome/orders.js HTTP/1.1" 200 -
+127.0.0.1 - - [08/Apr/2018 09:53:40] "GET /api/1.0/users HTTP/1.1" 200 -
+127.0.0.1 - - [08/Apr/2018 09:53:41] "GET /api/1.0/users/auth HTTP/1.1" 200 -
+127.0.0.1 - - [08/Apr/2018 09:53:43] "GET /api/1.0/users/auth HTTP/1.1" 200 -
+127.0.0.1 - - [08/Apr/2018 09:53:43] "GET /api/1.0/areas HTTP/1.1" 200 -
+127.0.0.1 - - [08/Apr/2018 09:54:57] "POST /api/1.0/houses HTTP/1.1" 200 -
+Resetting dropped connection: up.qiniu.com
+http://up.qiniu.com:80 "POST / HTTP/1.1" 200 76
+127.0.0.1 - - [08/Apr/2018 09:55:49] "POST /api/1.0/houses/3/images HTTP/1.1" 200 -
+http://up.qiniu.com:80 "POST / HTTP/1.1" 200 76
+127.0.0.1 - - [08/Apr/2018 09:56:27] "POST /api/1.0/houses/3/images HTTP/1.1" 200 -
+http://up.qiniu.com:80 "POST / HTTP/1.1" 200 76
+127.0.0.1 - - [08/Apr/2018 09:56:36] "POST /api/1.0/houses/3/images HTTP/1.1" 200 -
+127.0.0.1 - - [08/Apr/2018 09:56:43] "GET /myhouse.html HTTP/1.1" 304 -
+127.0.0.1 - - [08/Apr/2018 09:56:43] "GET /static/plugins/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 -
+127.0.0.1 - - [08/Apr/2018 09:56:43] "GET /static/plugins/font-awesome/css/font-awesome.min.css HTTP/1.1" 304 -
+127.0.0.1 - - [08/Apr/2018 09:56:43] "GET /static/css/reset.css HTTP/1.1" 304 -
+127.0.0.1 - - [08/Apr/2018 09:56:43] "GET /static/plugins/bootstrap-datepicker/css/bootstrap-datepicker.min.css HTTP/1.1" 304 -
+127.0.0.1 - - [08/Apr/2018 09:56:43] "GET /static/css/ihome/main.css HTTP/1.1" 304 -
+127.0.0.1 - - [08/Apr/2018 09:56:43] "GET /static/css/ihome/myhouse.css HTTP/1.1" 304 -
+127.0.0.1 - - [08/Apr/2018 09:56:43] "GET /static/js/jquery.min.js HTTP/1.1" 304 -
+127.0.0.1 - - [08/Apr/2018 09:56:43] "GET /static/plugins/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 -
+127.0.0.1 - - [08/Apr/2018 09:56:43] "GET /static/plugins/bootstrap-datepicker/js/bootstrap-datepicker.min.js HTTP/1.1" 304 -
+127.0.0.1 - - [08/Apr/2018 09:56:43] "GET /static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.zh-CN.min.js HTTP/1.1" 304 -
+127.0.0.1 - - [08/Apr/2018 09:56:43] "GET /static/js/template.js HTTP/1.1" 304 -
+127.0.0.1 - - [08/Apr/2018 09:56:43] "GET /static/js/ihome/myhouse.js HTTP/1.1" 304 -
+127.0.0.1 - - [08/Apr/2018 09:56:43] "GET /static/plugins/font-awesome/fonts/fontawesome-webfont.woff2?v=4.6.3 HTTP/1.1" 304 -
+127.0.0.1 - - [08/Apr/2018 09:56:43] "GET /static/plugins/bootstrap/css/bootstrap.min.css.map HTTP/1.1" 304 -
+127.0.0.1 - - [08/Apr/2018 09:56:43] "GET /api/1.0/users/auth HTTP/1.1" 200 -

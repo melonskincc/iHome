@@ -94,7 +94,7 @@ class House(BaseModel,db.Model):
     user_id=db.Column(db.Integer,db.ForeignKey('ih_user_profile.id'),nullable=False) # 房屋主人编号
     area_id=db.Column(db.Integer,db.ForeignKey('ih_area_info.id'),nullable=False) #房屋地区编号
     title=db.Column(db.String(64),nullable=False) # 标题
-    price=db.Column(db.Numeric(precision=2)) # 单价 单位：分
+    price=db.Column(db.Integer,default=0) # 单价 单位：分
     address=db.Column(db.String(512),default='') # 地址
     room_count=db.Column(db.Integer,default=1) #房间数目
     acreage=db.Column(db.Integer,default=0) # 房间面积
@@ -129,8 +129,8 @@ class Order(BaseModel, db.Model):
     begin_date = db.Column(db.DateTime, nullable=False)  # 预订的起始时间
     end_date = db.Column(db.DateTime, nullable=False)  # 预订的结束时间
     days = db.Column(db.Integer, nullable=False)  # 预订的总天数
-    house_price = db.Column(db.Numeric(precision=2), nullable=False)  # 房屋的单价
-    amount = db.Column(db.Numeric(precision=2), nullable=False)  # 订单的总金额
+    house_price = db.Column(db.Integer, nullable=False)  # 房屋的单价
+    amount = db.Column(db.Integer, nullable=False)  # 订单的总金额
     status = db.Column(  # 订单的状态
         db.Enum(
             "WAIT_ACCEPT",  # 待接单,
