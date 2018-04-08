@@ -1,5 +1,5 @@
 # --*-- coding:utf-8 --*--
-from flask import current_app, jsonify, request, g
+from flask import current_app, jsonify, request, g, session
 
 from ihome import db, constants
 from ihome.api_1_0 import api
@@ -137,3 +137,49 @@ def upload_house_image(house_id):
         return jsonify(re_code=RET.DBERR,msg='保存房屋图片失败')
     #5.响应数据
     return jsonify(re_code=RET.OK,msg='上传图片成功',data={'url':constants.QINIU_DOMIN_PREFIX+key})
+
+# @api.route('/')
+# def search_houses():
+#     """根据查询条件查询房屋信息并分页：search.html?aid=&aname=&sd=&ed=
+#
+#     """
+@api.route('/houses')
+def houses_index():
+    """首页房屋推荐：
+    1.获取新上架的5个房源基本信息
+    2.返回响应
+    """
+    # 1.获取新上架的5个房源基本信息
+    houses=None
+    try:
+        houses=House.query.order_by(House.create_time.desc()).limit(constants.HOME_PAGE_MAX_HOUSES)
+    except Exception as e:
+        current_app.logger.debug(e)
+    if not houses:
+        return jsonify(re_code=RET.NODATA,msg='无房屋信息')
+    houses=[house.to_basic_dict() for house in houses]
+    #2.返回响应
+    return jsonify(re_code=RET.OK,msg='查询房屋成功',data={'houses':houses})
+
+@api.route('/houses/detail/<int:house_id>')
+def house_detail(house_id):
+    """房屋详情页面：
+    1.获取url栏中的house_id
+    2.根据house_id获取house详细信息
+    3.判断用户是否登录，
+    4.响应结果
+    """
+    #1.获取url栏中的house_id
+    #2.根据house_id获取house详细信息
+    try:
+        house=House.query.get(house_id)
+    except Exception as e:
+        current_app.logger.debug(e)
+        return jsonify(re_code=RET.DBERR,msg='查询房屋信息失败')
+    if not house:
+        return jsonify(re_code=RET.NODATA,msg='房屋不存在')
+    house=house.to_full_dict()
+    # 3. 获取user_id : 当用户登录后访问detail.html，就会有user_id，反之，没有user_id
+    login_user_id=session.get('user_id',-1)
+    #4.响应结果
+    return jsonify(re_code=RET.OK,msg='查询成功',data={'house':house,'login_user_id':login_user_id})

@@ -10,7 +10,7 @@ $(document).ready(function() {
     $("#password").focus(function(){
         $("#password-err").hide();
     });
-    // TODO: 添加登录表单提交操作
+    //  添加登录表单提交操作
     $(".form-login").submit(function(e){
         e.preventDefault();
         mobile = $("#mobile").val();
@@ -38,7 +38,6 @@ $(document).ready(function() {
                     success:function(response){
                         if(response.re_code=='0'){
                             // 登录成功
-                            alert(response.msg);
                             location.href='/'
                         }else {
                             alert(response.msg)

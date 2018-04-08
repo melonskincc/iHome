@@ -58,7 +58,7 @@ function goToSearchPage(th) {
 }
 
 $(document).ready(function(){
-    // TODO: 检查用户的登录状态
+    //  检查用户的登录状态
     $.get('/api/1.0/sessions',function (res) {
         if (res.re_code=='0'){
             // 响应成功
@@ -76,18 +76,25 @@ $(document).ready(function(){
             alert(res.msg)
         }
     });
-    // TODO: 获取幻灯片要展示的房屋基本信息
-
-    // TODO: 数据设置完毕后,需要设置幻灯片对象，开启幻灯片滚动
-    var mySwiper = new Swiper ('.swiper-container', {
-        loop: true,
-        autoplay: 2000,
-        autoplayDisableOnInteraction: false,
-        pagination: '.swiper-pagination',
-        paginationClickable: true
+    //  获取幻灯片要展示的房屋基本信息
+    $.get('/api/1.0/houses',function (res) {
+        if(res.re_code=='0'){
+            render_template=template('swiper-houses-tmpl',{'houses':res.data.houses});
+            $('.swiper-wrapper').html(render_template);
+        //  数据设置完毕后,需要设置幻灯片对象，开启幻灯片滚动
+        var mySwiper = new Swiper ('.swiper-container', {
+            loop: true,
+            autoplay: 2000,
+            autoplayDisableOnInteraction: false,
+            pagination: '.swiper-pagination',
+            paginationClickable: true
+    });
+        }else {
+            alert(res.msg)
+        }
     });
 
-    // TODO: 获取城区信息,获取完毕之后需要设置城区按钮点击之后相关操作
+    // 获取城区信息,获取完毕之后需要设置城区按钮点击之后相关操作
     $.get('/api/1.0/areas',function (res) {
         if(res.re_code=='0'){
             // 初始化模板
@@ -108,14 +115,6 @@ $(document).ready(function(){
         }
     });
 
-
-    // TODO: 城区按钮点击之后相关操作
-    $(".area-list a").click(function(e){
-        $("#area-btn").html($(this).html());
-        $(".search-btn").attr("area-id", $(this).attr("area-id"));
-        $(".search-btn").attr("area-name", $(this).html());
-        $("#area-modal").modal("hide");
-    });
 
     $('.modal').on('show.bs.modal', centerModals);      //当模态框出现的时候
     $(window).on('resize', centerModals);               //当窗口大小变化的时候
