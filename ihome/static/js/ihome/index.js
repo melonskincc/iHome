@@ -77,7 +77,7 @@ $(document).ready(function(){
         }
     });
     //  获取幻灯片要展示的房屋基本信息
-    $.get('/api/1.0/houses',function (res) {
+    $.get('/api/1.0/houses/index',function (res) {
         if(res.re_code=='0'){
             render_template=template('swiper-houses-tmpl',{'houses':res.data.houses});
             $('.swiper-wrapper').html(render_template);

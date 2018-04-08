@@ -16,5 +16,15 @@ $(document).ready(function(){
             alert(res.msg)
         }
     });
-    // TODO: 如果用户已实名认证,那么就去请求之前发布的房源
+    //  如果用户已实名认证,那么就去请求之前发布的房源
+    $.get('/api/1.0/users/houses',function (res) {
+        if(res.re_code=='0'){
+            render_template=template('houses-list-tmpl',{'houses':res.data.houses});
+            $('#houses-list').html(render_template);
+        }else if(res.re_code=='4101'){
+            location.href='/login.html'
+        }else{
+            alert(res.msg)
+        }
+    });
 });

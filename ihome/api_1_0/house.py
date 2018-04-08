@@ -8,7 +8,6 @@ from ihome.utils.common import login_required
 from ihome.utils.qiniu_image_storage import upload_image
 from ihome.utils.response_code import RET
 
-
 @api.route('/areas')
 def get_areas():
     """获取城区信息：
@@ -143,7 +142,7 @@ def upload_house_image(house_id):
 #     """根据查询条件查询房屋信息并分页：search.html?aid=&aname=&sd=&ed=
 #
 #     """
-@api.route('/houses')
+@api.route('/houses/index')
 def houses_index():
     """首页房屋推荐：
     1.获取新上架的5个房源基本信息
@@ -183,3 +182,22 @@ def house_detail(house_id):
     login_user_id=session.get('user_id',-1)
     #4.响应结果
     return jsonify(re_code=RET.OK,msg='查询成功',data={'house':house,'login_user_id':login_user_id})
+
+@api.route('/users/houses')
+@login_required
+def my_houses():
+    """我的房源列表接口：
+    0.登录校验 @login_required
+    1.获取登录用户的所有发布的房源
+    2.响应数据
+    """
+    #1.获取登录用户的所有发布的房源
+    try:
+        houses=House.query.filter(House.user_id==g.user_id)
+    except Exception as e:
+        current_app.logger.debug(e)
+        return jsonify(re_code=RET.DBERR,msg='查询房屋失败')
+
+    #2.响应数据
+    houses=[house.to_basic_dict() for house in houses]
+    return jsonify(re_code=RET.OK,msg='查询成功',data={'houses':houses})
