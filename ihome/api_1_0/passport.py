@@ -68,8 +68,6 @@ def login():
     json_dict=request.json
     phone_num=json_dict.get('mobile')
     password=json_dict.get('password')
-    print phone_num
-    print password
     if not all([phone_num,password]):
         return jsonify(re_code=RET.PARAMERR,msg='参数错误')
     try:

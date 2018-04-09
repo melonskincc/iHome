@@ -1,9 +1,9 @@
 # --*-- coding:utf-8 --*--
+from datetime import datetime
 from flask import current_app, jsonify, request, g, session
-
 from ihome import db, constants
 from ihome.api_1_0 import api
-from ihome.models import Area, House, Facility, HouseImage
+from ihome.models import Area, House, Facility, HouseImage, Order
 from ihome.utils.common import login_required
 from ihome.utils.qiniu_image_storage import upload_image
 from ihome.utils.response_code import RET
@@ -137,11 +137,6 @@ def upload_house_image(house_id):
     #5.响应数据
     return jsonify(re_code=RET.OK,msg='上传图片成功',data={'url':constants.QINIU_DOMIN_PREFIX+key})
 
-# @api.route('/')
-# def search_houses():
-#     """根据查询条件查询房屋信息并分页：search.html?aid=&aname=&sd=&ed=
-#
-#     """
 @api.route('/houses/index')
 def houses_index():
     """首页房屋推荐：
@@ -201,3 +196,91 @@ def my_houses():
     #2.响应数据
     houses=[house.to_basic_dict() for house in houses]
     return jsonify(re_code=RET.OK,msg='查询成功',data={'houses':houses})
+
+@api.route('/houses/search')
+def search_houses():
+    """根据条件查询房屋信息：search.html?aid=11&aname=怀柔区&sd=2018-04-24&ed=2018-04-26
+    1.获取前端传来的查询条件
+    2.查询数据
+    3.响应数据
+    """
+    # 1.获取前端传来的查询条件
+    # 排序方式，不传默认是按房源发布时间降序排序
+    sk = request.args.get('sk')
+    # 离开日期
+    ed = request.args.get('ed','')
+    # 入住日期
+    sd = request.args.get('sd','')
+    # 页码，不传默认第一页
+    p = request.args.get('p','1')
+    # 地区编号
+    aid = request.args.get('aid')
+    start_date=None
+    end_date=None
+    # 校验参数
+    try:
+        #页码转成int型
+        p=int(p)
+        #字符串日期转成时间对象
+        if ed:
+            end_date=datetime.strptime(ed,'%Y-%m-%d')
+        if sd:
+            start_date=datetime.strptime(sd,'%Y-%m-%d')
+        # 如果两个都有值
+        if start_date and end_date:
+            # 断言：入住时间一定小于离开时间，如果不满足，就抛出异常
+            assert start_date < end_date , Exception('入住时间有误')
+    except Exception as e:
+        current_app.logger.debug(e)
+        return jsonify(re_code=RET.PARAMERR,msg='参数有误')
+
+    # 2.查询房屋信息
+    try:
+        # 2.1无条件查询所有房屋信息
+        house_query = House.query
+        # 2.2根据条件过滤，
+        if aid:
+            # 查询出用户选择的城区的所有房屋信息
+            house_query = house_query.filter(House.area_id == aid)
+        # 2.3过滤查询时间段被预定掉了的房屋,查询出时间冲突的房子
+        conflict_orders = []
+        if start_date and end_date:
+            # 冲突订单 订单结束时间小于搜索开始时间，订单开始时间小于搜索结束时间
+            conflict_orders=Order.query.filter(Order.end_date > start_date , Order.begin_date < end_date).all()
+        elif start_date:
+            conflict_orders = Order.query.filter(start_date < Order.end_date).all()
+        elif end_date:
+            conflict_orders=Order.query.filter(end_date > Order.begin_date).all()
+        if conflict_orders:
+            # 2.4再通过冲突列表获得冲突订单的house_id
+            conflict_house_ids=[order.house_id for order in conflict_orders]
+            # 2.5最后再查询排查冲突房屋的所有房屋信息
+            house_query = house_query.filter(House.id.notin_(conflict_house_ids))
+
+        # 2.6根据排序规则对数据进行排序
+        if sk == 'booking':
+            # 订单量降序排序
+            house_query=house_query.order_by(House.order_count.desc())
+        elif sk =='price-inc':
+            # 价格升序排序
+            house_query = house_query.order_by(House.price.asc())
+        elif sk == 'price-des':
+            # 价格降序排序
+            house_query = house_query.order_by(House.price.desc())
+        else:
+            # 不传默认创建时间降序排序
+            house_query = house_query.order_by(House.create_time.desc())
+
+        # 2.7对排序完的数据进行分页                                    当查询数不够2时不报错
+        paginate = house_query.paginate(p,constants.HOUSE_LIST_PAGE_CAPACITY,False)
+        # 获取当前页的房屋模型列表
+        houses = paginate.items
+        # 获取总页数
+        total_page = paginate.pages
+
+    except Exception as e:
+        current_app.logger.debug(e)
+        return jsonify(re_code=RET.DBERR,msg='查询房屋信息失败')
+
+    houses=[house.to_basic_dict() for house in houses]
+    return jsonify(re_code=RET.OK,msg='查询成功',data={'houses':houses,'total_page':total_page})

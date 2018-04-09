@@ -32,6 +32,9 @@ function updateFilterDateDisplay() {
 // 默认采用追加方式
 // action=renew 代表页面数据清空从新展示
 function updateHouseData(action) {
+    if(action=='renew'){
+        $('.house-list').html('');
+    }
     var areaId = $(".filter-area>li.active").attr("area-id");
     if (undefined == areaId) areaId = "";
     var startDate = $("#start-date").val();
@@ -44,7 +47,28 @@ function updateHouseData(action) {
         sk:sortKey,
         p:next_page
     };
-    // TODO: 获取房屋列表信息
+
+    //  获取房屋列表信息
+    $.get('/api/1.0/houses/search',params,function (res) {
+        // 能够进入到该回调说明上次的请求执行完成
+        house_data_querying = false;
+        if(res.re_code=='0'){
+            // 得到的总页码赋值给全局变量
+            total_page=res.data.total_page;
+            // 渲染界面art-template
+            render_template=template('house-list-tmpl',{'houses':res.data.houses});
+            if (action =='new'){
+                // 刷新
+                $('.house-list').html(render_template);
+            }else {
+                //下拉
+                cur_page=next_page;
+                $('.house-list').append(render_template);
+            }
+        }else {
+            alert(res.msg)
+        }
+    });
 }
 
 $(document).ready(function(){
@@ -60,26 +84,26 @@ $(document).ready(function(){
 
 
     // 获取筛选条件中的城市区域信息
-    $.get("/api/v1.0/areas", function(data){
-        if ("0" == data.errno) {
+    $.get("/api/1.0/areas", function(data){
+        if ("0" == data.re_code) {
             var areaId = queryData["aid"];
             if (areaId) {
-                for (var i=0; i<data.data.length; i++) {
+                for (var i=0; i<data.areas.length; i++) {
                     areaId = parseInt(areaId);
-                    if (data.data[i].aid == areaId) {
-                        $(".filter-area").append('<li area-id="'+ data.data[i].aid+'" class="active">'+ data.data[i].aname+'</li>');
+                    if (data.areas[i].aid == areaId) {
+                        $(".filter-area").append('<li area-id="'+ data.areas[i].aid+'" class="active">'+ data.areas[i].aname+'</li>');
                     } else {
-                        $(".filter-area").append('<li area-id="'+ data.data[i].aid+'">'+ data.data[i].aname+'</li>');
+                        $(".filter-area").append('<li area-id="'+ data.areas[i].aid+'">'+ data.areas[i].aname+'</li>');
                     }
                 }
             } else {
-                for (var i=0; i<data.data.length; i++) {
-                    $(".filter-area").append('<li area-id="'+ data.data[i].aid+'">'+ data.data[i].aname+'</li>');
+                for (var i=0; i<data.areas.length; i++) {
+                    $(".filter-area").append('<li area-id="'+ data.areas[i].aid+'">'+ data.areas[i].aname+'</li>');
                 }
             }
             // 在页面添加好城区选项信息后，更新展示房屋列表信息
             updateHouseData("renew");
-            var windowHeight = $(window).height()
+            var windowHeight = $(window).height();
             // 为窗口的滚动添加事件函数
             window.onscroll=function(){
                 // var a = document.documentElement.scrollTop==0? document.body.clientHeight : document.documentElement.clientHeight;
@@ -154,4 +178,4 @@ $(document).ready(function(){
             $(".filter-title-bar>.filter-title").eq(2).children("span").eq(0).html($(this).html());
         }
     })
-})
+});
