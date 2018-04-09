@@ -38,8 +38,8 @@ def get_app(config_name):
     app.config.from_object(configs[config_name])
 
     # 创建数据库连接对象,赋值给全局db
-    # global db
-    # db=SQLAlchemy(app)
+    global db
+    # db=SQLAlchemy(app)   这个不能用，因为会出现两个db的bug，两session,后续处理起来麻烦
     db.init_app(app)
 
     # 创建Redis数据库连接对象

@@ -35,9 +35,11 @@ $(document).ready(function(){
             //如果不是自己发布的房源，即可预定按钮显示
             if (res.data.login_user_id != res.data.house.user_id){
                 $('.book-house').show();
+                $('.book-house').attr('href','/booking.html?hid='+res.data.house.hid);
             }
         }else {
-            alert(res.msg)
+            alert(res.msg);
+            $('.book-house').hide();
         }
     });
 

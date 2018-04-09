@@ -25,7 +25,13 @@ function showErrorMsg() {
 }
 
 $(document).ready(function(){
-    // TODO: 判断用户是否登录
+    // 判断用户是否登录
+    $.get('/api/1.0/sessions',function (res) {
+        if(!res.user.user_id && !res.user.name){
+            //未登录
+            location.href='/login.html'
+        }
+    });
 
     $(".input-daterange").datepicker({
         format: "yyyy-mm-dd",
@@ -51,7 +57,45 @@ $(document).ready(function(){
     var queryData = decodeQuery();
     var houseId = queryData["hid"];
 
-    // TODO: 获取房屋的基本信息
-
-    // TODO: 订单提交
-})
+    //  获取房屋的基本信息
+    $.get('/api/1.0/houses/detail/'+houseId,function (res) {
+        if(res.re_code=='0'){
+            $('.house-info>img').attr('src',res.data.house.img_urls[0]);
+            $('.house-text h3').text(res.data.house.name);
+             $('.house-text span').text(parseFloat((res.data.house.price)/100).toFixed(2));
+        }else {
+            alert(res.msg)
+        }
+    });
+    // 订单提交
+    $('.submit-btn').on('click',function () {
+        var start_date=$('#start-date').val(),
+            end_date=$('#end-date').val();
+         if (!start_date || !end_date) {
+            alert('请输入时间');
+            return;
+        }
+        var params={
+            'start_date':start_date,
+            'end_date':end_date,
+            'house_id':houseId
+        };
+        $.ajax({
+                    url:'/api/1.0/orders',
+                    type:'post',
+                    data:JSON.stringify(params),
+                    contentType:'application/json',
+                    headers:{'X-CSRFToken':getCookie('csrf_token')},
+                    success:function(response){
+                        if(response.re_code=='0'){
+                            // 成功
+                            location.href='/orders.html'
+                        }else if(response.re_code=='4101'){
+                            location.href='/login.html'
+                        }else {
+                            alert(response.msg)
+                        }
+                    }
+                });
+    });
+});
