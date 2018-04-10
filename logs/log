@@ -455,3 +455,1066 @@
 127.0.0.1 - - [09/Apr/2018 20:39:55] "GET /static/css/ihome/orders.css HTTP/1.1" 200 -
 127.0.0.1 - - [09/Apr/2018 20:39:55] "GET /static/js/template.js HTTP/1.1" 200 -
 127.0.0.1 - - [09/Apr/2018 20:39:55] "GET /static/js/ihome/orders.js HTTP/1.1" 200 -
+127.0.0.1 - - [09/Apr/2018 20:42:06] "GET /my.html HTTP/1.1" 200 -
+127.0.0.1 - - [09/Apr/2018 20:42:06] "GET /static/css/ihome/my.css HTTP/1.1" 200 -
+127.0.0.1 - - [09/Apr/2018 20:42:06] "GET /static/js/ihome/my.js HTTP/1.1" 200 -
+127.0.0.1 - - [09/Apr/2018 20:42:06] "GET /api/1.0/users HTTP/1.1" 200 -
+127.0.0.1 - - [09/Apr/2018 20:42:10] "GET /api/1.0/users HTTP/1.1" 200 -
+127.0.0.1 - - [09/Apr/2018 20:42:12] "GET /lorders.html HTTP/1.1" 200 -
+127.0.0.1 - - [09/Apr/2018 20:42:12] "GET /static/js/ihome/lorders.js HTTP/1.1" 200 -
+127.0.0.1 - - [09/Apr/2018 20:42:14] "GET /api/1.0/users HTTP/1.1" 200 -
+ * Detected change in 'E:\\pythonOBJ\\iHome\\ihome\\api_1_0\\order.py', reloading
+ * Restarting with stat
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 291-179-440
+ * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+127.0.0.1 - - [09/Apr/2018 21:27:33] "GET /my.html HTTP/1.1" 200 -
+127.0.0.1 - - [09/Apr/2018 21:27:33] "GET /api/1.0/users HTTP/1.1" 200 -
+127.0.0.1 - - [09/Apr/2018 21:27:34] "GET /orders.html?role=own HTTP/1.1" 200 -
+127.0.0.1 - - [09/Apr/2018 21:27:37] "GET /api/1.0/users HTTP/1.1" 200 -
+127.0.0.1 - - [09/Apr/2018 21:27:39] "GET /lorders.html?role=customer HTTP/1.1" 200 -
+127.0.0.1 - - [09/Apr/2018 21:27:40] "GET /api/1.0/users HTTP/1.1" 200 -
+127.0.0.1 - - [09/Apr/2018 21:28:27] "GET /api/1.0/orders?role=customer HTTP/1.1" 500 -
+127.0.0.1 - - [09/Apr/2018 21:28:27] "GET /api/1.0/orders?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+127.0.0.1 - - [09/Apr/2018 21:28:27] "GET /api/1.0/orders?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+127.0.0.1 - - [09/Apr/2018 21:28:27] "GET /api/1.0/orders?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+127.0.0.1 - - [09/Apr/2018 21:28:27] "GET /api/1.0/orders?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+127.0.0.1 - - [09/Apr/2018 21:28:27] "GET /api/1.0/orders?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+127.0.0.1 - - [09/Apr/2018 21:28:27] "GET /api/1.0/orders?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 291-179-440
+ * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+127.0.0.1 - - [09/Apr/2018 21:29:30] "GET /api/1.0/orders?role=customer HTTP/1.1" 500 -
+127.0.0.1 - - [09/Apr/2018 21:29:31] "GET /api/1.0/orders?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+127.0.0.1 - - [09/Apr/2018 21:29:31] "GET /api/1.0/orders?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+127.0.0.1 - - [09/Apr/2018 21:29:31] "GET /api/1.0/orders?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+127.0.0.1 - - [09/Apr/2018 21:29:31] "GET /api/1.0/orders?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+127.0.0.1 - - [09/Apr/2018 21:29:31] "GET /api/1.0/orders?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 291-179-440
+ * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 291-179-440
+ * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+127.0.0.1 - - [09/Apr/2018 21:32:40] "GET /api/1.0/orders?role=customer HTTP/1.1" 500 -
+127.0.0.1 - - [09/Apr/2018 21:32:41] "GET /api/1.0/orders?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+127.0.0.1 - - [09/Apr/2018 21:32:41] "GET /api/1.0/orders?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+127.0.0.1 - - [09/Apr/2018 21:32:41] "GET /api/1.0/orders?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+127.0.0.1 - - [09/Apr/2018 21:32:41] "GET /api/1.0/orders?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+127.0.0.1 - - [09/Apr/2018 21:32:41] "GET /api/1.0/orders?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+127.0.0.1 - - [09/Apr/2018 21:33:55] "GET /api/1.0/users HTTP/1.1" 200 -
+127.0.0.1 - - [09/Apr/2018 21:33:58] "GET /api/1.0/users HTTP/1.1" 200 -
+127.0.0.1 - - [09/Apr/2018 21:34:03] "GET /api/1.0/users HTTP/1.1" 200 -
+127.0.0.1 - - [09/Apr/2018 21:34:07] "GET /api/1.0/users HTTP/1.1" 200 -
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 291-179-440
+ * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+127.0.0.1 - - [09/Apr/2018 21:34:37] "GET /api/1.0/users HTTP/1.1" 200 -
+127.0.0.1 - - [09/Apr/2018 21:34:41] "GET /orders.html?role=own HTTP/1.1" 304 -
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 291-179-440
+ * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+127.0.0.1 - - [09/Apr/2018 21:34:54] "GET /api/1.0/users HTTP/1.1" 200 -
+127.0.0.1 - - [09/Apr/2018 21:34:55] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [09/Apr/2018 21:34:55] "GET /static/plugins/swiper/css/swiper.min.css HTTP/1.1" 200 -
+127.0.0.1 - - [09/Apr/2018 21:34:55] "GET /static/css/ihome/index.css HTTP/1.1" 200 -
+127.0.0.1 - - [09/Apr/2018 21:34:55] "GET /static/plugins/swiper/js/swiper.jquery.min.js HTTP/1.1" 200 -
+127.0.0.1 - - [09/Apr/2018 21:34:55] "GET /static/js/ihome/index.js HTTP/1.1" 200 -
+127.0.0.1 - - [09/Apr/2018 21:34:55] "GET /static/images/logo@128x59.png HTTP/1.1" 200 -
+127.0.0.1 - - [09/Apr/2018 21:34:55] "GET /api/1.0/sessions HTTP/1.1" 200 -
+127.0.0.1 - - [09/Apr/2018 21:34:55] "GET /api/1.0/houses/index HTTP/1.1" 200 -
+127.0.0.1 - - [09/Apr/2018 21:34:55] "GET /api/1.0/areas HTTP/1.1" 200 -
+127.0.0.1 - - [09/Apr/2018 21:34:55] "GET /static/plugins/swiper/js/maps/swiper.jquery.min.js.map HTTP/1.1" 404 -
+127.0.0.1 - - [09/Apr/2018 21:34:56] "GET / HTTP/1.1" 304 -
+127.0.0.1 - - [09/Apr/2018 21:34:57] "GET /api/1.0/sessions HTTP/1.1" 200 -
+127.0.0.1 - - [09/Apr/2018 21:34:57] "GET /api/1.0/houses/index HTTP/1.1" 200 -
+127.0.0.1 - - [09/Apr/2018 21:34:57] "GET /api/1.0/areas HTTP/1.1" 200 -
+127.0.0.1 - - [09/Apr/2018 21:34:57] "GET /static/plugins/swiper/js/maps/swiper.jquery.min.js.map HTTP/1.1" 404 -
+127.0.0.1 - - [09/Apr/2018 21:34:58] "GET /api/1.0/users HTTP/1.1" 200 -
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 291-179-440
+ * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+127.0.0.1 - - [09/Apr/2018 21:45:03] "GET /api/1.0/users HTTP/1.1" 200 -
+127.0.0.1 - - [09/Apr/2018 21:45:04] "GET /my.html HTTP/1.1" 304 -
+127.0.0.1 - - [09/Apr/2018 21:45:04] "GET /api/1.0/users HTTP/1.1" 200 -
+127.0.0.1 - - [09/Apr/2018 21:45:06] "GET /api/1.0/users HTTP/1.1" 200 -
+127.0.0.1 - - [09/Apr/2018 21:45:08] "GET /myhouse.html HTTP/1.1" 200 -
+127.0.0.1 - - [09/Apr/2018 21:45:08] "GET /static/css/ihome/myhouse.css HTTP/1.1" 200 -
+127.0.0.1 - - [09/Apr/2018 21:45:08] "GET /static/js/ihome/myhouse.js HTTP/1.1" 200 -
+127.0.0.1 - - [09/Apr/2018 21:45:08] "GET /api/1.0/users/auth HTTP/1.1" 200 -
+127.0.0.1 - - [09/Apr/2018 21:45:08] "GET /api/1.0/users/houses HTTP/1.1" 200 -
+127.0.0.1 - - [09/Apr/2018 21:45:10] "GET /api/1.0/users HTTP/1.1" 200 -
+127.0.0.1 - - [09/Apr/2018 21:45:12] "GET /api/1.0/users HTTP/1.1" 200 -
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 291-179-440
+ * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 291-179-440
+ * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+127.0.0.1 - - [09/Apr/2018 21:47:09] "GET /my.html HTTP/1.1" 304 -
+127.0.0.1 - - [09/Apr/2018 21:47:10] "GET /api/1.0/users HTTP/1.1" 200 -
+127.0.0.1 - - [09/Apr/2018 21:47:26] "GET /api/1.0/users HTTP/1.1" 200 -
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 291-179-440
+ * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+127.0.0.1 - - [09/Apr/2018 21:49:43] "GET /api/1.0/users HTTP/1.1" 200 -
+127.0.0.1 - - [09/Apr/2018 21:49:52] "GET /orders.html?role=own HTTP/1.1" 200 -
+127.0.0.1 - - [09/Apr/2018 21:49:52] "GET /static/plugins/bootstrap/css/bootstrap.min.css HTTP/1.1" 200 -
+127.0.0.1 - - [09/Apr/2018 21:49:52] "GET /static/plugins/font-awesome/css/font-awesome.min.css HTTP/1.1" 200 -
+127.0.0.1 - - [09/Apr/2018 21:49:52] "GET /static/css/reset.css HTTP/1.1" 200 -
+127.0.0.1 - - [09/Apr/2018 21:49:52] "GET /static/plugins/bootstrap-datepicker/css/bootstrap-datepicker.min.css HTTP/1.1" 200 -
+127.0.0.1 - - [09/Apr/2018 21:49:52] "GET /static/css/ihome/main.css HTTP/1.1" 200 -
+127.0.0.1 - - [09/Apr/2018 21:49:52] "GET /static/css/ihome/orders.css HTTP/1.1" 200 -
+127.0.0.1 - - [09/Apr/2018 21:49:52] "GET /static/js/jquery.min.js HTTP/1.1" 200 -
+127.0.0.1 - - [09/Apr/2018 21:49:52] "GET /static/plugins/bootstrap/js/bootstrap.min.js HTTP/1.1" 200 -
+127.0.0.1 - - [09/Apr/2018 21:49:52] "GET /static/plugins/bootstrap-datepicker/js/bootstrap-datepicker.min.js HTTP/1.1" 200 -
+127.0.0.1 - - [09/Apr/2018 21:49:52] "GET /static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.zh-CN.min.js HTTP/1.1" 200 -
+127.0.0.1 - - [09/Apr/2018 21:49:52] "GET /static/js/template.js HTTP/1.1" 200 -
+127.0.0.1 - - [09/Apr/2018 21:49:52] "GET /static/js/ihome/orders.js HTTP/1.1" 200 -
+127.0.0.1 - - [09/Apr/2018 21:49:52] "GET /static/plugins/font-awesome/fonts/fontawesome-webfont.woff2?v=4.6.3 HTTP/1.1" 200 -
+127.0.0.1 - - [09/Apr/2018 21:49:52] "GET /static/plugins/bootstrap/css/bootstrap.min.css.map HTTP/1.1" 200 -
+127.0.0.1 - - [09/Apr/2018 21:49:52] "GET /api/1.0/orders?role=own HTTP/1.1" 500 -
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 291-179-440
+ * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+127.0.0.1 - - [09/Apr/2018 21:59:35] "GET /orders.html?role=own HTTP/1.1" 304 -
+127.0.0.1 - - [09/Apr/2018 21:59:35] "GET /api/1.0/orders?role=own HTTP/1.1" 500 -
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 291-179-440
+ * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+127.0.0.1 - - [10/Apr/2018 09:20:17] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 09:20:17] "GET /static/plugins/swiper/css/swiper.min.css HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 09:20:17] "GET /static/css/ihome/index.css HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 09:20:17] "GET /static/images/logo@128x59.png HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 09:20:17] "GET /static/plugins/swiper/js/swiper.jquery.min.js HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 09:20:18] "GET /static/js/ihome/index.js HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 09:20:18] "GET /api/1.0/sessions HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 09:20:19] "GET /api/1.0/houses/index HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 09:20:19] "GET /api/1.0/areas HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 09:20:24] "GET /detail.html?id=3 HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 09:20:24] "GET /static/css/ihome/detail.css HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 09:20:24] "GET /static/js/ihome/detail.js HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 09:20:24] "GET /api/1.0/houses/detail/3 HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 09:20:24] "GET /static/images/houseicon_sprite.png HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 09:20:27] "GET /booking.html?hid=3 HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 09:20:27] "GET /static/css/ihome/booking.css HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 09:20:27] "GET /static/js/ihome/booking.js HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 09:20:27] "GET /static/images/home01.jpg HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 09:20:27] "GET /api/1.0/sessions HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 09:20:27] "GET /api/1.0/houses/detail/3 HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 09:20:38] "POST /api/1.0/orders HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 09:20:39] "GET /api/1.0/orders?role=own HTTP/1.1" 500 -
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 291-179-440
+ * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+127.0.0.1 - - [10/Apr/2018 09:20:59] "GET /orders.html?role=own HTTP/1.1" 304 -
+127.0.0.1 - - [10/Apr/2018 09:21:00] "GET /api/1.0/orders?role=own HTTP/1.1" 500 -
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 291-179-440
+ * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+127.0.0.1 - - [10/Apr/2018 09:21:36] "GET /orders.html?role=own HTTP/1.1" 304 -
+127.0.0.1 - - [10/Apr/2018 09:21:37] "GET /api/1.0/orders?role=own HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 09:22:04] "GET /static/plugins/swiper/js/maps/swiper.jquery.min.js.map HTTP/1.1" 404 -
+127.0.0.1 - - [10/Apr/2018 09:22:07] "GET /static/plugins/swiper/js/maps/swiper.jquery.min.js.map HTTP/1.1" 404 -
+127.0.0.1 - - [10/Apr/2018 09:22:08] "GET /my.html HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 09:22:08] "GET /static/css/ihome/my.css HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 09:22:08] "GET /static/js/ihome/my.js HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 09:22:08] "GET /api/1.0/users HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 09:22:09] "GET /api/1.0/orders?role=own HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 09:22:11] "GET /api/1.0/users HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 09:22:12] "GET /lorders.html?role=customer HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 09:22:12] "GET /static/js/ihome/lorders.js HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 09:22:21] "GET /api/1.0/users HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 09:22:23] "GET /api/1.0/orders?role=own HTTP/1.1" 200 -
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 291-179-440
+ * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+127.0.0.1 - - [10/Apr/2018 09:23:24] "GET /api/1.0/users HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 09:23:25] "GET /my.html HTTP/1.1" 304 -
+127.0.0.1 - - [10/Apr/2018 09:23:25] "GET /api/1.0/users HTTP/1.1" 200 -
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 291-179-440
+ * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+127.0.0.1 - - [10/Apr/2018 09:25:28] "GET /lorders.html?role=customer HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 09:25:28] "GET /static/plugins/bootstrap/css/bootstrap.min.css HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 09:25:28] "GET /static/plugins/font-awesome/css/font-awesome.min.css HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 09:25:28] "GET /static/css/reset.css HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 09:25:28] "GET /static/plugins/bootstrap-datepicker/css/bootstrap-datepicker.min.css HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 09:25:28] "GET /static/css/ihome/main.css HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 09:25:28] "GET /static/css/ihome/orders.css HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 09:25:28] "GET /static/js/jquery.min.js HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 09:25:29] "GET /static/plugins/bootstrap/js/bootstrap.min.js HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 09:25:29] "GET /static/plugins/bootstrap-datepicker/js/bootstrap-datepicker.min.js HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 09:25:29] "GET /static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.zh-CN.min.js HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 09:25:29] "GET /static/js/template.js HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 09:25:29] "GET /static/js/ihome/lorders.js HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 09:25:29] "GET /static/plugins/font-awesome/fonts/fontawesome-webfont.woff2?v=4.6.3 HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 09:25:29] "GET /static/plugins/bootstrap/css/bootstrap.min.css.map HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 09:26:01] "GET /lorders.html?role=customer HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 09:26:01] "GET /static/plugins/bootstrap/css/bootstrap.min.css HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 09:26:01] "GET /static/plugins/font-awesome/css/font-awesome.min.css HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 09:26:01] "GET /static/css/reset.css HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 09:26:01] "GET /static/plugins/bootstrap-datepicker/css/bootstrap-datepicker.min.css HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 09:26:01] "GET /static/css/ihome/main.css HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 09:26:01] "GET /static/css/ihome/orders.css HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 09:26:01] "GET /static/js/jquery.min.js HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 09:26:01] "GET /static/plugins/bootstrap/js/bootstrap.min.js HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 09:26:01] "GET /static/plugins/bootstrap-datepicker/js/bootstrap-datepicker.min.js HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 09:26:01] "GET /static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.zh-CN.min.js HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 09:26:01] "GET /static/js/template.js HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 09:26:01] "GET /static/js/ihome/lorders.js HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 09:26:01] "GET /static/plugins/font-awesome/fonts/fontawesome-webfont.woff2?v=4.6.3 HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 09:26:01] "GET /static/plugins/bootstrap/css/bootstrap.min.css.map HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 09:26:01] "GET /api/1.0/orders?role=customer HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 09:26:15] "GET /my.html HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 09:26:15] "GET /static/css/ihome/my.css HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 09:26:15] "GET /static/js/ihome/my.js HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 09:26:15] "GET /api/1.0/users HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 09:26:17] "DELETE /api/1.0/sessions HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 09:26:19] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 09:26:19] "GET /static/plugins/swiper/css/swiper.min.css HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 09:26:19] "GET /static/css/ihome/index.css HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 09:26:19] "GET /static/plugins/swiper/js/swiper.jquery.min.js HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 09:26:19] "GET /static/js/ihome/index.js HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 09:26:19] "GET /static/images/logo@128x59.png HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 09:26:19] "GET /api/1.0/sessions HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 09:26:19] "GET /api/1.0/houses/index HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 09:26:19] "GET /api/1.0/areas HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 09:26:19] "GET /static/plugins/swiper/js/maps/swiper.jquery.min.js.map HTTP/1.1" 404 -
+127.0.0.1 - - [10/Apr/2018 09:26:20] "GET /login.html HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 09:26:20] "GET /static/css/ihome/login.css HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 09:26:21] "GET /static/js/ihome/login.js HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 09:26:35] "POST /api/1.0/sessions HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 09:26:35] "GET /api/1.0/sessions HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 09:26:35] "GET /api/1.0/houses/index HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 09:26:35] "GET /api/1.0/areas HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 09:26:35] "GET /static/plugins/swiper/js/maps/swiper.jquery.min.js.map HTTP/1.1" 404 -
+127.0.0.1 - - [10/Apr/2018 09:26:38] "GET /api/1.0/users HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 09:26:39] "GET /api/1.0/orders?role=customer HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 09:26:41] "GET /api/1.0/users HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 09:26:42] "GET /orders.html?role=own HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 09:26:42] "GET /static/js/ihome/orders.js HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 09:26:42] "GET /api/1.0/orders?role=own HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 09:26:43] "GET /api/1.0/users HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 09:26:45] "GET /api/1.0/orders?role=customer HTTP/1.1" 200 -
+ * Detected change in 'E:\\pythonOBJ\\iHome\\ihome\\api_1_0\\order.py', reloading
+ * Restarting with stat
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 291-179-440
+ * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+127.0.0.1 - - [10/Apr/2018 10:04:19] "GET /lorders.html?role=customer HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 10:04:19] "GET /static/plugins/bootstrap/css/bootstrap.min.css HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 10:04:19] "GET /static/plugins/font-awesome/css/font-awesome.min.css HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 10:04:19] "GET /static/css/reset.css HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 10:04:19] "GET /static/plugins/bootstrap-datepicker/css/bootstrap-datepicker.min.css HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 10:04:19] "GET /static/css/ihome/main.css HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 10:04:19] "GET /static/css/ihome/orders.css HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 10:04:19] "GET /static/js/jquery.min.js HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 10:04:19] "GET /static/plugins/bootstrap/js/bootstrap.min.js HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 10:04:19] "GET /static/plugins/bootstrap-datepicker/js/bootstrap-datepicker.min.js HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 10:04:19] "GET /static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.zh-CN.min.js HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 10:04:19] "GET /static/js/template.js HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 10:04:19] "GET /static/js/ihome/lorders.js HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 10:04:19] "GET /static/plugins/font-awesome/fonts/fontawesome-webfont.woff2?v=4.6.3 HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 10:04:19] "GET /static/plugins/bootstrap/css/bootstrap.min.css.map HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 10:04:20] "GET /api/1.0/orders?role=customer HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 10:04:25] "PUT /api/1.0/orders/status/1?action=accept HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 10:04:39] "GET /lorders.html?role=customer HTTP/1.1" 304 -
+127.0.0.1 - - [10/Apr/2018 10:04:39] "GET /api/1.0/orders?role=customer HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 10:06:04] "GET /lorders.html?role=customer HTTP/1.1" 304 -
+127.0.0.1 - - [10/Apr/2018 10:06:05] "GET /api/1.0/orders?role=customer HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 10:09:48] "GET /lorders.html?role=customer HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 10:09:48] "GET /static/plugins/bootstrap/css/bootstrap.min.css HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 10:09:48] "GET /static/plugins/font-awesome/css/font-awesome.min.css HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 10:09:48] "GET /static/css/reset.css HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 10:09:48] "GET /static/plugins/bootstrap-datepicker/css/bootstrap-datepicker.min.css HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 10:09:48] "GET /static/css/ihome/main.css HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 10:09:48] "GET /static/css/ihome/orders.css HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 10:09:48] "GET /static/js/jquery.min.js HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 10:09:48] "GET /static/plugins/bootstrap/js/bootstrap.min.js HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 10:09:48] "GET /static/plugins/bootstrap-datepicker/js/bootstrap-datepicker.min.js HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 10:09:48] "GET /static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.zh-CN.min.js HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 10:09:48] "GET /static/js/template.js HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 10:09:48] "GET /static/js/ihome/lorders.js HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 10:09:48] "GET /static/plugins/font-awesome/fonts/fontawesome-webfont.woff2?v=4.6.3 HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 10:09:48] "GET /static/plugins/bootstrap/css/bootstrap.min.css.map HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 10:09:48] "GET /api/1.0/orders?role=customer HTTP/1.1" 200 -
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 291-179-440
+ * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+127.0.0.1 - - [10/Apr/2018 10:29:58] "GET /lorders.html?role=customer HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 10:29:58] "GET /static/plugins/bootstrap/css/bootstrap.min.css HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 10:29:58] "GET /static/plugins/font-awesome/css/font-awesome.min.css HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 10:29:58] "GET /static/css/reset.css HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 10:29:58] "GET /static/plugins/bootstrap-datepicker/css/bootstrap-datepicker.min.css HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 10:29:58] "GET /static/css/ihome/main.css HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 10:29:58] "GET /static/css/ihome/orders.css HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 10:29:58] "GET /static/js/jquery.min.js HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 10:29:59] "GET /static/plugins/bootstrap/js/bootstrap.min.js HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 10:29:59] "GET /static/plugins/bootstrap-datepicker/js/bootstrap-datepicker.min.js HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 10:29:59] "GET /static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.zh-CN.min.js HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 10:29:59] "GET /static/js/template.js HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 10:29:59] "GET /static/js/ihome/lorders.js HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 10:29:59] "GET /static/plugins/font-awesome/fonts/fontawesome-webfont.woff2?v=4.6.3 HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 10:29:59] "GET /static/plugins/bootstrap/css/bootstrap.min.css.map HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 10:29:59] "GET /api/1.0/orders?role=customer HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 10:30:14] "GET /my.html HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 10:30:14] "GET /static/css/ihome/my.css HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 10:30:14] "GET /static/js/ihome/my.js HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 10:30:14] "GET /api/1.0/users HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 10:30:15] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 10:30:15] "GET /static/plugins/swiper/css/swiper.min.css HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 10:30:15] "GET /static/css/ihome/index.css HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 10:30:15] "GET /static/plugins/swiper/js/swiper.jquery.min.js HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 10:30:15] "GET /static/js/ihome/index.js HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 10:30:15] "GET /static/images/logo@128x59.png HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 10:30:15] "GET /api/1.0/sessions HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 10:30:15] "GET /api/1.0/houses/index HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 10:30:15] "GET /api/1.0/areas HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 10:30:15] "GET /static/plugins/swiper/js/maps/swiper.jquery.min.js.map HTTP/1.1" 404 -
+127.0.0.1 - - [10/Apr/2018 10:30:17] "GET /api/1.0/users HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 10:30:20] "GET /myhouse.html HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 10:30:20] "GET /static/css/ihome/myhouse.css HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 10:30:20] "GET /static/js/ihome/myhouse.js HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 10:30:20] "GET /api/1.0/users/auth HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 10:30:20] "GET /api/1.0/users/houses HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 10:30:24] "GET /newhouse.html HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 10:30:24] "GET /static/css/ihome/newhouse.css HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 10:30:24] "GET /static/js/jquery.form.min.js HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 10:30:24] "GET /static/js/ihome/newhouse.js?v=3 HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 10:30:24] "GET /api/1.0/users/auth HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 10:30:24] "GET /api/1.0/areas HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 10:30:52] "POST /api/1.0/houses HTTP/1.1" 200 -
+Starting new HTTPS connection (1): uc.qbox.me
+https://uc.qbox.me:443 "GET /v1/query?ak=yV4GmNBLOgQK-1Sn3o4jktGLFdFSrlywR2C-hvsW&bucket=ihome HTTP/1.1" 200 239
+Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+Starting new HTTP connection (1): up.qiniu.com
+http://up.qiniu.com:80 "POST / HTTP/1.1" 200 76
+127.0.0.1 - - [10/Apr/2018 10:31:10] "POST /api/1.0/houses/6/images HTTP/1.1" 200 -
+http://up.qiniu.com:80 "POST / HTTP/1.1" 200 76
+127.0.0.1 - - [10/Apr/2018 10:31:19] "POST /api/1.0/houses/6/images HTTP/1.1" 200 -
+http://up.qiniu.com:80 "POST / HTTP/1.1" 200 76
+127.0.0.1 - - [10/Apr/2018 10:31:27] "POST /api/1.0/houses/6/images HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 10:31:29] "GET /api/1.0/users/auth HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 10:31:29] "GET /api/1.0/users/houses HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 10:31:33] "GET /api/1.0/users HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 10:31:36] "GET /api/1.0/orders?role=customer HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 10:31:37] "GET /api/1.0/users HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 10:31:39] "GET /orders.html?role=own HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 10:31:39] "GET /static/js/ihome/orders.js HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 10:31:39] "GET /api/1.0/orders?role=own HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 10:31:41] "GET /api/1.0/users HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 10:31:45] "GET /api/1.0/sessions HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 10:31:45] "GET /api/1.0/houses/index HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 10:31:45] "GET /api/1.0/areas HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 10:31:45] "GET /static/plugins/swiper/js/maps/swiper.jquery.min.js.map HTTP/1.1" 404 -
+127.0.0.1 - - [10/Apr/2018 10:31:46] "GET /detail.html?id=6 HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 10:31:46] "GET /static/css/ihome/detail.css HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 10:31:46] "GET /static/js/ihome/detail.js HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 10:31:46] "GET /api/1.0/houses/detail/6 HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 10:31:46] "GET /static/plugins/swiper/js/maps/swiper.jquery.min.js.map HTTP/1.1" 404 -
+127.0.0.1 - - [10/Apr/2018 10:31:46] "GET /static/images/houseicon_sprite.png HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 10:31:50] "GET /static/plugins/swiper/js/maps/swiper.jquery.min.js.map HTTP/1.1" 404 -
+127.0.0.1 - - [10/Apr/2018 10:31:52] "GET /detail.html?id=5 HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 10:31:53] "GET /api/1.0/houses/detail/5 HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 10:31:53] "GET /static/plugins/swiper/js/maps/swiper.jquery.min.js.map HTTP/1.1" 404 -
+127.0.0.1 - - [10/Apr/2018 10:31:55] "GET /booking.html?hid=5 HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 10:31:55] "GET /static/css/ihome/booking.css HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 10:31:55] "GET /static/js/ihome/booking.js HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 10:31:55] "GET /static/images/home01.jpg HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 10:31:55] "GET /api/1.0/sessions HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 10:31:55] "GET /api/1.0/houses/detail/5 HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 10:32:02] "POST /api/1.0/orders HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 10:32:02] "GET /api/1.0/orders?role=own HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 10:32:11] "GET /api/1.0/users HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 10:32:13] "GET /api/1.0/orders?role=own HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 10:32:14] "GET /api/1.0/users HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 10:32:15] "GET /api/1.0/sessions HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 10:32:15] "GET /api/1.0/houses/index HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 10:32:15] "GET /api/1.0/areas HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 10:32:15] "GET /static/plugins/swiper/js/maps/swiper.jquery.min.js.map HTTP/1.1" 404 -
+127.0.0.1 - - [10/Apr/2018 10:32:18] "GET /api/1.0/houses/detail/5 HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 10:32:18] "GET /static/plugins/swiper/js/maps/swiper.jquery.min.js.map HTTP/1.1" 404 -
+127.0.0.1 - - [10/Apr/2018 10:32:21] "GET /static/plugins/swiper/js/maps/swiper.jquery.min.js.map HTTP/1.1" 404 -
+127.0.0.1 - - [10/Apr/2018 10:32:23] "GET /api/1.0/users HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 10:32:24] "DELETE /api/1.0/sessions HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 10:32:26] "GET /api/1.0/sessions HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 10:32:26] "GET /api/1.0/houses/index HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 10:32:26] "GET /api/1.0/areas HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 10:32:26] "GET /static/plugins/swiper/js/maps/swiper.jquery.min.js.map HTTP/1.1" 404 -
+127.0.0.1 - - [10/Apr/2018 10:32:26] "GET /api/1.0/houses/detail/6 HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 10:32:26] "GET /static/plugins/swiper/js/maps/swiper.jquery.min.js.map HTTP/1.1" 404 -
+127.0.0.1 - - [10/Apr/2018 10:32:28] "GET /static/plugins/swiper/js/maps/swiper.jquery.min.js.map HTTP/1.1" 404 -
+127.0.0.1 - - [10/Apr/2018 10:32:29] "GET /api/1.0/houses/detail/6 HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 10:32:29] "GET /static/plugins/swiper/js/maps/swiper.jquery.min.js.map HTTP/1.1" 404 -
+127.0.0.1 - - [10/Apr/2018 10:32:32] "GET /booking.html?hid=6 HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 10:32:32] "GET /api/1.0/sessions HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 10:32:33] "GET /api/1.0/houses/detail/6 HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 10:32:33] "GET /login.html HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 10:32:33] "GET /static/css/ihome/login.css HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 10:32:33] "GET /static/js/ihome/login.js HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 10:32:35] "GET /static/plugins/swiper/js/maps/swiper.jquery.min.js.map HTTP/1.1" 404 -
+127.0.0.1 - - [10/Apr/2018 10:32:36] "GET /api/1.0/sessions HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 10:32:36] "GET /api/1.0/houses/detail/6 HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 10:32:49] "POST /api/1.0/sessions HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 10:32:49] "GET /api/1.0/sessions HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 10:32:49] "GET /api/1.0/houses/index HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 10:32:49] "GET /api/1.0/areas HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 10:32:49] "GET /static/plugins/swiper/js/maps/swiper.jquery.min.js.map HTTP/1.1" 404 -
+127.0.0.1 - - [10/Apr/2018 10:32:52] "GET /api/1.0/users HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 10:32:53] "GET /api/1.0/orders?role=own HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 10:33:11] "GET /api/1.0/users HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 10:33:13] "GET /api/1.0/orders?role=customer HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 10:33:22] "PUT /api/1.0/orders/status/3?action=reject HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 10:33:53] "GET /lorders.html?role=customer HTTP/1.1" 304 -
+127.0.0.1 - - [10/Apr/2018 10:33:54] "GET /api/1.0/orders?role=customer HTTP/1.1" 200 -
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 291-179-440
+ * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+127.0.0.1 - - [10/Apr/2018 10:35:02] "GET /my.html HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 10:35:02] "GET /static/plugins/bootstrap/css/bootstrap.min.css HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 10:35:02] "GET /static/plugins/font-awesome/css/font-awesome.min.css HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 10:35:02] "GET /static/css/reset.css HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 10:35:02] "GET /static/plugins/bootstrap-datepicker/css/bootstrap-datepicker.min.css HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 10:35:02] "GET /static/css/ihome/main.css HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 10:35:02] "GET /static/css/ihome/my.css HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 10:35:02] "GET /static/js/jquery.min.js HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 10:35:02] "GET /static/plugins/bootstrap/js/bootstrap.min.js HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 10:35:02] "GET /static/plugins/bootstrap-datepicker/js/bootstrap-datepicker.min.js HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 10:35:02] "GET /static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.zh-CN.min.js HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 10:35:02] "GET /static/js/ihome/my.js HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 10:35:02] "GET /static/plugins/font-awesome/fonts/fontawesome-webfont.woff2?v=4.6.3 HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 10:35:02] "GET /static/plugins/bootstrap/css/bootstrap.min.css.map HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 10:35:03] "GET /api/1.0/users HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 10:35:04] "GET /orders.html?role=own HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 10:35:04] "GET /static/css/ihome/orders.css HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 10:35:04] "GET /static/js/template.js HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 10:35:04] "GET /static/js/ihome/orders.js HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 10:35:04] "GET /api/1.0/orders?role=own HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 10:35:09] "GET /my.html HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 10:35:09] "GET /static/plugins/bootstrap/css/bootstrap.min.css HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 10:35:09] "GET /static/plugins/font-awesome/css/font-awesome.min.css HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 10:35:09] "GET /static/css/reset.css HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 10:35:09] "GET /static/plugins/bootstrap-datepicker/css/bootstrap-datepicker.min.css HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 10:35:09] "GET /static/css/ihome/main.css HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 10:35:09] "GET /static/css/ihome/my.css HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 10:35:09] "GET /static/js/jquery.min.js HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 10:35:09] "GET /static/plugins/bootstrap/js/bootstrap.min.js HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 10:35:09] "GET /static/plugins/bootstrap-datepicker/js/bootstrap-datepicker.min.js HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 10:35:09] "GET /static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.zh-CN.min.js HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 10:35:09] "GET /static/js/ihome/my.js HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 10:35:09] "GET /static/plugins/font-awesome/fonts/fontawesome-webfont.woff2?v=4.6.3 HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 10:35:09] "GET /static/plugins/bootstrap/css/bootstrap.min.css.map HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 10:35:09] "GET /api/1.0/users HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 10:35:11] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 10:35:11] "GET /static/plugins/swiper/css/swiper.min.css HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 10:35:11] "GET /static/css/ihome/index.css HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 10:35:11] "GET /static/plugins/swiper/js/swiper.jquery.min.js HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 10:35:11] "GET /static/js/template.js HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 10:35:11] "GET /static/js/ihome/index.js HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 10:35:11] "GET /static/images/logo@128x59.png HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 10:35:11] "GET /api/1.0/sessions HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 10:35:11] "GET /api/1.0/houses/index HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 10:35:11] "GET /api/1.0/areas HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 10:35:11] "GET /static/plugins/swiper/js/maps/swiper.jquery.min.js.map HTTP/1.1" 404 -
+127.0.0.1 - - [10/Apr/2018 10:35:13] "GET /detail.html?id=6 HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 10:35:13] "GET /static/css/ihome/detail.css HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 10:35:13] "GET /static/js/ihome/detail.js HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 10:35:13] "GET /api/1.0/houses/detail/6 HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 10:35:13] "GET /static/plugins/swiper/js/maps/swiper.jquery.min.js.map HTTP/1.1" 404 -
+127.0.0.1 - - [10/Apr/2018 10:35:13] "GET /static/images/houseicon_sprite.png HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 10:35:20] "GET /booking.html?hid=6 HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 10:35:20] "GET /static/css/ihome/booking.css HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 10:35:20] "GET /static/images/home01.jpg HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 10:35:20] "GET /static/js/ihome/booking.js HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 10:35:20] "GET /api/1.0/sessions HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 10:35:20] "GET /api/1.0/houses/detail/6 HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 10:35:25] "POST /api/1.0/orders HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 10:35:25] "GET /orders.html?role=own HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 10:35:26] "GET /static/css/ihome/orders.css HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 10:35:26] "GET /static/js/ihome/orders.js HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 10:35:26] "GET /api/1.0/orders?role=own HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 10:35:43] "GET /api/1.0/users HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 10:35:45] "GET /api/1.0/sessions HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 10:35:45] "GET /api/1.0/houses/index HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 10:35:45] "GET /api/1.0/areas HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 10:35:45] "GET /static/plugins/swiper/js/maps/swiper.jquery.min.js.map HTTP/1.1" 404 -
+127.0.0.1 - - [10/Apr/2018 10:35:50] "GET /api/1.0/houses/detail/6 HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 10:35:50] "GET /static/plugins/swiper/js/maps/swiper.jquery.min.js.map HTTP/1.1" 404 -
+127.0.0.1 - - [10/Apr/2018 10:35:53] "GET /static/plugins/swiper/js/maps/swiper.jquery.min.js.map HTTP/1.1" 404 -
+127.0.0.1 - - [10/Apr/2018 10:35:54] "GET /api/1.0/users HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 10:35:56] "DELETE /api/1.0/sessions HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 10:35:57] "GET /api/1.0/sessions HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 10:35:57] "GET /api/1.0/houses/index HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 10:35:57] "GET /api/1.0/areas HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 10:35:57] "GET /static/plugins/swiper/js/maps/swiper.jquery.min.js.map HTTP/1.1" 404 -
+127.0.0.1 - - [10/Apr/2018 10:35:59] "GET /login.html HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 10:35:59] "GET /static/css/ihome/login.css HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 10:35:59] "GET /static/js/ihome/login.js HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 10:36:07] "POST /api/1.0/sessions HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 10:36:07] "GET /api/1.0/sessions HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 10:36:07] "GET /api/1.0/houses/index HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 10:36:07] "GET /api/1.0/areas HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 10:36:07] "GET /static/plugins/swiper/js/maps/swiper.jquery.min.js.map HTTP/1.1" 404 -
+127.0.0.1 - - [10/Apr/2018 10:36:10] "GET /api/1.0/users HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 10:36:12] "GET /lorders.html?role=customer HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 10:36:12] "GET /static/js/ihome/lorders.js HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 10:36:12] "GET /api/1.0/orders?role=customer HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 10:36:38] "PUT /api/1.0/orders/status/4?action=reject HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 10:37:22] "GET /lorders.html?role=customer HTTP/1.1" 304 -
+127.0.0.1 - - [10/Apr/2018 10:37:22] "GET /api/1.0/orders?role=customer HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 10:42:27] "GET /my.html HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 10:42:27] "GET /static/plugins/bootstrap/css/bootstrap.min.css HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 10:42:27] "GET /static/plugins/font-awesome/css/font-awesome.min.css HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 10:42:27] "GET /static/css/reset.css HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 10:42:27] "GET /static/plugins/bootstrap-datepicker/css/bootstrap-datepicker.min.css HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 10:42:27] "GET /static/css/ihome/main.css HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 10:42:27] "GET /static/css/ihome/my.css HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 10:42:27] "GET /static/js/jquery.min.js HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 10:42:27] "GET /static/plugins/bootstrap/js/bootstrap.min.js HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 10:42:27] "GET /static/plugins/bootstrap-datepicker/js/bootstrap-datepicker.min.js HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 10:42:27] "GET /static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.zh-CN.min.js HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 10:42:27] "GET /static/js/ihome/my.js HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 10:42:27] "GET /static/plugins/font-awesome/fonts/fontawesome-webfont.woff2?v=4.6.3 HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 10:42:27] "GET /static/plugins/bootstrap/css/bootstrap.min.css.map HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 10:42:27] "GET /api/1.0/users HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 10:42:29] "GET /lorders.html?role=customer HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 10:42:29] "GET /static/css/ihome/orders.css HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 10:42:29] "GET /static/js/template.js HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 10:42:29] "GET /static/js/ihome/lorders.js HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 10:42:29] "GET /api/1.0/orders?role=customer HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 10:42:36] "GET /lorders.html?role=customer HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 10:42:36] "GET /static/plugins/bootstrap/css/bootstrap.min.css HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 10:42:36] "GET /static/plugins/font-awesome/css/font-awesome.min.css HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 10:42:36] "GET /static/css/reset.css HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 10:42:36] "GET /static/plugins/bootstrap-datepicker/css/bootstrap-datepicker.min.css HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 10:42:36] "GET /static/css/ihome/main.css HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 10:42:36] "GET /static/css/ihome/orders.css HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 10:42:36] "GET /static/js/jquery.min.js HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 10:42:36] "GET /static/plugins/bootstrap/js/bootstrap.min.js HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 10:42:36] "GET /static/plugins/bootstrap-datepicker/js/bootstrap-datepicker.min.js HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 10:42:36] "GET /static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.zh-CN.min.js HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 10:42:36] "GET /static/js/template.js HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 10:42:36] "GET /static/js/ihome/lorders.js HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 10:42:36] "GET /static/plugins/font-awesome/fonts/fontawesome-webfont.woff2?v=4.6.3 HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 10:42:36] "GET /static/plugins/bootstrap/css/bootstrap.min.css.map HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 10:42:36] "GET /api/1.0/orders?role=customer HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 10:42:37] "GET /my.html HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 10:42:37] "GET /static/css/ihome/my.css HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 10:42:37] "GET /static/js/ihome/my.js HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 10:42:37] "GET /api/1.0/users HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 10:42:40] "DELETE /api/1.0/sessions HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 10:42:41] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 10:42:41] "GET /static/plugins/swiper/css/swiper.min.css HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 10:42:41] "GET /static/css/ihome/index.css HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 10:42:41] "GET /static/plugins/swiper/js/swiper.jquery.min.js HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 10:42:41] "GET /static/js/ihome/index.js HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 10:42:41] "GET /static/images/logo@128x59.png HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 10:42:41] "GET /api/1.0/sessions HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 10:42:41] "GET /api/1.0/houses/index HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 10:42:41] "GET /api/1.0/areas HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 10:42:41] "GET /static/plugins/swiper/js/maps/swiper.jquery.min.js.map HTTP/1.1" 404 -
+127.0.0.1 - - [10/Apr/2018 10:42:44] "GET /login.html HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 10:42:44] "GET /static/css/ihome/login.css HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 10:42:44] "GET /static/js/ihome/login.js HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 10:42:52] "POST /api/1.0/sessions HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 10:42:52] "GET /api/1.0/sessions HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 10:42:52] "GET /api/1.0/houses/index HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 10:42:52] "GET /api/1.0/areas HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 10:42:52] "GET /static/plugins/swiper/js/maps/swiper.jquery.min.js.map HTTP/1.1" 404 -
+127.0.0.1 - - [10/Apr/2018 10:42:55] "GET /api/1.0/users HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 10:42:57] "GET /orders.html?role=own HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 10:42:57] "GET /static/js/ihome/orders.js HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 10:42:57] "GET /api/1.0/orders?role=own HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 10:42:58] "GET /api/1.0/users HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 10:42:59] "GET /myhouse.html HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 10:42:59] "GET /static/css/ihome/myhouse.css HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 10:42:59] "GET /static/js/ihome/myhouse.js HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 10:42:59] "GET /api/1.0/users/auth HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 10:42:59] "GET /api/1.0/users/houses HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 10:43:01] "GET /api/1.0/users HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 10:43:03] "GET /api/1.0/orders?role=customer HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 10:43:12] "PUT /api/1.0/orders/status/2?action=accept HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 10:43:37] "GET /lorders.html?role=customer HTTP/1.1" 304 -
+127.0.0.1 - - [10/Apr/2018 10:43:37] "GET /api/1.0/orders?role=customer HTTP/1.1" 200 -
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 291-179-440
+ * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+127.0.0.1 - - [10/Apr/2018 10:51:31] "GET /my.html HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 10:51:31] "GET /static/plugins/bootstrap/css/bootstrap.min.css HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 10:51:31] "GET /static/plugins/font-awesome/css/font-awesome.min.css HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 10:51:31] "GET /static/css/reset.css HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 10:51:31] "GET /static/plugins/bootstrap-datepicker/css/bootstrap-datepicker.min.css HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 10:51:31] "GET /static/css/ihome/main.css HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 10:51:31] "GET /static/css/ihome/my.css HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 10:51:31] "GET /static/js/jquery.min.js HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 10:51:31] "GET /static/plugins/bootstrap/js/bootstrap.min.js HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 10:51:31] "GET /static/plugins/bootstrap-datepicker/js/bootstrap-datepicker.min.js HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 10:51:31] "GET /static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.zh-CN.min.js HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 10:51:31] "GET /static/js/ihome/my.js HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 10:51:31] "GET /static/plugins/font-awesome/fonts/fontawesome-webfont.woff2?v=4.6.3 HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 10:51:31] "GET /static/plugins/bootstrap/css/bootstrap.min.css.map HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 10:51:31] "GET /api/1.0/users HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 10:51:32] "GET /orders.html?role=own HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 10:51:32] "GET /static/css/ihome/orders.css HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 10:51:32] "GET /static/js/template.js HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 10:51:32] "GET /static/js/ihome/orders.js HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 10:51:32] "GET /api/1.0/orders?role=own HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 10:51:38] "GET /my.html HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 10:51:38] "GET /static/plugins/bootstrap/css/bootstrap.min.css HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 10:51:38] "GET /static/plugins/font-awesome/css/font-awesome.min.css HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 10:51:38] "GET /static/css/reset.css HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 10:51:38] "GET /static/plugins/bootstrap-datepicker/css/bootstrap-datepicker.min.css HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 10:51:38] "GET /static/css/ihome/main.css HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 10:51:38] "GET /static/css/ihome/my.css HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 10:51:38] "GET /static/js/jquery.min.js HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 10:51:38] "GET /static/plugins/bootstrap/js/bootstrap.min.js HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 10:51:38] "GET /static/plugins/bootstrap-datepicker/js/bootstrap-datepicker.min.js HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 10:51:38] "GET /static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.zh-CN.min.js HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 10:51:38] "GET /static/js/ihome/my.js HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 10:51:38] "GET /static/plugins/font-awesome/fonts/fontawesome-webfont.woff2?v=4.6.3 HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 10:51:38] "GET /static/plugins/bootstrap/css/bootstrap.min.css.map HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 10:51:38] "GET /api/1.0/users HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 10:51:38] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 10:51:38] "GET /static/plugins/swiper/css/swiper.min.css HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 10:51:38] "GET /static/css/ihome/index.css HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 10:51:38] "GET /static/plugins/swiper/js/swiper.jquery.min.js HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 10:51:38] "GET /static/js/template.js HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 10:51:38] "GET /static/js/ihome/index.js HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 10:51:39] "GET /static/images/logo@128x59.png HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 10:51:39] "GET /api/1.0/sessions HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 10:51:39] "GET /api/1.0/houses/index HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 10:51:39] "GET /api/1.0/areas HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 10:51:39] "GET /static/plugins/swiper/js/maps/swiper.jquery.min.js.map HTTP/1.1" 404 -
+127.0.0.1 - - [10/Apr/2018 10:51:41] "GET /detail.html?id=6 HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 10:51:41] "GET /static/css/ihome/detail.css HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 10:51:41] "GET /static/js/ihome/detail.js HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 10:51:41] "GET /api/1.0/houses/detail/6 HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 10:51:41] "GET /static/plugins/swiper/js/maps/swiper.jquery.min.js.map HTTP/1.1" 404 -
+127.0.0.1 - - [10/Apr/2018 10:51:41] "GET /static/images/houseicon_sprite.png HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 10:51:45] "GET /booking.html?hid=6 HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 10:51:45] "GET /static/css/ihome/booking.css HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 10:51:45] "GET /static/images/home01.jpg HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 10:51:45] "GET /static/js/ihome/booking.js HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 10:51:45] "GET /api/1.0/sessions HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 10:51:45] "GET /api/1.0/houses/detail/6 HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 10:52:00] "POST /api/1.0/orders HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 10:52:00] "GET /orders.html?role=own HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 10:52:01] "GET /static/css/ihome/orders.css HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 10:52:01] "GET /static/js/ihome/orders.js HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 10:52:01] "GET /api/1.0/orders?role=own HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 10:52:16] "GET /api/1.0/users HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 10:52:18] "GET /api/1.0/sessions HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 10:52:18] "GET /api/1.0/houses/index HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 10:52:18] "GET /api/1.0/areas HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 10:52:18] "GET /static/plugins/swiper/js/maps/swiper.jquery.min.js.map HTTP/1.1" 404 -
+127.0.0.1 - - [10/Apr/2018 10:52:19] "GET /api/1.0/houses/detail/6 HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 10:52:19] "GET /static/plugins/swiper/js/maps/swiper.jquery.min.js.map HTTP/1.1" 404 -
+127.0.0.1 - - [10/Apr/2018 10:52:21] "GET /api/1.0/sessions HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 10:52:21] "GET /api/1.0/houses/detail/6 HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 10:58:16] "GET /static/plugins/swiper/js/maps/swiper.jquery.min.js.map HTTP/1.1" 404 -
+127.0.0.1 - - [10/Apr/2018 10:58:17] "GET /static/plugins/swiper/js/maps/swiper.jquery.min.js.map HTTP/1.1" 404 -
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 291-179-440
+ * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+127.0.0.1 - - [10/Apr/2018 10:58:49] "GET /booking.html?hid=4 HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 10:58:49] "GET /api/1.0/sessions HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 10:58:49] "GET /api/1.0/houses/detail/4 HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 10:58:56] "GET /booking.html?hid=4 HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 10:58:57] "GET /static/plugins/bootstrap/css/bootstrap.min.css HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 10:58:57] "GET /static/plugins/font-awesome/css/font-awesome.min.css HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 10:58:57] "GET /static/css/reset.css HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 10:58:57] "GET /static/plugins/bootstrap-datepicker/css/bootstrap-datepicker.min.css HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 10:58:57] "GET /static/css/ihome/main.css HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 10:58:57] "GET /static/css/ihome/booking.css HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 10:58:57] "GET /static/js/jquery.min.js HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 10:58:57] "GET /static/plugins/bootstrap/js/bootstrap.min.js HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 10:58:57] "GET /static/plugins/font-awesome/fonts/fontawesome-webfont.woff2?v=4.6.3 HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 10:58:57] "GET /static/images/home01.jpg HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 10:58:57] "GET /static/plugins/bootstrap-datepicker/js/bootstrap-datepicker.min.js HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 10:58:57] "GET /static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.zh-CN.min.js HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 10:58:57] "GET /static/js/ihome/booking.js HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 10:58:57] "GET /static/plugins/bootstrap/css/bootstrap.min.css.map HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 10:58:57] "GET /api/1.0/sessions HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 10:58:57] "GET /api/1.0/houses/detail/4 HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 10:59:03] "POST /api/1.0/orders HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 10:59:48] "POST /api/1.0/orders HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 10:59:48] "GET /orders.html?role=own HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 10:59:48] "GET /static/css/ihome/orders.css HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 10:59:48] "GET /static/js/template.js HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 10:59:48] "GET /static/js/ihome/orders.js HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 10:59:48] "GET /api/1.0/orders?role=own HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 11:00:34] "GET /my.html HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 11:00:34] "GET /static/css/ihome/my.css HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 11:00:34] "GET /static/js/ihome/my.js HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 11:00:34] "GET /api/1.0/users HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 11:00:36] "DELETE /api/1.0/sessions HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 11:00:37] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 11:00:37] "GET /static/plugins/swiper/css/swiper.min.css HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 11:00:37] "GET /static/css/ihome/index.css HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 11:00:37] "GET /static/plugins/swiper/js/swiper.jquery.min.js HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 11:00:37] "GET /static/js/ihome/index.js HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 11:00:37] "GET /static/images/logo@128x59.png HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 11:00:37] "GET /api/1.0/sessions HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 11:00:37] "GET /api/1.0/houses/index HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 11:00:37] "GET /api/1.0/areas HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 11:00:37] "GET /static/plugins/swiper/js/maps/swiper.jquery.min.js.map HTTP/1.1" 404 -
+127.0.0.1 - - [10/Apr/2018 11:00:38] "GET /login.html HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 11:00:38] "GET /static/css/ihome/login.css HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 11:00:38] "GET /static/js/ihome/login.js HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 11:00:46] "POST /api/1.0/sessions HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 11:00:46] "GET /api/1.0/sessions HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 11:00:46] "GET /api/1.0/houses/index HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 11:00:46] "GET /api/1.0/areas HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 11:00:46] "GET /static/plugins/swiper/js/maps/swiper.jquery.min.js.map HTTP/1.1" 404 -
+127.0.0.1 - - [10/Apr/2018 11:00:47] "GET /api/1.0/users HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 11:00:48] "GET /lorders.html?role=customer HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 11:00:48] "GET /static/js/ihome/lorders.js HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 11:00:48] "GET /api/1.0/orders?role=customer HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 11:00:54] "PUT /api/1.0/orders/status/5?action=accept HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 11:01:16] "GET /lorders.html?role=customer HTTP/1.1" 304 -
+127.0.0.1 - - [10/Apr/2018 11:01:17] "GET /api/1.0/orders?role=customer HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 11:01:24] "GET /api/1.0/users HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 11:01:26] "GET /api/1.0/orders?role=customer HTTP/1.1" 200 -
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 291-179-440
+ * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+127.0.0.1 - - [10/Apr/2018 11:08:40] "GET /lorders.html?role=customer HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 11:08:40] "GET /static/plugins/bootstrap/css/bootstrap.min.css HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 11:08:40] "GET /static/plugins/font-awesome/css/font-awesome.min.css HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 11:08:40] "GET /static/css/reset.css HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 11:08:40] "GET /static/plugins/bootstrap-datepicker/css/bootstrap-datepicker.min.css HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 11:08:40] "GET /static/css/ihome/main.css HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 11:08:40] "GET /static/css/ihome/orders.css HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 11:08:40] "GET /static/js/jquery.min.js HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 11:08:40] "GET /static/plugins/bootstrap/js/bootstrap.min.js HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 11:08:40] "GET /static/plugins/bootstrap-datepicker/js/bootstrap-datepicker.min.js HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 11:08:40] "GET /static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.zh-CN.min.js HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 11:08:40] "GET /static/js/template.js HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 11:08:40] "GET /static/js/ihome/lorders.js HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 11:08:40] "GET /static/plugins/font-awesome/fonts/fontawesome-webfont.woff2?v=4.6.3 HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 11:08:40] "GET /static/plugins/bootstrap/css/bootstrap.min.css.map HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 11:08:40] "GET /api/1.0/orders?role=customer HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 11:08:47] "GET /my.html HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 11:08:47] "GET /static/css/ihome/my.css HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 11:08:47] "GET /static/js/ihome/my.js HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 11:08:47] "GET /api/1.0/users HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 11:08:50] "GET /profile.html HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 11:08:50] "GET /static/css/ihome/profile.css HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 11:08:50] "GET /static/js/jquery.form.min.js HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 11:08:50] "GET /static/js/ihome/profile.js?v=5 HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 11:08:50] "GET /api/1.0/users HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 11:08:52] "GET /api/1.0/users HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 11:08:53] "DELETE /api/1.0/sessions HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 11:08:54] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 11:08:54] "GET /static/plugins/swiper/css/swiper.min.css HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 11:08:54] "GET /static/css/ihome/index.css HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 11:08:54] "GET /static/plugins/swiper/js/swiper.jquery.min.js HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 11:08:54] "GET /static/js/ihome/index.js HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 11:08:54] "GET /static/images/logo@128x59.png HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 11:08:54] "GET /api/1.0/sessions HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 11:08:54] "GET /api/1.0/houses/index HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 11:08:54] "GET /api/1.0/areas HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 11:08:54] "GET /static/plugins/swiper/js/maps/swiper.jquery.min.js.map HTTP/1.1" 404 -
+127.0.0.1 - - [10/Apr/2018 11:08:56] "GET /login.html HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 11:08:56] "GET /static/css/ihome/login.css HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 11:08:56] "GET /static/js/ihome/login.js HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 11:09:07] "POST /api/1.0/sessions HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 11:09:08] "GET /api/1.0/sessions HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 11:09:08] "GET /api/1.0/houses/index HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 11:09:08] "GET /api/1.0/areas HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 11:09:08] "GET /static/plugins/swiper/js/maps/swiper.jquery.min.js.map HTTP/1.1" 404 -
+127.0.0.1 - - [10/Apr/2018 11:09:14] "GET /detail.html?id=4 HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 11:09:14] "GET /static/css/ihome/detail.css HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 11:09:14] "GET /static/js/ihome/detail.js HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 11:09:14] "GET /api/1.0/houses/detail/4 HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 11:09:14] "GET /static/plugins/swiper/js/maps/swiper.jquery.min.js.map HTTP/1.1" 404 -
+127.0.0.1 - - [10/Apr/2018 11:09:14] "GET /static/images/houseicon_sprite.png HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 11:09:17] "GET /booking.html?hid=4 HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 11:09:17] "GET /static/css/ihome/booking.css HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 11:09:17] "GET /static/images/home01.jpg HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 11:09:18] "GET /static/js/ihome/booking.js HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 11:09:18] "GET /api/1.0/sessions HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 11:09:18] "GET /api/1.0/houses/detail/4 HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 11:09:26] "POST /api/1.0/orders HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 11:09:26] "GET /orders.html?role=own HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 11:09:26] "GET /static/js/ihome/orders.js HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 11:09:26] "GET /api/1.0/orders?role=own HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 11:11:27] "GET /orders.html?role=own HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 11:11:27] "GET /api/1.0/orders?role=own HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 11:12:43] "GET /orders.html?role=own HTTP/1.1" 304 -
+127.0.0.1 - - [10/Apr/2018 11:12:43] "GET /api/1.0/orders?role=own HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 11:12:56] "GET /api/1.0/users HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 11:13:00] "GET /api/1.0/orders?role=customer HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 11:13:09] "GET /my.html HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 11:13:09] "GET /static/plugins/bootstrap/css/bootstrap.min.css HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 11:13:09] "GET /static/plugins/font-awesome/css/font-awesome.min.css HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 11:13:09] "GET /static/css/reset.css HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 11:13:09] "GET /static/plugins/bootstrap-datepicker/css/bootstrap-datepicker.min.css HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 11:13:09] "GET /static/css/ihome/main.css HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 11:13:09] "GET /static/css/ihome/my.css HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 11:13:09] "GET /static/js/jquery.min.js HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 11:13:09] "GET /static/plugins/bootstrap/js/bootstrap.min.js HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 11:13:09] "GET /static/plugins/bootstrap-datepicker/js/bootstrap-datepicker.min.js HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 11:13:09] "GET /static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.zh-CN.min.js HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 11:13:09] "GET /static/js/ihome/my.js HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 11:13:09] "GET /static/plugins/font-awesome/fonts/fontawesome-webfont.woff2?v=4.6.3 HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 11:13:09] "GET /static/plugins/bootstrap/css/bootstrap.min.css.map HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 11:13:09] "GET /api/1.0/users HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 11:13:10] "GET /orders.html?role=own HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 11:13:10] "GET /static/css/ihome/orders.css HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 11:13:10] "GET /static/js/template.js HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 11:13:10] "GET /static/js/ihome/orders.js HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 11:13:10] "GET /api/1.0/orders?role=own HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 11:13:19] "GET /my.html HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 11:13:19] "GET /static/plugins/bootstrap/css/bootstrap.min.css HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 11:13:19] "GET /static/plugins/font-awesome/css/font-awesome.min.css HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 11:13:19] "GET /static/css/reset.css HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 11:13:19] "GET /static/plugins/bootstrap-datepicker/css/bootstrap-datepicker.min.css HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 11:13:19] "GET /static/css/ihome/main.css HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 11:13:19] "GET /static/css/ihome/my.css HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 11:13:19] "GET /static/js/jquery.min.js HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 11:13:19] "GET /static/plugins/bootstrap/js/bootstrap.min.js HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 11:13:19] "GET /static/plugins/bootstrap-datepicker/js/bootstrap-datepicker.min.js HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 11:13:19] "GET /static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.zh-CN.min.js HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 11:13:19] "GET /static/js/ihome/my.js HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 11:13:19] "GET /static/plugins/font-awesome/fonts/fontawesome-webfont.woff2?v=4.6.3 HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 11:13:19] "GET /static/plugins/bootstrap/css/bootstrap.min.css.map HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 11:13:19] "GET /api/1.0/users HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 11:13:21] "DELETE /api/1.0/sessions HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 11:13:22] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 11:13:22] "GET /static/plugins/swiper/css/swiper.min.css HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 11:13:22] "GET /static/css/ihome/index.css HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 11:13:22] "GET /static/plugins/swiper/js/swiper.jquery.min.js HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 11:13:22] "GET /static/js/template.js HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 11:13:22] "GET /static/js/ihome/index.js HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 11:13:22] "GET /static/images/logo@128x59.png HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 11:13:22] "GET /api/1.0/sessions HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 11:13:22] "GET /api/1.0/houses/index HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 11:13:22] "GET /api/1.0/areas HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 11:13:22] "GET /static/plugins/swiper/js/maps/swiper.jquery.min.js.map HTTP/1.1" 404 -
+127.0.0.1 - - [10/Apr/2018 11:13:23] "GET /login.html HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 11:13:23] "GET /static/css/ihome/login.css HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 11:13:23] "GET /static/js/ihome/login.js HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 11:13:33] "POST /api/1.0/sessions HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 11:13:33] "GET /api/1.0/sessions HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 11:13:33] "GET /api/1.0/houses/index HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 11:13:33] "GET /api/1.0/areas HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 11:13:33] "GET /static/plugins/swiper/js/maps/swiper.jquery.min.js.map HTTP/1.1" 404 -
+127.0.0.1 - - [10/Apr/2018 11:13:35] "GET /api/1.0/users HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 11:13:36] "GET /lorders.html?role=customer HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 11:13:36] "GET /static/css/ihome/orders.css HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 11:13:36] "GET /static/js/ihome/lorders.js HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 11:13:37] "GET /api/1.0/orders?role=customer HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 11:14:01] "PUT /api/1.0/orders/status/6?action=reject HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 11:14:26] "PUT /api/1.0/orders/status/7?action=accept HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 11:14:31] "GET /lorders.html?role=customer HTTP/1.1" 304 -
+127.0.0.1 - - [10/Apr/2018 11:14:31] "GET /api/1.0/orders?role=customer HTTP/1.1" 200 -
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 291-179-440
+ * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+127.0.0.1 - - [10/Apr/2018 14:21:42] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 14:21:42] "GET /static/plugins/bootstrap/css/bootstrap.min.css HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 14:21:42] "GET /static/plugins/font-awesome/css/font-awesome.min.css HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 14:21:42] "GET /static/css/reset.css HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 14:21:42] "GET /static/plugins/swiper/css/swiper.min.css HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 14:21:42] "GET /static/plugins/bootstrap-datepicker/css/bootstrap-datepicker.min.css HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 14:21:42] "GET /static/css/ihome/main.css HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 14:21:42] "GET /static/css/ihome/index.css HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 14:21:42] "GET /static/js/jquery.min.js HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 14:21:43] "GET /static/plugins/bootstrap/js/bootstrap.min.js HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 14:21:43] "GET /static/plugins/swiper/js/swiper.jquery.min.js HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 14:21:43] "GET /static/plugins/bootstrap-datepicker/js/bootstrap-datepicker.min.js HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 14:21:43] "GET /static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.zh-CN.min.js HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 14:21:43] "GET /static/js/template.js HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 14:21:43] "GET /static/js/ihome/index.js HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 14:21:43] "GET /static/plugins/font-awesome/fonts/fontawesome-webfont.woff2?v=4.6.3 HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 14:21:43] "GET /static/images/logo@128x59.png HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 14:21:43] "GET /api/1.0/sessions HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 14:21:43] "GET /api/1.0/houses/index HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 14:21:43] "GET /api/1.0/areas HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 14:21:45] "GET /my.html HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 14:21:45] "GET /static/css/ihome/my.css HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 14:21:45] "GET /static/js/ihome/my.js HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 14:21:45] "GET /api/1.0/users HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 14:21:46] "GET /lorders.html?role=customer HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 14:21:46] "GET /static/css/ihome/orders.css HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 14:21:46] "GET /static/js/ihome/lorders.js HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 14:21:46] "GET /api/1.0/orders?role=customer HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 14:21:54] "GET /api/1.0/users HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 14:21:56] "GET /myhouse.html HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 14:21:56] "GET /static/css/ihome/myhouse.css HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 14:21:56] "GET /static/js/ihome/myhouse.js HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 14:21:56] "GET /api/1.0/users/auth HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 14:21:56] "GET /api/1.0/users/houses HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 14:22:00] "GET /api/1.0/users HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 14:22:02] "GET /api/1.0/sessions HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 14:22:03] "GET /api/1.0/houses/index HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 14:22:03] "GET /api/1.0/areas HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 14:22:06] "GET /search.html?aid=&aname=&sd=&ed= HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 14:22:06] "GET /static/css/ihome/search.css HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 14:22:06] "GET /static/js/ihome/search.js HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 14:22:06] "GET /api/1.0/areas HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 14:22:06] "GET /api/1.0/houses/search?aid=&sd=&ed=&sk=new&p=1 HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 14:22:10] "GET /api/1.0/houses/search?aid=&sd=&ed=&sk=new&p=2 HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 14:22:10] "GET /static/plugins/bootstrap/css/bootstrap.min.css.map HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 14:22:11] "GET /api/1.0/houses/search?aid=&sd=&ed=&sk=new&p=3 HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 14:22:14] "GET /detail.html?id=2 HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 14:22:14] "GET /static/css/ihome/detail.css HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 14:22:14] "GET /static/js/ihome/detail.js HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 14:22:14] "GET /static/plugins/swiper/js/maps/swiper.jquery.min.js.map HTTP/1.1" 404 -
+127.0.0.1 - - [10/Apr/2018 14:22:14] "GET /api/1.0/houses/detail/2 HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 14:22:14] "GET /static/images/houseicon_sprite.png HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 14:22:16] "GET /booking.html?hid=2 HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 14:22:16] "GET /static/css/ihome/booking.css HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 14:22:16] "GET /static/js/ihome/booking.js HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 14:22:16] "GET /static/images/home01.jpg HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 14:22:16] "GET /api/1.0/sessions HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 14:22:16] "GET /api/1.0/houses/detail/2 HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 14:22:22] "POST /api/1.0/orders HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 14:22:22] "GET /orders.html?role=own HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 14:22:22] "GET /static/js/ihome/orders.js HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 14:22:22] "GET /api/1.0/orders?role=own HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 14:22:26] "GET /api/1.0/users HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 14:22:29] "GET /api/1.0/sessions HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 14:22:29] "GET /api/1.0/houses/index HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 14:22:29] "GET /api/1.0/areas HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 14:22:29] "GET /static/plugins/swiper/js/maps/swiper.jquery.min.js.map HTTP/1.1" 404 -
+127.0.0.1 - - [10/Apr/2018 14:22:31] "GET /api/1.0/areas HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 14:22:31] "GET /api/1.0/houses/search?aid=&sd=&ed=&sk=new&p=1 HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 14:22:31] "GET /api/1.0/houses/search?aid=&sd=&ed=&sk=new&p=2 HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 14:22:32] "GET /api/1.0/houses/search?aid=&sd=&ed=&sk=new&p=3 HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 14:22:35] "GET /detail.html?id=3 HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 14:22:35] "GET /api/1.0/houses/detail/3 HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 14:22:35] "GET /static/plugins/swiper/js/maps/swiper.jquery.min.js.map HTTP/1.1" 404 -
+127.0.0.1 - - [10/Apr/2018 14:22:39] "GET /booking.html?hid=3 HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 14:22:39] "GET /api/1.0/sessions HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 14:22:39] "GET /api/1.0/houses/detail/3 HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 14:22:43] "POST /api/1.0/orders HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 14:22:49] "POST /api/1.0/orders HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 14:22:55] "POST /api/1.0/orders HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 14:23:00] "POST /api/1.0/orders HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 14:23:05] "POST /api/1.0/orders HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 14:23:10] "POST /api/1.0/orders HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 14:24:16] "GET /booking.html?hid=3 HTTP/1.1" 304 -
+127.0.0.1 - - [10/Apr/2018 14:24:16] "GET /api/1.0/sessions HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 14:24:16] "GET /api/1.0/houses/detail/3 HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 14:24:21] "GET /static/plugins/swiper/js/maps/swiper.jquery.min.js.map HTTP/1.1" 404 -
+127.0.0.1 - - [10/Apr/2018 14:24:25] "GET /api/1.0/sessions HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 14:24:25] "GET /api/1.0/houses/detail/3 HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 14:24:27] "GET /static/plugins/swiper/js/maps/swiper.jquery.min.js.map HTTP/1.1" 404 -
+127.0.0.1 - - [10/Apr/2018 14:24:28] "GET /api/1.0/houses/search?aid=&sd=&ed=&sk=new&p=1 HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 14:24:29] "GET /detail.html?id=5 HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 14:24:29] "GET /api/1.0/houses/detail/5 HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 14:24:29] "GET /static/plugins/swiper/js/maps/swiper.jquery.min.js.map HTTP/1.1" 404 -
+127.0.0.1 - - [10/Apr/2018 14:24:30] "GET /booking.html?hid=5 HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 14:24:31] "GET /api/1.0/sessions HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 14:24:31] "GET /api/1.0/houses/detail/5 HTTP/1.1" 200 -
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 291-179-440
+ * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+127.0.0.1 - - [10/Apr/2018 14:27:05] "GET /detail.html?id=5 HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 14:27:05] "GET /static/plugins/bootstrap/css/bootstrap.min.css HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 14:27:05] "GET /static/plugins/font-awesome/css/font-awesome.min.css HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 14:27:05] "GET /static/css/reset.css HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 14:27:05] "GET /static/plugins/swiper/css/swiper.min.css HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 14:27:05] "GET /static/plugins/bootstrap-datepicker/css/bootstrap-datepicker.min.css HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 14:27:05] "GET /static/css/ihome/main.css HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 14:27:05] "GET /static/css/ihome/detail.css HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 14:27:05] "GET /static/js/jquery.min.js HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 14:27:05] "GET /static/plugins/bootstrap/js/bootstrap.min.js HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 14:27:05] "GET /static/plugins/swiper/js/swiper.jquery.min.js HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 14:27:05] "GET /static/plugins/bootstrap-datepicker/js/bootstrap-datepicker.min.js HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 14:27:05] "GET /static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.zh-CN.min.js HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 14:27:05] "GET /static/js/template.js HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 14:27:05] "GET /static/plugins/font-awesome/fonts/fontawesome-webfont.woff2?v=4.6.3 HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 14:27:05] "GET /static/js/ihome/detail.js HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 14:27:05] "GET /static/plugins/bootstrap/css/bootstrap.min.css.map HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 14:27:05] "GET /api/1.0/houses/detail/5 HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 14:27:05] "GET /static/plugins/swiper/js/maps/swiper.jquery.min.js.map HTTP/1.1" 404 -
+127.0.0.1 - - [10/Apr/2018 14:27:06] "GET /static/images/houseicon_sprite.png HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 14:27:07] "GET /search.html?aid=&aname=&sd=&ed= HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 14:27:07] "GET /static/css/ihome/search.css HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 14:27:07] "GET /static/js/ihome/search.js HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 14:27:08] "GET /api/1.0/areas HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 14:27:08] "GET /api/1.0/houses/search?aid=&sd=&ed=&sk=new&p=1 HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 14:27:09] "GET /api/1.0/houses/search?aid=&sd=&ed=&sk=new&p=2 HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 14:27:11] "GET /api/1.0/houses/search?aid=&sd=&ed=&sk=new&p=3 HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 14:27:15] "GET /detail.html?id=3 HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 14:27:16] "GET /api/1.0/houses/detail/3 HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 14:27:16] "GET /static/plugins/swiper/js/maps/swiper.jquery.min.js.map HTTP/1.1" 404 -
+127.0.0.1 - - [10/Apr/2018 14:28:29] "GET /detail.html?id=3 HTTP/1.1" 304 -
+127.0.0.1 - - [10/Apr/2018 14:28:29] "GET /api/1.0/houses/detail/3 HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 14:28:29] "GET /static/plugins/swiper/js/maps/swiper.jquery.min.js.map HTTP/1.1" 404 -
+127.0.0.1 - - [10/Apr/2018 14:28:32] "GET /booking.html?hid=3 HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 14:28:32] "GET /static/css/ihome/booking.css HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 14:28:32] "GET /static/js/ihome/booking.js HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 14:28:32] "GET /static/images/home01.jpg HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 14:28:32] "GET /api/1.0/sessions HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 14:28:32] "GET /api/1.0/houses/detail/3 HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 14:28:40] "POST /api/1.0/orders HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 14:28:40] "GET /orders.html?role=own HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 14:28:40] "GET /static/css/ihome/orders.css HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 14:28:40] "GET /static/js/ihome/orders.js HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 14:28:40] "GET /api/1.0/orders?role=own HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 14:28:46] "GET /my.html HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 14:28:46] "GET /static/css/ihome/my.css HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 14:28:46] "GET /static/js/ihome/my.js HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 14:28:46] "GET /api/1.0/users HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 14:28:47] "GET /profile.html HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 14:28:47] "GET /static/css/ihome/profile.css HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 14:28:47] "GET /static/js/jquery.form.min.js HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 14:28:47] "GET /static/js/ihome/profile.js?v=5 HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 14:28:47] "GET /api/1.0/users HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 14:28:48] "GET /api/1.0/users HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 14:28:49] "DELETE /api/1.0/sessions HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 14:28:51] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 14:28:51] "GET /static/css/ihome/index.css HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 14:28:51] "GET /static/js/ihome/index.js HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 14:28:51] "GET /static/images/logo@128x59.png HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 14:28:51] "GET /api/1.0/sessions HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 14:28:51] "GET /api/1.0/areas HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 14:28:51] "GET /api/1.0/houses/index HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 14:28:51] "GET /static/plugins/swiper/js/maps/swiper.jquery.min.js.map HTTP/1.1" 404 -
+127.0.0.1 - - [10/Apr/2018 14:28:52] "GET /login.html HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 14:28:52] "GET /static/css/ihome/login.css HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 14:28:52] "GET /static/js/ihome/login.js HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 14:29:00] "POST /api/1.0/sessions HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 14:29:01] "GET /api/1.0/sessions HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 14:29:01] "GET /api/1.0/houses/index HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 14:29:01] "GET /api/1.0/areas HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 14:29:01] "GET /static/plugins/swiper/js/maps/swiper.jquery.min.js.map HTTP/1.1" 404 -
+127.0.0.1 - - [10/Apr/2018 14:29:03] "GET /api/1.0/users HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 14:29:04] "GET /lorders.html?role=customer HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 14:29:04] "GET /static/js/ihome/lorders.js HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 14:29:04] "GET /api/1.0/orders?role=customer HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 14:29:29] "PUT /api/1.0/orders/status/9?action=reject HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 14:29:39] "PUT /api/1.0/orders/status/8?action=accept HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 14:29:55] "GET /lorders.html?role=customer HTTP/1.1" 304 -
+127.0.0.1 - - [10/Apr/2018 14:29:55] "GET /api/1.0/orders?role=customer HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 14:31:16] "GET /api/1.0/users HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2018 14:35:31] "GET /api/1.0/orders?role=own HTTP/1.1" 200 -

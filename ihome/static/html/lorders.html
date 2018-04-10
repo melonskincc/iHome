@@ -51,6 +51,8 @@
                                             待接单
                                         {{else if "WAIT_COMMENT" == order.status}}
                                             待评价
+                                        {{else if "WAIT_PAYMENT" == order.status}}
+                                            待支付
                                         {{else if "COMPLETE" == order.status}}
                                             已完成
                                         {{else if "REJECTED" == order.status}}

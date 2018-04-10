@@ -3,7 +3,7 @@ function getCookie(name) {
     return r ? r[1] : undefined;
 }
 
-// TODO: 点击退出按钮时执行的函数
+//点击退出按钮时执行的函数
 function logout() {
     $.ajax({
         url:'/api/1.0/sessions',
@@ -22,7 +22,7 @@ function logout() {
 
 $(document).ready(function(){
 
-    // TODO: 在页面加载完毕之后去加载个人信息
+    //  在页面加载完毕之后去加载个人信息
     $.get('/api/1.0/users',function (res) {
         if(res.re_code=='0'){
             // 加载头像

@@ -48,7 +48,7 @@ $(document).ready(function(){
         } else {
             var sd = new Date(startDate);
             var ed = new Date(endDate);
-            days = (ed - sd)/(1000*3600*24) + 1;
+            days = (ed - sd)/(1000*3600*24);
             var price = $(".house-text>p>span").html();
             var amount = days * parseFloat(price);
             $(".order-amount>span").html(amount.toFixed(2) + "(共"+ days +"晚)");
@@ -61,7 +61,7 @@ $(document).ready(function(){
     $.get('/api/1.0/houses/detail/'+houseId,function (res) {
         if(res.re_code=='0'){
             $('.house-info>img').attr('src',res.data.house.img_urls[0]);
-            $('.house-text h3').text(res.data.house.name);
+            $('.house-text h3').text(res.data.house.title);
              $('.house-text span').text(parseFloat((res.data.house.price)/100).toFixed(2));
         }else {
             alert(res.msg)
@@ -89,7 +89,7 @@ $(document).ready(function(){
                     success:function(response){
                         if(response.re_code=='0'){
                             // 成功
-                            location.href='/orders.html'
+                            location.href='/orders.html?role=own'
                         }else if(response.re_code=='4101'){
                             location.href='/login.html'
                         }else {

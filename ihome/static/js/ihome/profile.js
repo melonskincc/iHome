@@ -42,7 +42,7 @@ $(document).ready(function () {
             }
         });
     });
-    // TODO: 管理用户名修改的逻辑
+    //  管理用户名修改的逻辑
     $('#form-name').submit(function (event) {
          $('.error-msg').hide();
         // 删除默认提交行为
