@@ -7,56 +7,56 @@
 from ihome.libs.yuntongxun.CCPRestSDK import REST
 import ConfigParser
 
-#Ö÷ÕÊºÅ
+#ä¸»å¸å·
 accountSid= '8a216da8627648690162843e217602d5'
 
-#Ö÷ÕÊºÅToken
-accountToken= '6fef8fc8ef3b478b966c99db420c8a4a'
+#ä¸»å¸å·Token
+accountToken= ''
 
-#Ó¦ÓÃId
+#åº”ç”¨Id
 appId='8a216da8627648690162843e21d002db'
 
-#ÇëÇóµØÖ·£¬¸ñÊ½ÈçÏÂ£¬²»ĞèÒªĞ´http://
+#è¯·æ±‚åœ°å€ï¼Œæ ¼å¼å¦‚ä¸‹ï¼Œä¸éœ€è¦å†™http://
 serverIP='app.cloopen.com'
 
-#ÇëÇó¶Ë¿Ú 
+#è¯·æ±‚ç«¯å£ 
 serverPort='8883'
 
-#REST°æ±¾ºÅ
+#RESTç‰ˆæœ¬å·
 softVersion='2013-12-26'
 
 class CCP(object):
-    """×Ô¶¨Òåµ¥ÀıÀà£¬ÓÃÓÚ·¢¶ÌĞÅ"""
-    #ÓÃÓÚ¼ÇÂ¼ÊµÀı
+    """è‡ªå®šä¹‰å•ä¾‹ç±»ï¼Œç”¨äºå‘çŸ­ä¿¡"""
+    #ç”¨äºè®°å½•å®ä¾‹
     __instance=None
     def __new__(cls, *args, **kwargs):
         if cls.__instance is None:
-            #Ã»±»ÊµÀı»¯£¬¼ÇÂ¼µÚÒ»´ÎÊµÀı¶ÔÏó
+            #æ²¡è¢«å®ä¾‹åŒ–ï¼Œè®°å½•ç¬¬ä¸€æ¬¡å®ä¾‹å¯¹è±¡
             cls.__instance=super(CCP, cls).__new__(cls,*args, **kwargs)
 
-            # ³õÊ¼»¯REST SDK
+            # åˆå§‹åŒ–REST SDK
             cls.__instance.rest = REST(serverIP, serverPort, softVersion)
             cls.__instance.rest.setAccount(accountSid, accountToken)
             cls.__instance.rest.setAppId(appId)
         return cls.__instance
 
     def send_sms(self,to, datas, tempId):
-        """·¢ËÍÏûÏ¢½Ó¿Ú"""
-        # µ÷ÓÃ·¢ËÍÏûÏ¢½Ó¿Ú·µ»ØµÄ£º·¢ËÍÏûÏ¢µÄ½á¹û
+        """å‘é€æ¶ˆæ¯æ¥å£"""
+        # è°ƒç”¨å‘é€æ¶ˆæ¯æ¥å£è¿”å›çš„ï¼šå‘é€æ¶ˆæ¯çš„ç»“æœ
         result = self.rest.sendTemplateSMS(to, datas, tempId)
-        if result.get('statusCode') == '000000':   # ·¢ËÍ³É¹¦·µ»ØµÄ×´Ì¬Âë
+        if result.get('statusCode') == '000000':   # å‘é€æˆåŠŸè¿”å›çš„çŠ¶æ€ç 
             return 1
         else:
             return 0
 
-  # ·¢ËÍÄ£°å¶ÌĞÅ
-  # @param to ÊÖ»úºÅÂë
-  # @param datas ÄÚÈİÊı¾İ ¸ñÊ½ÎªÊı×é ÀıÈç£º{'12','34'}£¬Èç²»ĞèÌæ»»ÇëÌî ''
-  # @param $tempId Ä£°åId
+  # å‘é€æ¨¡æ¿çŸ­ä¿¡
+  # @param to æ‰‹æœºå·ç 
+  # @param datas å†…å®¹æ•°æ® æ ¼å¼ä¸ºæ•°ç»„ ä¾‹å¦‚ï¼š{'12','34'}ï¼Œå¦‚ä¸éœ€æ›¿æ¢è¯·å¡« ''
+  # @param $tempId æ¨¡æ¿Id
 
 # def sendTemplateSMS(to,datas,tempId):
 #
-#     #³õÊ¼»¯REST SDK
+#     #åˆå§‹åŒ–REST SDK
 #     rest = REST(serverIP,serverPort,softVersion)
 #     rest.setAccount(accountSid,accountToken)
 #     rest.setAppId(appId)
@@ -71,4 +71,4 @@ class CCP(object):
 #             print '%s:%s' % (k, v)
 #
    
-#sendTemplateSMS(ÊÖ»úºÅÂë,ÄÚÈİÊı¾İ,Ä£°åId)
+#sendTemplateSMS(æ‰‹æœºå·ç ,å†…å®¹æ•°æ®,æ¨¡æ¿Id)
